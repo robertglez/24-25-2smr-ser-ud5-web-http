@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_highlighter.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>05| Instalación y configuración de Apache2 | UNIDAD 5. Servicio web (HTTP) </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Roberto González Cardenete" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_highlighter.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="prism.css">
+</head>
+<body class="exe-web-site exe-search-bar exe-atools" id="exe-node-10"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">UNIDAD 5. Servicio web (HTTP)</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">UNIDAD 5. Servicio web (HTTP)</a></li>
+   <li><a href="01_introduccin.html" class="no-ch">01| Introducción</a></li>
+   <li><a href="02_el_protocolo_http.html" class="daddy">02| El protocolo HTTP</a>
+   <ul class="other-section">
+      <li><a href="21_un_poco_de_historia.html" class="no-ch">2.1. Un poco de historia</a></li>
+      <li><a href="22_caractersticas_de_http.html" class="no-ch">2.2. Características de HTTP</a></li>
+   </ul>
+   </li>
+   <li><a href="03_etapas_de_una_transaccin_http.html" class="no-ch">03| Etapas de una transacción HTTP</a></li>
+   <li><a href="04_el_estndar_http10.html" class="daddy">04| El estándar HTTP/1.0</a>
+   <ul class="other-section">
+      <li><a href="prctica_1_transacciones_http.html" class="no-ch">Práctica 1: Transacciones HTTP</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="05_instalacin_y_configuracin_de_apache2.html" class="active daddy">05| Instalación y configuración de Apache2</a>
+   <ul>
+      <li><a href="prctica_2_instalacin_de_apache2.html" class="no-ch">Práctica 2: Instalación de Apache2</a></li>
+   </ul>
+   </li>
+   <li><a href="06_servidores_virtuales.html" class="daddy">06| Servidores virtuales</a>
+   <ul class="other-section">
+      <li><a href="prctica_3_configuracin_bsica.html" class="no-ch">Práctica 3: Configuración básica</a></li>
+   </ul>
+   </li>
+   <li><a href="07_acceso_annimo_y_autenticado_formas_de_autenticacin.html" class="daddy">07| Acceso anónimo y autenticado. Formas de autenticación</a>
+   <ul class="other-section">
+      <li><a href="prctica_4_control_de_acceso_autorizacin_y_autenticacin.html" class="no-ch">Práctica 4: Control de acceso, autorización y autenticación</a></li>
+   </ul>
+   </li>
+   <li><a href="08_ejecucin_de_cdigo_scripts_de_servidor_y_de_cliente.html" class="daddy">08| Ejecución de código. Scripts de servidor y de cliente</a>
+   <ul class="other-section">
+      <li><a href="prctica_5_ejecucin_de_cdigo_en_el_cliente_y_en_el_servidor.html" class="no-ch">Práctica 5: Ejecución de código en el cliente y en el servidor</a></li>
+   </ul>
+   </li>
+   <li><a href="09_establecimiento_de_conexiones_seguras.html" class="daddy">09| Establecimiento de conexiones seguras</a>
+   <ul class="other-section">
+      <li><a href="prctica_6_asegurando_las_comunicaciones.html" class="no-ch">Práctica 6: Asegurando las comunicaciones</a></li>
+   </ul>
+   </li>
+   <li><a href="10_mapa_conceptual.html" class="no-ch">10| Mapa conceptual</a></li>
+   <li><a href="11_cuestionario_de_repaso.html" class="no-ch">11| Cuestionario de repaso</a></li>
+   <li><a href="12_bibliografia.html" class="no-ch">12| Bibliografia</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="prctica_1_transacciones_http.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_2_instalacin_de_apache2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">05| Instalación y configuración de Apache2</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id21">
+<div class="iDevice emphasis0">
+<div id="ta21_85" class="block iDevice_content">
+<p>La informació la trobareu a <a href="https://help.ubuntu.com/16.04/serverguide/httpd.html.es" target="_blank" rel="noopener noreferrer">https://help.ubuntu.com/lts/serverguide/httpd.html</a></p>
+<h3>Directives importants</h3>
+<h4>Directiva &lt;Directory&gt;.</h4>
+<p>La directiva Directory permet configurar permisos en els diferents directoris del nostre espai web. Es tracta d'una directriu que es fa servir per definir característiques que només s'aplicaran al directori especificat i no a tot el servidor (per això s'ha de tancar).</p>
+<p>Aquests permisos serien els següents:</p>
+<p></p>
+<ul>
+<li><strong>Options</strong><br />
+<ul>
+<li><strong>Indexes</strong>. Si dins de la carpeta no hi ha cap arxiu igual que el que hem definit al paràmetre DirectoryIndex al navegador es mostrarà un índex amb tots els arxius de la carpeta actual.</li>
+<li><strong>FollowSymLinks</strong>. El servidor seguirà els enllaços simbòlics (lògics), és a dir, els àlies.</li>
+</ul>
+</li>
+<li><b>Require </b>all denied, Require not ip 192.168.1.50. Denega la petició a una carpeta, un arxiu o una adreça d’Internet.</li>
+<li><strong>Require</strong> all granted, Require ip 192.168.1.50. Permet la petició a una carpeta, un arxiu o una adreça d’Internet.</li>
+</ul>
+<h4><span style="font-size: 1em;">Directiva</span><span style="font-size: 1em;"> &lt;Files&gt;</span></h4>
+<p><span style="font-size: 1em;">La directiva Files permet configurar permisos en els diferents arxius del nostre espai web. Val a dir que el paràmetre Files ha d'estar inclòs dintre del paràmetre Directory.</span></p>
+<p><span style="font-size: 1em;">Aquests permisos serien els següents:</span></p>
+<ol>
+<li>require all denied, require not ip  192.168.1.50. Denega la petició a un arxiu o una adreça d’Internet.</li>
+<li>require all granted, require ip 192.168.1.50. Permet la petició a un arxiu o una adreça de Internet.</li>
+<li>A tall d'exemple, podríem trobar el següent:
+<ol>
+<li>Volem prohibir l'accés a arxius amb format JPG dintre de la carpeta <code>/var/www/serveisenxarxa/public_html</code>.</li>
+</ol>
+</li>
+</ol>
+<div class="highlighted-code language-sql">
+<div>
+<pre><code>&lt;directory "/var/www/serveisenxarxa/public_html"&gt;
+  &lt;files *.jpg&gt;
+     require all denied
+  &lt;/files&gt;
+  require all granted
+&lt;/directory&gt;</code></pre>
+</div>
+</div>
+<p></p>
+<h4><span style="font-size: 1em;">Directiva &lt;VirtualHost&gt;</span></h4>
+<p><span style="font-size: 1em;">La directiva virtualhost permet configurar més d’un lloc web en un mateix servidor, és a dir, una mateixa adreça d’Internet per a diferents noms de domini. Val a dir que, si volem utilitzar aquest paràmetre, cal haver configurat el servidor de noms de domini (DNS) perquè adreci els noms de domini cap al nostre servidor web Apache.</span></p>
+<p></p>
+<p></p>
+<p></p>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="prctica_1_transacciones_http.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="prctica_2_instalacin_de_apache2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_class_presentation_js.js"></script>
+	<script type="text/javascript" src="prism.js"></script>
+	<script type="text/javascript" src="_class_presentation_rgc_js.js"></script></body></html>
