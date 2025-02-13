@@ -93,7 +93,7 @@
   <string role="key" value="_nextIdeviceId"></string>
   <int value="42"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="24"></int>
+  <int value="25"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
@@ -141,15 +141,15 @@ learning tasks."></unicode>
            <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;ul&gt;
-&lt;li&gt;Descriure els fonaments i protocols en els quals es basa el funcionament d'un servidor web.&lt;/li&gt;
-&lt;li&gt;Instal·lar un servidor web.&lt;/li&gt;
-&lt;li&gt;Crear llocs virtuals.&lt;/li&gt;
-&lt;li&gt;Verificar les possibilitats existents per tal de discriminar el lloc destí del trafic entrant al servidor.&lt;/li&gt;
-&lt;li&gt;Configurar la seguretat del servidor.&lt;/li&gt;
-&lt;li&gt;Comprovar l'accés dels usuaris al servidor.&lt;/li&gt;
-&lt;li&gt;Diferenciar i provar l'execució de codi al servidor i al client.&lt;/li&gt;
-&lt;li&gt;Instal·lar mòduls sobre el servidor.&lt;/li&gt;
-&lt;li&gt;Establir mecanismes per assegurar les comunicacions entre el client i el servidor.&lt;/li&gt;
+&lt;li&gt;Describir los fundamentos y protocolos en los que se basa el funcionamiento de un servidor web.&lt;/li&gt;
+&lt;li&gt;Instalar un servidor web.&lt;/li&gt;
+&lt;li&gt;Crear sitios virtuales.&lt;/li&gt;
+&lt;li&gt;Verificar las posibilidades existentes para discriminar el sitio destino del tráfico entrante al servidor.&lt;/li&gt;
+&lt;li&gt;Configurar la seguridad del servidor.&lt;/li&gt;
+&lt;li&gt;Comprobar el acceso de los usuarios al servidor.&lt;/li&gt;
+&lt;li&gt;Diferenciar y probar la ejecución de código en el servidor y en el cliente.&lt;/li&gt;
+&lt;li&gt;Instalar módulos sobre el servidor.&lt;/li&gt;
+&lt;li&gt;Establecer mecanismos para asegurar las comunicaciones entre el cliente y el servidor.&lt;/li&gt;
 &lt;/ul&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
@@ -239,16 +239,16 @@ learning tasks."></unicode>
            <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;ol&gt;
-&lt;li&gt;Introducció&lt;/li&gt;
-&lt;li&gt;El protocol HTTP&lt;/li&gt;
-&lt;li&gt;Etapes d'una transició HTTP&lt;/li&gt;
-&lt;li&gt;L'estàndard HTTP/1.0&lt;/li&gt;
-&lt;li&gt;Instal·lació i configuració d'Apache2&lt;/li&gt;
-&lt;li&gt;Servidors virtuals. Nom d'encapçalament de host.&lt;/li&gt;
-&lt;li&gt;Identificació d'un usuari virtual.&lt;/li&gt;
-&lt;li&gt;Accés anònim i autenticat. Formes d'autenticació.&lt;/li&gt;
-&lt;li&gt;Execució de codi. Scripts de servidor i de client.&lt;/li&gt;
-&lt;li&gt;Establiment de connexions segures .&lt;/li&gt;
+&lt;li&gt;Introducción&lt;/li&gt;
+&lt;li&gt;El protocolo HTTP&lt;/li&gt;
+&lt;li&gt;Etapas de una transacción HTTP&lt;/li&gt;
+&lt;li&gt;El estándar HTTP/1.0&lt;/li&gt;
+&lt;li&gt;Instalación y configuración de Apache2&lt;/li&gt;
+&lt;li&gt;Servidores virtuales. Nombre de encabezado de host.&lt;/li&gt;
+&lt;li&gt;Identificación de un usuario virtual.&lt;/li&gt;
+&lt;li&gt;Acceso anónimo y autenticado. Formas de autenticación.&lt;/li&gt;
+&lt;li&gt;Ejecución de código. Scripts de servidor y de cliente.&lt;/li&gt;
+&lt;li&gt;Establecimiento de conexiones seguras.&lt;/li&gt;
 &lt;/ol&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
@@ -358,13 +358,13 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;Amb l'evolució i l'accés lliure a Internet, un dels principals al·licients que han sorgit és la publicació de pàgines web on es poden emmagatzemar uns continguts força atractius per a nosaltres i que, alhora, poden ser consultats des d'arreu del món per tothom.&lt;/p&gt;
-&lt;p&gt;Val a dir que, amb la popularització d'Internet, tant empreses com usuaris han vist la necessitat d'establir un punt des d'on anunciar els seus productes, o bé, a títol particular, donar publicitat a les aficions o capacitats personals mitjançant la publicació de pàgines web.&lt;/p&gt;
-&lt;p&gt;Les pàgines web, en la seva majoria en format HTML, requereixen ser allotjades en màquines que disposin d’espai en disc per emmagatzemar arxius HTML, imatges, blocs de codi o arxius de vídeo en directoris específics i, alhora, han de ser capaces d'entendre tot tipus d'extensió dels arxius que són enviats en tots dos sentits de la comunicació.&lt;/p&gt;
-&lt;p&gt;Paral·lelament, no podem deixar de banda la importància de les mesures de seguretat davant dels perills existents a Internet. Per aconseguir-ho, les pàgines hauran d'estar dissenyades considerant la incorporació de protocols de comunicació segurs com, per exemple, els desenvolupats amb el protocol segur de transferència d'hipertext (HTTPS, &lt;em&gt;hypertext transfer protocol secure&lt;/em&gt;) que utilitzen claus i estratègies de xifrat pròpies de les eines del protocol de capa de connexió segura (SSL, &lt;em&gt;secure sockets layer&lt;/em&gt;).&lt;/p&gt;
-&lt;p&gt;Les màquines que allotgen les pàgines web reben la categoria de servidors web. Des del punt de vista dels servidors, els requeriments més rellevants són l'espai de disc necessari per poder emmagatzemar l'estructura de la pàgina web i una bona connexió de xarxa perquè el consum de la unitat de processament central (CPU,&lt;em&gt; central processing unit&lt;/em&gt;) sigui prou baix.&lt;/p&gt;
-&lt;p&gt;El funcionament dels servidors web és especial ja que, com si es tractés d'una dent de serra, tenen consums de recursos puntuals perquè podem estar un temps sense peticions i, de cop i volta, tenir una allau de peticions. Això fa que els servidors web acostumin a tenir un nombre baix de processos en espera. A mesura que esdevenen necessaris, se'n van arrencant de nous.&lt;/p&gt;
-&lt;p&gt;Val a dir que no totes les peticions consumeixen el mateix, i, per exemple, aquelles pàgines web que executin programes d’interacció amb l’usuari o requereixin xifrat (HTTPS)  consumeixen més recursos que altres pàgines web amb menys interacció.&lt;/p&gt;"></unicode>
+             <unicode content="true" value="&lt;p&gt;Con la evolución y el acceso libre a Internet, uno de los principales atractivos que han surgido es la publicación de páginas web donde se pueden almacenar contenidos muy interesantes para nosotros y que, al mismo tiempo, pueden ser consultados desde cualquier parte del mundo por cualquier persona.&lt;/p&gt;
+&lt;p&gt;Cabe decir que, con la popularización de Internet, tanto empresas como usuarios han visto la necesidad de establecer un punto desde donde anunciar sus productos o, a título particular, dar publicidad a sus aficiones o capacidades personales mediante la publicación de páginas web.&lt;/p&gt;
+&lt;p&gt;Las páginas web, en su mayoría en formato HTML, requieren ser alojadas en máquinas que dispongan de espacio en disco para almacenar archivos HTML, imágenes, bloques de código o archivos de vídeo en directorios específicos y, al mismo tiempo, deben ser capaces de interpretar todo tipo de extensiones de los archivos que son enviados en ambos sentidos de la comunicación.&lt;/p&gt;
+&lt;p&gt;Paralelamente, no podemos dejar de lado la importancia de las medidas de seguridad ante los peligros existentes en Internet. Para lograrlo, las páginas deberán estar diseñadas considerando la incorporación de protocolos de comunicación seguros como, por ejemplo, los desarrollados con el protocolo seguro de transferencia de hipertexto (HTTPS, &lt;em&gt;hypertext transfer protocol secure&lt;/em&gt;), que utilizan claves y estrategias de cifrado propias de las herramientas del protocolo de capa de conexión segura (SSL, &lt;em&gt;secure sockets layer&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Las máquinas que alojan las páginas web reciben la categoría de servidores web. Desde el punto de vista de los servidores, los requisitos más relevantes son el espacio en disco necesario para almacenar la estructura de la página web y una buena conexión de red para que el consumo de la unidad de procesamiento central (CPU, &lt;em&gt;central processing unit&lt;/em&gt;) sea lo suficientemente bajo.&lt;/p&gt;
+&lt;p&gt;El funcionamiento de los servidores web es particular, ya que, como si se tratara de un diente de sierra, tienen consumos de recursos puntuales porque pueden estar un tiempo sin peticiones y, de repente, recibir una avalancha de solicitudes. Esto hace que los servidores web suelan tener un número bajo de procesos en espera. A medida que se vuelven necesarios, se van iniciando nuevos procesos.&lt;/p&gt;
+&lt;p&gt;Cabe destacar que no todas las solicitudes consumen los mismos recursos. Por ejemplo, aquellas páginas web que ejecutan programas de interacción con el usuario o requieren cifrado (HTTPS) consumen más recursos que otras páginas con menor interacción.&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -504,16 +504,16 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="anchors_linked_from_fields"></string>
                 <dictionary></dictionary>
                 <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value="&lt;p&gt;El protocol de transferència d’hipertext (HTTP, hyperText transfer protocol) és el motor que dóna vida a Internet, ja que és la base per a la web (&lt;em&gt;www, world wide&lt;/em&gt; web).&lt;/p&gt;
-&lt;p&gt;Des d’un punt de vista històric, la web fou creada l'any 1989 al Consell Europeu per la Recerca Nuclear (CERN, Centre Europeene pour la Recherche Nucleaire), amb seu a Ginebra, just a la frontera entre Suïssa i França. Val a dir que aquest organisme disposava (i disposa) d’una àmplia plantilla de científics de diferents països d’Europa que treballen en els seus acceleradors de partícules. En conseqüència, molts equips de treballadors estan integrats per membres de nacionalitats diferents. A més, molts dels experiments que s’hi fan destaquen per la seva complexitat i requereixen anys i anys de planificació i de construcció d’equipaments.&lt;/p&gt;
+                <unicode content="true" value="&lt;p&gt;El protocolo de transferencia de hipertexto (HTTP, &lt;em&gt;hyperText transfer protocol&lt;/em&gt;) es el motor que da vida a Internet, ya que es la base de la web (&lt;em&gt;www, world wide web&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Desde un punto de vista histórico, la web fue creada en el año 1989 en el Consejo Europeo para la Investigación Nuclear (CERN, &lt;em&gt;Centre Européen pour la Recherche Nucléaire&lt;/em&gt;), con sede en Ginebra, justo en la frontera entre Suiza y Francia. Cabe destacar que este organismo contaba (y cuenta) con una amplia plantilla de científicos de distintos países de Europa que trabajan en sus aceleradores de partículas. En consecuencia, muchos equipos de trabajo están integrados por miembros de diferentes nacionalidades. Además, muchos de los experimentos que allí se realizan destacan por su complejidad y requieren años de planificación y construcción de equipamientos.&lt;/p&gt;
 &lt;div class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 600px;&quot;&gt;&lt;img src=&quot;resources/berners-lee.jpg&quot; alt=&quot;Tim Berners Lee&quot; title=&quot;Tim Berners Lee&quot; width=&quot;600&quot; height=&quot;385&quot; /&gt;
 &lt;div class=&quot;figcaption&quot;&gt;&lt;span class=&quot;title&quot;&gt;&lt;em&gt;Tim Berners Lee&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Fou arran de la necessitat de disposar de múltiples grups de científics repartits pel món i col·laborant entre ells (enviant-se informes, dibuixos, esquemes, fotos i tot tipus de documents) que va néixer la web.&lt;/p&gt;
+&lt;p&gt;Fue a raíz de la necesidad de disponer de múltiples grupos de científicos repartidos por el mundo y colaborando entre ellos (enviándose informes, dibujos, esquemas, fotos y todo tipo de documentos) que nació la web.&lt;/p&gt;
 &lt;div class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 600px;&quot;&gt;&lt;img src=&quot;resources/first-server.jpg&quot; alt=&quot;Primer servidor HTTP&quot; title=&quot;Primer servidor HTTP&quot; width=&quot;600&quot; height=&quot;450&quot; /&gt;
 &lt;div class=&quot;figcaption&quot;&gt;&lt;span class=&quot;title&quot;&gt;&lt;em&gt;Primer servidor HTTP&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;És en els inicis del protocol HTTP, a mitjans de l’any 1990, quan trobem la versió 0.9. Aquesta versió tenia com a única finalitat transferir dades per Internet en forma de pàgines web escrites en llenguatge de marcatge d’hipertext (HTML, &lt;em&gt;HyperText Markup Language&lt;/em&gt;). A partir de la versió 1.0 del protocol va sorgir la possibilitat de transferir missatges amb encapçalaments que descrivien el contingut dels missatges.&lt;/p&gt;"></unicode>
+&lt;p&gt;Es en los inicios del protocolo HTTP, a mediados del año 1990, cuando encontramos la versión 0.9. Esta versión tenía como única finalidad transferir datos por Internet en forma de páginas web escritas en lenguaje de marcado de hipertexto (HTML, &lt;em&gt;HyperText Markup Language&lt;/em&gt;). A partir de la versión 1.0 del protocolo surgió la posibilidad de transferir mensajes con encabezados que describían el contenido de los mensajes.&lt;/p&gt;"></unicode>
                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                 <int value="4"></int>
                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -533,7 +533,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <instance class="exe.engine.field.TextField">
                       <dictionary>
                        <string role="key" value="_id"></string>
-                       <int value="1072"></int>
+                       <int value="1086"></int>
                        <string role="key" value="_idevice"></string>
                        <none></none>
                        <string role="key" value="_instruc"></string>
@@ -547,7 +547,7 @@ text through the text editing buttons associated with the field."></unicode>
                       </dictionary>
                      </instance>
                      <string role="key" value="_id"></string>
-                     <unicode value="31_85.15"></unicode>
+                     <unicode value="31_85.19"></unicode>
                      <string role="key" value="_imageResource"></string>
                      <instance class="exe.engine.resource.Resource" reference="13">
                       <dictionary>
@@ -558,7 +558,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <string role="key" value="_storageName"></string>
                        <string value="berners-lee.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpf8ktqf\\berners-lee.jpg"></string>
+                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpusojww\\berners-lee.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="348ad220035da3cd6f82c06ddc6f1248"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -585,7 +585,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <instance class="exe.engine.field.TextField">
                       <dictionary>
                        <string role="key" value="_id"></string>
-                       <int value="1074"></int>
+                       <int value="1088"></int>
                        <string role="key" value="_idevice"></string>
                        <none></none>
                        <string role="key" value="_instruc"></string>
@@ -599,7 +599,7 @@ text through the text editing buttons associated with the field."></unicode>
                       </dictionary>
                      </instance>
                      <string role="key" value="_id"></string>
-                     <unicode value="31_85.16"></unicode>
+                     <unicode value="31_85.20"></unicode>
                      <string role="key" value="_imageResource"></string>
                      <instance class="exe.engine.resource.Resource" reference="14">
                       <dictionary>
@@ -610,7 +610,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <string role="key" value="_storageName"></string>
                        <string value="first-server.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpf8ktqf\\first-server.jpg"></string>
+                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpusojww\\first-server.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="a6629567a6c8f4f9add75de874b3ef2f"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -639,7 +639,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="intlinks_to_anchors"></string>
                 <dictionary></dictionary>
                 <string role="key" value="nextImageId"></string>
-                <int value="17"></int>
+                <int value="21"></int>
                 <string role="key" value="parentNode"></string>
                 <reference key="12"></reference>
                </dictionary>
@@ -737,14 +737,14 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="anchors_linked_from_fields"></string>
                 <dictionary></dictionary>
                 <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value="&lt;p&gt;El protocol de transferència d’hipertext (HTTP) és un protocol client-servidor força senzill que articula els intercanvis d'informació entre els clients web i els servidors HTTP. HTTP va ser desenvolupat pel consorci W3C i la IETF. Aquesta col·laboració va culminar l’any 1999 amb la publicació d'una sèrie de RFC, el més important dels quals va ser el RFC 2616, que especificava la versió 1.1&lt;/p&gt;
+                <unicode content="true" value="&lt;p&gt;El protocolo de transferencia de hipertexto (HTTP) es un protocolo cliente-servidor bastante sencillo que articula los intercambios de información entre los clientes web y los servidores HTTP. HTTP fue desarrollado por el consorcio W3C y la IETF. Esta colaboración culminó en el año 1999 con la publicación de una serie de RFC, el más importante de los cuales fue el RFC 2616, que especificaba la versión 1.1.&lt;/p&gt;
 &lt;div class=&quot;exe-block-info&quot;&gt;
-&lt;p&gt;Els &lt;em&gt;Request for Comments&lt;/em&gt;, més coneguts per les seves sigles RFC, són una sèrie de publicacions del grup de treball d'enginyeria d'internet que descriuen diversos aspectes del funcionament d'Internet i altres xarxes de computadores, com protocols, procediments, etc. i comentaris i idees sobre estos.&lt;/p&gt;
+&lt;p&gt;Los &lt;em&gt;Request for Comments&lt;/em&gt;, más conocidos por sus siglas RFC, son una serie de publicaciones del grupo de trabajo de ingeniería de Internet que describen diversos aspectos del funcionamiento de Internet y otras redes de computadoras, como protocolos, procedimientos, etc., así como comentarios e ideas sobre estos.&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;Des del punt de vista de les comunicacions, està suportat en els serveis de connexió TCP/IP i funciona de la mateixa manera que la resta de serveis propis dels entorns UNIX.&lt;/p&gt;
-&lt;p&gt;Tècnicament, un procés servidor escolta en un port de comunicacions TCP (per defecte, el 80) i espera les sol·licituds de connexió dels clients web. Una vegada establerta la connexió, el protocol TCP s'encarrega de mantenir la comunicació i garantir un intercanvi de dades lliure d'errors.&lt;/p&gt;
-&lt;p&gt;El protocol de transferència d'hipertext es basa en &lt;strong&gt;operacions senzilles de sol·licitud/resposta&lt;/strong&gt;. Quan un client estableix una connexió amb un servidor i envia un missatge amb les dades de la sol·licitud, el servidor respon amb un missatge similar, que conté l'&lt;strong&gt;estat de l'operació&lt;/strong&gt; i el seu resultat possible. Totes les operacions poden adjuntar un objecte o recurs sobre el qual actuen; cada objecte web (document HTML, arxiu multimèdia o aplicació CGI) és conegut pel seu localitzador uniforme de recursos (URL, &lt;em&gt;uniform resource locator&lt;/em&gt;). Els recursos poden ser arxius, el resultat de l'execució d'un programa, una consulta a una base de dades, la traducció automàtica d’un document, etc&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;HTTP és un protocol sense estat&lt;/strong&gt;, és a dir, no guarda cap informació sobre connexions anteriors. El desenvolupament d'aplicacions web freqüentment necessita mantenir estat. Per això s'utilitzen les galetes (&lt;em&gt;cookies&lt;/em&gt;), és a dir, la informació que un servidor pot emmagatzemar en el sistema client. Això permet que les aplicacions web institueixin la noció de “sessió”, i, alhora, permet rastrejar usuaris, ja que les galetes es poden emmagatzemar en el client durant un temps indeterminat.&lt;/p&gt;"></unicode>
+&lt;p&gt;Desde el punto de vista de las comunicaciones, está soportado en los servicios de conexión TCP/IP y funciona de la misma manera que el resto de servicios propios de los entornos UNIX.&lt;/p&gt;
+&lt;p&gt;Técnicamente, un proceso servidor escucha en un puerto de comunicaciones TCP (por defecto, el 80) y espera las solicitudes de conexión de los clientes web. Una vez establecida la conexión, el protocolo TCP se encarga de mantener la comunicación y garantizar un intercambio de datos libre de errores.&lt;/p&gt;
+&lt;p&gt;El protocolo de transferencia de hipertexto se basa en &lt;strong&gt;operaciones simples de solicitud/respuesta&lt;/strong&gt;. Cuando un cliente establece una conexión con un servidor y envía un mensaje con los datos de la solicitud, el servidor responde con un mensaje similar, que contiene el &lt;strong&gt;estado de la operación&lt;/strong&gt; y su resultado posible. Todas las operaciones pueden adjuntar un objeto o recurso sobre el cual actúan; cada objeto web (documento HTML, archivo multimedia o aplicación CGI) es conocido por su localizador uniforme de recursos (URL, &lt;em&gt;uniform resource locator&lt;/em&gt;). Los recursos pueden ser archivos, el resultado de la ejecución de un programa, una consulta a una base de datos, la traducción automática de un documento, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HTTP es un protocolo sin estado&lt;/strong&gt;, es decir, no guarda ninguna información sobre conexiones anteriores. El desarrollo de aplicaciones web con frecuencia necesita mantener estado. Para ello se utilizan las cookies, es decir, la información que un servidor puede almacenar en el sistema cliente. Esto permite que las aplicaciones web establezcan la noción de “sesión” y, a la vez, permite rastrear usuarios, ya que las cookies pueden almacenarse en el cliente durante un tiempo indeterminado.&lt;/p&gt;"></unicode>
                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                 <int value="4"></int>
                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -829,9 +829,9 @@ text through the text editing buttons associated with the field."></unicode>
                 <dictionary></dictionary>
                 <string role="key" value="content_w_resourcePaths"></string>
                 <unicode content="true" value="&lt;div class=&quot;exe-block-info&quot;&gt;
-&lt;p&gt;&lt;strong&gt;Localitzador uniforme de recursos (URL)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Generalment, la via de què disposa un usuari per accedir a una pàgina web o un objecte (arxiu) és mitjançant el seu localitzador uniforme de recursos (URL), que és una mena d’adreça que indica la localització exacta d’un document a Internet.&lt;/p&gt;
-&lt;p&gt;L’adreça que indica la localització exacta del document es compon del nom o l’adreça d’Internet (IP, Internet protocol) del servidor i el camí relatiu del document dins del servidor. També pot incloure altres aspectes com el port pel qual se sol·licita el servei (per defecte, s’assumeix que el 80 és per al protocol HTTP, el 21 per al protocol FTP, etc.) i un nom d’usuari i una contrasenya per a aquells documents que requereixin autenticació per accedir-h&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Localizador uniforme de recursos (URL)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Generalmente, la vía de la que dispone un usuario para acceder a una página web o un objeto (archivo) es mediante su localizador uniforme de recursos (URL), que es una especie de dirección que indica la localización exacta de un documento en Internet.&lt;/p&gt;
+&lt;p&gt;La dirección que indica la localización exacta del documento se compone del nombre o la dirección de Internet (IP, &lt;em&gt;Internet Protocol&lt;/em&gt;) del servidor y el camino relativo del documento dentro del servidor. También puede incluir otros aspectos como el puerto por el que se solicita el servicio (por defecto, se asume que el 80 es para el protocolo HTTP, el 21 para el protocolo FTP, etc.) y un nombre de usuario y una contraseña para aquellos documentos que requieran autenticación para acceder.&lt;/p&gt;
 &lt;/div&gt;"></unicode>
                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                 <int value="4"></int>
@@ -947,20 +947,20 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;Amb la intenció de conèixer amb més profunditat el protocol HTTP podem avaluar en què consisteix una transacció HTTP.&lt;/p&gt;
-&lt;p&gt;Cada vegada que un client fa una petició a un servidor, s’executen un seguit d'accions:&lt;/p&gt;
+             <unicode content="true" value="&lt;p&gt;Con la intención de conocer con más profundidad el protocolo HTTP, podemos evaluar en qué consiste una transacción HTTP.&lt;/p&gt;
+&lt;p&gt;Cada vez que un cliente realiza una petición a un servidor, se ejecutan una serie de acciones:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Un usuari accedeix a una adreça d’Internet (URL) seleccionant un enllaç d’un document HTML o introduint-la directament a la barra de navegació d’un navegador web des de la perspectiva del client web. El client web descodifica l’adreça d’Internet (URL) separant-ne les diferents parts. És així com s'identifiquen el &lt;strong&gt;protocol d'accés&lt;/strong&gt;, el node expressat amb el nom de domini o la seua adreça IP, el possible port opcional (el valor per defecte és el 80) i l'objecte del servidor requerit.&lt;/li&gt;
-&lt;li&gt;S’obre una connexió TCP/IP amb el servidor cridant el port TCP corresponent. Es fa la petició. En conseqüència, s’envien l’ordre necessària (GET, POST, HEAD, etc.), l’adreça de l’objecte requerit (el contingut de l’adreça d’Internet del servidor), la versió del protocol HTTP utilitzada (en la major part de les ocasions és HTTP/1.0) i un conjunt variable d’informació que inclou dades sobre les capacitats del navegador web, dades opcionals per al servidor, etc.&lt;/li&gt;
-&lt;li&gt;El servidor localitza el recurs sol·licitat i torna la resposta al client.&lt;/li&gt;
-&lt;li&gt;Aquesta resposta consisteix en un codi d’estat i el tipus de dada amb extensions multipropòsit de correu d’Internet (MIME, &lt;em&gt;Multipurpose Internet Mail Extension&lt;/em&gt;) de la informació de tornada, seguit de la mateixa informació.&lt;/li&gt;
-&lt;li&gt;El client formata i mostra el recurs rebut.&lt;/li&gt;
-&lt;li&gt;Es tanca la connexió TCP.&lt;/li&gt;
+&lt;li&gt;Un usuario accede a una dirección de Internet (URL) seleccionando un enlace de un documento HTML o introduciéndola directamente en la barra de navegación de un navegador web desde la perspectiva del cliente web. El cliente web descodifica la dirección de Internet (URL) separando sus diferentes partes. Así se identifican el &lt;strong&gt;protocolo de acceso&lt;/strong&gt;, el nodo expresado con el nombre de dominio o su dirección IP, el posible puerto opcional (el valor por defecto es el 80) y el objeto del servidor requerido.&lt;/li&gt;
+&lt;li&gt;Se abre una conexión TCP/IP con el servidor llamando al puerto TCP correspondiente. Se realiza la petición. En consecuencia, se envían la orden necesaria (GET, POST, HEAD, etc.), la dirección del objeto requerido (el contenido de la dirección de Internet del servidor), la versión del protocolo HTTP utilizada (en la mayoría de los casos es HTTP/1.0) y un conjunto variable de información que incluye datos sobre las capacidades del navegador web, datos opcionales para el servidor, etc.&lt;/li&gt;
+&lt;li&gt;El servidor localiza el recurso solicitado y devuelve la respuesta al cliente.&lt;/li&gt;
+&lt;li&gt;Esta respuesta consiste en un código de estado y el tipo de dato con extensiones multipropósito de correo de Internet (MIME, &lt;em&gt;Multipurpose Internet Mail Extension&lt;/em&gt;) de la información de respuesta, seguido de la propia información.&lt;/li&gt;
+&lt;li&gt;El cliente formatea y muestra el recurso recibido.&lt;/li&gt;
+&lt;li&gt;Se cierra la conexión TCP.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Aquest procés es repeteix en cada accés que es faça al servidor HTTP. Per exemple, si es recull un document HTML que conté quatre imatges, el procés de transició mostrat amb anterioritat es repeteix cinc vegades, és a dir, una pel document HTML i quatre per les imatges.&lt;/p&gt;
+&lt;p&gt;Este proceso se repite en cada acceso que se realice al servidor HTTP. Por ejemplo, si se solicita un documento HTML que contiene cuatro imágenes, el proceso de transacción mostrado anteriormente se repite cinco veces, es decir, una para el documento HTML y cuatro para las imágenes.&lt;/p&gt;
 &lt;div class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 829px;&quot;&gt;
-&lt;div class=&quot;figcaption header&quot;&gt;&lt;strong&gt;Etapes en la transició HTTP&lt;/strong&gt;&lt;/div&gt;
-&lt;img src=&quot;resources/HTTP_Steps.png&quot; alt=&quot;Etapes en la transacció HTTP&quot; title=&quot;Etapes en la transacció HTTP&quot; width=&quot;829&quot; height=&quot;304&quot; /&gt;&lt;/div&gt;"></unicode>
+&lt;div class=&quot;figcaption header&quot;&gt;&lt;strong&gt;Etapas en la transacción HTTP&lt;/strong&gt;&lt;/div&gt;
+&lt;img src=&quot;resources/HTTP_Steps.png&quot; alt=&quot;Etapas en la transacción HTTP&quot; title=&quot;Etapas en la transacción HTTP&quot; width=&quot;829&quot; height=&quot;304&quot; /&gt;&lt;/div&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -980,7 +980,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1076"></int>
+                    <int value="1090"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -994,7 +994,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="6_154.7"></unicode>
+                  <unicode value="6_154.9"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="24">
                    <dictionary>
@@ -1005,7 +1005,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="HTTP_Steps.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpf8ktqf\\HTTP_Steps.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpusojww\\HTTP_Steps.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="b357dd4b18e4e436885bfcc39bd64795"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1034,7 +1034,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="8"></int>
+             <int value="10"></int>
              <string role="key" value="parentNode"></string>
              <reference key="23"></reference>
             </dictionary>
@@ -1096,21 +1096,21 @@ text through the text editing buttons associated with the field."></unicode>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
              <unicode content="true" value="&lt;div class=&quot;exe-block-warning&quot;&gt;
-&lt;p&gt;&lt;strong&gt;Extensió MIME&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;El protocol HTML fou dissenyat per transportar per la xarxa arxius en format ASCII. Amb el progrés de les tecnologies i la inclusió de diferents tipus d’arxius en un format diferent a l’ASCII (imatges, vídeos, sons, etc.) en les aplicacions per Internet, va sorgir la necessitat de transformar aquests format a ASCII per la seva correcta recepció en el navegador web.&lt;/p&gt;
-&lt;p&gt;El 1992, es van crear els tipus MIME, que eren especificacions per donar format a missatges en un format diferent a l’ASCII perquè poguessin ser enviats i interpretats per Internet. Més endavant es van aplicar també als documents web.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Nomenclatura de tipus&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;MIME assigna un nom a cada tipus de dades. Els noms segueixen el següent format:&lt;/p&gt;
-&lt;pre style=&quot;padding-left: 30px;&quot;&gt;tipus / subtipus (tipus com a subtipus són cadenes de caràcters)&lt;/pre&gt;
-&lt;p&gt;El &lt;code&gt;tipus&lt;/code&gt; defineix la categoria general de les dades i el &lt;code&gt;subtipus&lt;/code&gt; defineix un tipus més específic d'aquestes dades. El tipus tenir els següents valors:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Extensión MIME&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El protocolo HTML fue diseñado para transportar por la red archivos en formato ASCII. Con el avance de las tecnologías y la inclusión de diferentes tipos de archivos en un formato distinto al ASCII (imágenes, vídeos, sonidos, etc.) en las aplicaciones para Internet, surgió la necesidad de transformar estos formatos a ASCII para su correcta recepción en el navegador web.&lt;/p&gt;
+&lt;p&gt;En 1992, se crearon los tipos MIME, que eran especificaciones para dar formato a mensajes en un formato distinto al ASCII para que pudieran ser enviados e interpretados en Internet. Más adelante, se aplicaron también a los documentos web.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nomenclatura de tipos&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;MIME asigna un nombre a cada tipo de datos. Los nombres siguen el siguiente formato:&lt;/p&gt;
+&lt;pre style=&quot;padding-left: 30px;&quot;&gt;tipo / subtipo (tanto tipo como subtipo son cadenas de caracteres)&lt;/pre&gt;
+&lt;p&gt;El &lt;code&gt;tipo&lt;/code&gt; define la categoría general de los datos y el &lt;code&gt;subtipo&lt;/code&gt; define un tipo más específico dentro de esta categoría. Los tipos pueden tener los siguientes valores:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;text&lt;/strong&gt;: Indica que el contingut és text pla. Exemples de subtipus: html, xml&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;multipart&lt;/strong&gt;: Indica que té múltiples parts de dades independents. Exemples de subtipus: form-data, enviat a diari&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;message&lt;/strong&gt;: Per encapsular un missatge existent. Per exemple quan volem respondre a un missatge de correu incorporant el missatge origen. Exemples de subtipus: partial, RFC822&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;image&lt;/strong&gt;: Indica que és una imatge. Ex de subtipus: png, gif&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;audio&lt;/strong&gt;: Indica que és un àudio. Exemples de subtipus: mpeg, avi&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;video&lt;/strong&gt;: Indica que és un vídeo. Exemples de subtipus: mp4, 32kadpcm&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;application&lt;/strong&gt;: Indica que es tracta de dades d'aplicació dels quals poden ser binaris. Exemples de subtipus: json, pdf&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;text&lt;/strong&gt;: Indica que el contenido es texto plano. Ejemplos de subtipos: html, xml&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;multipart&lt;/strong&gt;: Indica que contiene múltiples partes de datos independientes. Ejemplos de subtipos: form-data, mixed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;message&lt;/strong&gt;: Para encapsular un mensaje existente. Por ejemplo, cuando queremos responder a un mensaje de correo incorporando el mensaje original. Ejemplos de subtipos: partial, RFC822&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;image&lt;/strong&gt;: Indica que es una imagen. Ejemplos de subtipos: png, gif&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;audio&lt;/strong&gt;: Indica que es un archivo de audio. Ejemplos de subtipos: mpeg, wav&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;video&lt;/strong&gt;: Indica que es un archivo de vídeo. Ejemplos de subtipos: mp4, 32kadpcm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;application&lt;/strong&gt;: Indica que se trata de datos de aplicación que pueden ser binarios. Ejemplos de subtipos: json, pdf&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -1224,23 +1224,23 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;L’estàndard HTTP/1.0 recull, únicament, tres ordres que representen les operacions de recepció, enviament de la informació i revisió de l’estat.&lt;/p&gt;
+             <unicode content="true" value="&lt;p&gt;El estándar HTTP/1.0 recoge únicamente tres órdenes que representan las operaciones de recepción, envío de información y revisión del estado.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Mètode de petició GET&lt;/strong&gt;. S’utilitza per sol·licitar un recurs del servidor. Sempre que premem sobre un enllaç o escrivim una adreça d’Internet a la barra de navegació d’un navegador web, estem utilitzant aquest mètode de petició. Com a resultat, el servidor HTTP envia el document corresponent a l’adreça d’Internet seleccionada.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mètode de petició HEAD&lt;/strong&gt;. Sol·licita informació sobre un recurs com, per exemple, la seva grandària, el tipus, la data de modificació, etc. Acostuma a ser utilitzat pels gestors de memòries cau de pàgines o pels servidors intermediaris (proxy server) per conèixer quan cal actualitzar la còpia que es manté d’un arxiu determinat.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mètode de petició POST&lt;/strong&gt;. S’utilitza per enviar informació al servidor, com per exemple, les dades contingudes en un formulari. El servidor passarà aquesta informació a un procés encarregat del seu tractament (acostuma a ser una aplicació del servidor). L’operació que es durà a terme amb la informació proporcionada dependrà de l’adreça d’Internet (URL) utilitzada, principalment, en els formularis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Método de petición GET&lt;/strong&gt;. Se utiliza para solicitar un recurso del servidor. Siempre que pulsamos sobre un enlace o escribimos una dirección de Internet en la barra de navegación de un navegador web, estamos utilizando este método de petición. Como resultado, el servidor HTTP envía el documento correspondiente a la dirección de Internet seleccionada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Método de petición HEAD&lt;/strong&gt;. Solicita información sobre un recurso, como su tamaño, tipo, fecha de modificación, etc. Suele ser utilizado por los gestores de caché de páginas o por los servidores intermedios (&lt;em&gt;proxy servers&lt;/em&gt;) para determinar cuándo es necesario actualizar la copia almacenada de un archivo determinado.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Método de petición POST&lt;/strong&gt;. Se utiliza para enviar información al servidor, como los datos contenidos en un formulario. El servidor pasará esta información a un proceso encargado de su tratamiento (generalmente, una aplicación del servidor). La operación que se llevará a cabo con la información proporcionada dependerá de la dirección de Internet (URL) utilizada, especialmente en los formularios.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Val a dir que un client web selecciona automàticament les ordres HTTP necessàries per recollir la informació per a l’usuari. Per tant, davant l’activació d’un enllaç, sempre s’executa una operació GET amb la finalitat de recollir el document corresponent.&lt;/p&gt;
-&lt;p&gt;Tal com mostra la imatge següent, la comunicació entre el navegador i el servidor es duu a terme en dues etapes. D’una banda, el navegador fa una sol·licitud HTTP que, posteriorment, és processada pel servidor que, en conseqüència, envia una resposta HTTP.&lt;/p&gt;
+&lt;p&gt;Es importante señalar que un cliente web selecciona automáticamente las órdenes HTTP necesarias para recuperar la información para el usuario. Por lo tanto, al activar un enlace, siempre se ejecuta una operación GET para recuperar el documento correspondiente.&lt;/p&gt;
+&lt;p&gt;Tal como muestra la siguiente imagen, la comunicación entre el navegador y el servidor se lleva a cabo en dos etapas. En primer lugar, el navegador realiza una solicitud HTTP que, posteriormente, es procesada por el servidor, el cual responde con una respuesta HTTP.&lt;/p&gt;
 &lt;figure class=&quot;exe-figure exe-image position-center license-CC-BY-SA&quot; style=&quot;width: 600px;&quot;&gt;
-&lt;figcaption class=&quot;figcaption header&quot;&gt;&lt;strong&gt;Comunicació navegador - servidor&lt;/strong&gt;&lt;/figcaption&gt;
-&lt;img src=&quot;resources/smx_m07u3-13_1.png&quot; alt=&quot;Comunicació navegador - servidor&quot; width=&quot;600&quot; height=&quot;270&quot; /&gt;
-&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;a href=&quot;http://ioc.xtec.cat/materials/FP/Materials/2201_SMX/SMX_2201_M07/web/html/WebContent/u3/a1/continguts.html&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener noreferrer&quot;&gt;IOC&lt;/a&gt;. &lt;a href=&quot;Comunicació navegador - servidor&quot; target=&quot;_blank&quot; class=&quot;title&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;em&gt;Comunicació navegador - servidor&lt;/em&gt;&lt;/a&gt; &lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;(&lt;/span&gt;&lt;a href=&quot;http://creativecommons.org/licenses/?lang=ca-ES&quot; rel=&quot;license nofollow noopener noreferrer&quot; target=&quot;_blank&quot; title=&quot;Creative Commons BY-SA&quot;&gt;CC BY-SA&lt;/a&gt;&lt;span class=&quot;sep&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;
+&lt;figcaption class=&quot;figcaption header&quot;&gt;&lt;strong&gt;Comunicación navegador - servidor&lt;/strong&gt;&lt;/figcaption&gt;
+&lt;img src=&quot;resources/smx_m07u3-13_1.png&quot; alt=&quot;Comunicación navegador - servidor&quot; width=&quot;600&quot; height=&quot;270&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;a href=&quot;http://ioc.xtec.cat/materials/FP/Materials/2201_SMX/SMX_2201_M07/web/html/WebContent/u3/a1/continguts.html&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener noreferrer&quot;&gt;IOC&lt;/a&gt;. &lt;a href=&quot;Comunicación navegador - servidor&quot; target=&quot;_blank&quot; class=&quot;title&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;em&gt;Comunicación navegador - servidor&lt;/em&gt;&lt;/a&gt; &lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;(&lt;/span&gt;&lt;a href=&quot;http://creativecommons.org/licenses/?lang=ca-ES&quot; rel=&quot;license nofollow noopener noreferrer&quot; target=&quot;_blank&quot; title=&quot;Creative Commons BY-SA&quot;&gt;CC BY-SA&lt;/a&gt;&lt;span class=&quot;sep&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Si avaluarem amb deteniment la sol·licitud HTTP ens trobaríem amb un conjunt de línies de text que el navegador envia al servidor. D’una banda, trobaríem una &lt;strong&gt;línia de sol·licitud&lt;/strong&gt;, és a dir, una línia que especifica el tipus de document sol·licitat, el &lt;strong&gt;mètode&lt;/strong&gt; que s’aplicarà i la &lt;strong&gt;versió del protocol&lt;/strong&gt; utilitzat. Aquesta línia estarà integrada per tres elements separats per un espai, és a dir, el mètode, l’adreça web i el protocol HTTP utilitzat pel client.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;A continuació, trobaríem els camps de l’encapçalament de sol·licitud, és a dir, un conjunt de línies opcionals que permeten aportar informació addicional sobre la sol·licitud i/o el client (navegador, sistema operatiu, etc.). Cadascuna d’aquestes línies estarà formada per un nom que descriu el tipus d’encapçalament, seguit per dos punts (:) i pel valor de l’encapçalament.&lt;/p&gt;
-&lt;p&gt;Finalment, el cos de la sol·licitud és un conjunt de línies opcionals separades de les línies anteriors amb una línia en blanc. La seva finalitat és permetre que s’enviïn dades al servidor utilitzant un formulari durant la transmissió.&lt;/p&gt;
-&lt;p&gt;Un exemple de sol·licitud HTTP seria el següent:&lt;/p&gt;
+&lt;p&gt;Si analizamos con detenimiento la solicitud HTTP, encontramos un conjunto de líneas de texto que el navegador envía al servidor. En primer lugar, está la &lt;strong&gt;línea de solicitud&lt;/strong&gt;, que especifica el tipo de documento solicitado, el &lt;strong&gt;método&lt;/strong&gt; aplicado y la &lt;strong&gt;versión del protocolo&lt;/strong&gt; utilizada. Esta línea está compuesta por tres elementos separados por un espacio: el método, la dirección web y el protocolo HTTP utilizado por el cliente.&lt;/p&gt;
+&lt;p&gt;A continuación, se encuentran los campos del encabezado de la solicitud, un conjunto de líneas opcionales que proporcionan información adicional sobre la solicitud y/o el cliente (navegador, sistema operativo, etc.). Cada una de estas líneas está formada por un nombre que describe el tipo de encabezado, seguido de dos puntos (:) y el valor del encabezado.&lt;/p&gt;
+&lt;p&gt;Finalmente, el cuerpo de la solicitud consiste en un conjunto de líneas opcionales separadas de las anteriores por una línea en blanco. Su propósito es permitir el envío de datos al servidor mediante un formulario durante la transmisión.&lt;/p&gt;
+&lt;p&gt;Un ejemplo de solicitud HTTP sería el siguiente:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-c&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;GET http://www.pego.org HTTP/1.0
@@ -1248,18 +1248,18 @@ Accept : Text/html If-Modified-Since : Saturday, 19-May-2006 17:39:13 GMT
 User-Agent : Mozilla/6.0 (compatible; MSIE 5.0; Windows XP)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;En conseqüència, la sol·licitud HTTP rebria una resposta HTTP, és a dir, un conjunt de línies que el servidor enviarà al navegador web. Com en el cas de la sol·licitud, la resposta HTTP conté alguns elements definitoris com, per exemple, una línia d’estat. Aquesta línia especifica la versió del protocol utilitzada i l’estat de la sol·licitud en procés mitjançant un text explicatiu i un codi.&lt;/p&gt;
-&lt;p&gt;En el cas dels camps de l'encapçalament de resposta, aquest és un conjunt de línies opcionals que permeten aportar informació addicional sobre la resposta i/o el servidor. Cadascuna d'aquestes línies es compon d'un nom que defineix el tipus d'encapçalament, seguit per dos punts (:) i pel valor de l'encapçalament.&lt;/p&gt;
-&lt;p&gt;En el cas del cos de la resposta, aquest conté el document sol·licitat. A mode d'exemple, a continuació es mostra un exemple d'una resposta HTTP:&lt;/p&gt;
+&lt;p&gt;En consecuencia, la solicitud HTTP recibiría una respuesta HTTP, es decir, un conjunto de líneas que el servidor enviará al navegador web. Al igual que la solicitud, la respuesta HTTP contiene ciertos elementos clave, como la línea de estado. Esta línea especifica la versión del protocolo utilizada y el estado de la solicitud en curso, proporcionando un código y un mensaje explicativo.&lt;/p&gt;
+&lt;p&gt;En cuanto a los campos del encabezado de respuesta, este es un conjunto de líneas opcionales que aportan información adicional sobre la respuesta y/o el servidor. Cada una de estas líneas consta de un nombre que define el tipo de encabezado, seguido de dos puntos (:) y el valor del encabezado.&lt;/p&gt;
+&lt;p&gt;El cuerpo de la respuesta contiene el documento solicitado. A modo de ejemplo, a continuación se muestra una respuesta HTTP:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-c&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;HTTP/1.0 200 OK Date: 19 May 2006 17:40:12 GMT Server : Microsoft-IIS/2.0
 Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29:13 GMT&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Pel que fa als &lt;strong&gt;codis de resposta&lt;/strong&gt;, aquests són els codis que es veuen quan el navegador no pot mostrar la pàgina web sol·licitada. La sintaxi d'una resposta HTTP és una línia d'estat i té una estructura fixa on s'indica la versió, el codi de l'error i un text explicatiu.&lt;/p&gt;
-&lt;p&gt;Els possibles codis d'estat s'identifiquen amb números de tres xifres i es classifiquen en cinc grups segons si són informatius (1xx), d'èxit en la sol·licitud (2xx), per tornar a adreçar la sol·licitud (3xx), per un error generat en el client (4xx) o bé per errors generats en el servidor (5xx).&lt;/p&gt;
-&lt;p&gt;Les respostes més típiques són els codis 200 per indicar la confirmació de la petició i el 404 per indicar que l'objecte sol·licitat no es troba disponible.&lt;/p&gt;"></unicode>
+&lt;p&gt;En lo que respecta a los &lt;strong&gt;códigos de respuesta&lt;/strong&gt;, estos son los códigos que se muestran cuando el navegador no puede acceder a la página web solicitada. La sintaxis de una respuesta HTTP incluye una línea de estado con una estructura fija que indica la versión, el código del error y un mensaje explicativo.&lt;/p&gt;
+&lt;p&gt;Los posibles códigos de estado se identifican con números de tres dígitos y se clasifican en cinco grupos: códigos informativos (1xx), éxito en la solicitud (2xx), redirección de la solicitud (3xx), errores generados en el cliente (4xx) y errores generados en el servidor (5xx).&lt;/p&gt;
+&lt;p&gt;Las respuestas más comunes son el código 200, que indica la confirmación de la petición, y el 404, que indica que el objeto solicitado no se encuentra disponible.&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1279,7 +1279,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1077"></int>
+                    <int value="1091"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -1293,7 +1293,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="8_154.40"></unicode>
+                  <unicode value="8_154.42"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="30">
                    <dictionary>
@@ -1304,7 +1304,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
                     <string role="key" value="_storageName"></string>
                     <string value="smx_m07u3-13_1.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpf8ktqf\\smx_m07u3-13_1.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpusojww\\smx_m07u3-13_1.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="e104b233cad6c0efd26b1ffef6ef4e13"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1333,7 +1333,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="41"></int>
+             <int value="43"></int>
              <string role="key" value="parentNode"></string>
              <reference key="29"></reference>
             </dictionary>
@@ -1399,28 +1399,28 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;Alguns dels codis d'estat més  habituals són els següents:&lt;/p&gt;
+             <unicode content="true" value="&lt;p&gt;Algunos de los códigos de estado más habituales son los siguientes:&lt;/p&gt;
 &lt;h3&gt;Successful 2xx&lt;/h3&gt;
-&lt;p&gt;This class of status code indicates that the client's request was successfully received, understood, and accepted.&lt;/p&gt;
+&lt;p&gt;Esta clase de código de estatus indica que la petición del cliente fue recibida, comprendida y aceptada con éxito.&lt;/p&gt;
 &lt;p&gt;200 OK&lt;/p&gt;
-&lt;p&gt;The request has succeeded. The information returned with the response is dependent on the method used in the request, as follows:&lt;/p&gt;
-&lt;p&gt;GET: an entity corresponding to the requested resource is sent in the response;&lt;/p&gt;
-&lt;p&gt;HEAD: the response must only contain the header information and no Entity-Body;&lt;/p&gt;
-&lt;p&gt;POST: an entity describing or containing the result of the action.&lt;/p&gt;
+&lt;p&gt;La petición ha tenido éxito. La información devuelta con la respuesta depende del método usado en la petición, tal y como sigue:&lt;/p&gt;
+&lt;p&gt;GET: una entidad correspondiente al recurso solicitado se envía con la respuesta;&lt;/p&gt;
+&lt;p&gt;HEAD: la respuesta debe contener únicamente la información de cabecera y sin Entidad-Cuerpo;&lt;/p&gt;
+&lt;p&gt;POST: una entidad que describe o contiene el resultado de la acción.&lt;/p&gt;
 &lt;h3&gt;Redirection 3xx&lt;/h3&gt;
 &lt;p&gt;301 Moved Permanently&lt;/p&gt;
 &lt;p&gt;302 Moved Temporarily&lt;/p&gt;
 &lt;p&gt;304 Not Modified&lt;/p&gt;
 &lt;h3&gt;Client Error 4xx&lt;/h3&gt;
 &lt;p&gt;400 Bad Request&lt;/p&gt;
-&lt;p&gt;401 Unauthorized. The request requires user authentication.&lt;/p&gt;
-&lt;p&gt;403 Forbidden. The server understood the request, but is refusing to fulfill it. &lt;br /&gt;404 Not Found. The server has not found anything matching the Request-URI.&lt;/p&gt;
+&lt;p&gt;401 Unauthorized. La petición requiere autenticación de usuario.&lt;/p&gt;
+&lt;p&gt;403 Forbidden. El servidor entiende la petición, pero rechaza satisfacerla. &lt;br /&gt;404 Not Found. El servidor no ha encontrado nada que concuerde con la URI de la petición.&lt;/p&gt;
 &lt;h3&gt;Server Error 5xx&lt;/h3&gt;
-&lt;p&gt;500 Internal Server Error. The server encountered an unexpected condition which prevented it from fulfilling the request.&lt;/p&gt;
-&lt;p&gt;502 Bad Gateway. The server, while acting as a gateway or proxy, received an invalid response from the upstream server it accessed in attempting to fulfill the request.&lt;/p&gt;
-&lt;p&gt;503 Service Unavailable. The server is currently unable to handle the request due to a temporary overloading or maintenance of the server.&lt;/p&gt;
+&lt;p&gt;500 Internal Server Error. El servidor encontró una condición inesperada que impide satisfacer la petición.&lt;/p&gt;
+&lt;p&gt;502 Bad Gateway. El servidor, actuando como gateway o proxy, recibió una respuesta inválida del servidor superior al que accedió intentando satisfacer la petición.&lt;/p&gt;
+&lt;p&gt;503 Service Unavailable. Actualmente el servidor no es capaz de gestionar la petición debido a una sobrecarga o mantenimiento temporal del servidor.&lt;/p&gt;
 &lt;div class=&quot;exe-block-info&quot;&gt;
-&lt;p&gt;Per a més informació visiteu: &lt;a href=&quot;https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10&quot;&gt;https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Para más información, visita: &lt;a href=&quot;https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10&quot;&gt;https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
@@ -1506,8 +1506,8 @@ text through the text editing buttons associated with the field."></unicode>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
              <unicode content="true" value="&lt;div class=&quot;exe-block-info&quot;&gt;
-&lt;p&gt;&lt;strong&gt;Línia d’encapçalament HTTP&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Camp fonamental que defineix gran part de la informació que s’intercanvia entre els clients i els servidors. Aquestes línies permeten l’enviament d’informació descriptiva en la transacció i faciliten, per exemple, l’autenticació o identificació dels usuaris.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Línea de encabezado HTTP&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Campo fundamental que define gran parte de la información que se intercambia entre los clientes y los servidores. Estas líneas permiten el envío de información descriptiva en la transacción y facilitan, por ejemplo, la autenticación o identificación de los usuarios.&lt;/p&gt;
 &lt;/div&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
@@ -1590,7 +1590,7 @@ text through the text editing buttons associated with the field."></unicode>
             <instance class="exe.engine.genericidevice.GenericIdevice" reference="35">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="06.01: Comandaments HTTP 1.1"></unicode>
+              <unicode value="Comandos HTTP 1.1"></unicode>
               <string role="key" value="_author"></string>
               <unicode value="University of Auckland"></unicode>
               <string role="key" value="_purpose"></string>
@@ -1624,52 +1624,52 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;h3&gt;Objectiu&lt;/h3&gt;
-&lt;p&gt;Entendre com funciona l'intercanvi de missatges  HTTP.&lt;/p&gt;
-&lt;h3&gt;Funcionament&lt;/h3&gt;
-&lt;p&gt;Connectem amb el servidor http mitjançant telnet.&lt;/p&gt;
+                 <unicode content="true" value="&lt;h3&gt;Objetivo&lt;/h3&gt;
+&lt;p&gt;Entender cómo funciona el intercambio de mensajes HTTP.&lt;/p&gt;
+&lt;h3&gt;Funcionamiento&lt;/h3&gt;
+&lt;p&gt;Nos conectamos con el servidor HTTP mediante telnet.&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;$ telnet XXX.XX.XX.XXX 80&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Fem la sol·licitud HTTP emprant l'encapçalat desitjat.&lt;/p&gt;
+&lt;p&gt;Realizamos la solicitud HTTP empleando el encabezado deseado.&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
-&lt;pre&gt;&lt;code&gt;GET / HTTP/1.1 
+&lt;pre&gt;&lt;code&gt;GET / HTTP/1.1 
 host: www.example.com
 User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1) [opcional]
 [INTRO]
 [INTRO]&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;En l'exemple anterior sol·licitem mitjançant l'encapçalat GET el document arrel (/) amb HTTP/1.1 i al host: www.example.com&lt;/p&gt;
-&lt;h3&gt;Activitat&lt;/h3&gt;
-&lt;p&gt;Fes les proves amb &lt;strong&gt;Telnet&lt;/strong&gt; del comandament &lt;strong&gt;HEAD&lt;/strong&gt; en les següents URL:&lt;/p&gt;
+&lt;p&gt;En el ejemplo anterior solicitamos mediante el encabezado GET el documento raíz (/) con HTTP/1.1 y el host: www.example.com&lt;/p&gt;
+&lt;h3&gt;Actividad&lt;/h3&gt;
+&lt;p&gt;Realiza las pruebas con &lt;strong&gt;Telnet&lt;/strong&gt; del comando &lt;strong&gt;HEAD&lt;/strong&gt; en las siguientes URL:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;http://www.pego.org (resolt)&lt;/li&gt;
+&lt;li&gt;http://www.pego.org (resuelto)&lt;/li&gt;
 &lt;li&gt;http://www.marca.com&lt;/li&gt;
 &lt;li&gt;http://moodle.iesevalorpego.org&lt;/li&gt;
 &lt;li&gt;http://forbes.es/demo&lt;/li&gt;
 &lt;li&gt;http://revistadefilosofia.com/60-05.pdf&lt;/li&gt;
 &lt;li&gt;http://www.fincarustica.cat/contacto/lang/es&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Elabora un document amb captures de pantalla que demostren el funcionament i descriu els problemes en que t'has trobat i les solucions adoptades. Anota també els codi de resposta i el tipus d'arxiu tornat.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Exemple&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Per a la primera URL faríem:&lt;/p&gt;
+&lt;p&gt;Elabora un documento con capturas de pantalla que demuestren el funcionamiento y describe los problemas que encontraste y las soluciones adoptadas. Anota también los códigos de respuesta y el tipo de archivo devuelto.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ejemplo&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para la primera URL haríamos:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-c&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;$ telnet www.google.es 80&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Una vegada realitzada la connexió fem la sol·licitud&lt;/p&gt;
+&lt;p&gt;Una vez realizada la conexión, realizamos la solicitud&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
 &lt;div&gt;
-&lt;pre&gt;&lt;code&gt;HEAD / HTTP/1.1&lt;a title=&quot;Suprimiu&quot; href=&quot;http://localhost:51235/5._Servei_HTTP/authoring?state=20#&quot; onclick=&quot;confirmThenSubmitLink('A\ç\ò\ suprimir\à\ aquest\ iDevice\.\ Esteu\ segur\ que\ voleu\ fer\-ho\?', 'delete', '17', 1);&quot;&gt;&lt;img alt=&quot;Suprimiu&quot; class=&quot;submit&quot; src=&quot;http://localhost:51235/images/stock-cancel.png&quot; width=&quot;16&quot; height=&quot;16&quot; /&gt;&lt;/a&gt;
+&lt;pre&gt;&lt;code&gt;HEAD / HTTP/1.1
 host:www.google.es
 [intro]
 [intro]&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;I obtindrem la següent resposta:&lt;/p&gt;
+&lt;p&gt;Y obtendremos la siguiente respuesta:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;HTTP/1.1 &lt;strong&gt;200&lt;/strong&gt; OK
@@ -1677,10 +1677,9 @@ Date: Fri, 12 Jan 2018 09:28:23 GMT
 Expires: -1
 Cache-Control: private, max-age=0
 Content-Type: &lt;strong&gt;text/html&lt;/strong&gt;; charset=ISO-8859-1
-[contingut omès]&lt;/code&gt;&lt;/pre&gt;
+[contenido omitido]&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;"></unicode>
+&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1794,31 +1793,30 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;La informació la trobareu a &lt;a href=&quot;https://help.ubuntu.com/16.04/serverguide/httpd.html.es&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;https://help.ubuntu.com/lts/serverguide/httpd.html&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Directives importants&lt;/h3&gt;
-&lt;h4&gt;Directiva &amp;lt;Directory&amp;gt;.&lt;/h4&gt;
-&lt;p&gt;La directiva Directory permet configurar permisos en els diferents directoris del nostre espai web. Es tracta d'una directriu que es fa servir per definir característiques que només s'aplicaran al directori especificat i no a tot el servidor (per això s'ha de tancar).&lt;/p&gt;
-&lt;p&gt;Aquests permisos serien els següents:&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
+             <unicode content="true" value="&lt;p&gt;La información se encuentra en &lt;a href=&quot;https://help.ubuntu.com/16.04/serverguide/httpd.html.es&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;https://help.ubuntu.com/lts/serverguide/httpd.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Directivas importantes&lt;/h3&gt;
+&lt;h4&gt;Directiva &amp;lt;Directory&amp;gt;&lt;/h4&gt;
+&lt;p&gt;La directiva Directory permite configurar permisos en los diferentes directorios de nuestro espacio web. Se trata de una directiva que se usa para definir características que solo se aplicarán al directorio especificado y no a todo el servidor (por eso debe cerrarse).&lt;/p&gt;
+&lt;p&gt;Estos permisos son los siguientes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Options&lt;/strong&gt;&lt;br /&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Indexes&lt;/strong&gt;. Si dins de la carpeta no hi ha cap arxiu igual que el que hem definit al paràmetre DirectoryIndex al navegador es mostrarà un índex amb tots els arxius de la carpeta actual.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;FollowSymLinks&lt;/strong&gt;. El servidor seguirà els enllaços simbòlics (lògics), és a dir, els àlies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indexes&lt;/strong&gt;. Si dentro de la carpeta no hay ningún archivo igual al que hemos definido en el parámetro DirectoryIndex, el navegador mostrará un índice con todos los archivos de la carpeta actual.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FollowSymLinks&lt;/strong&gt;. El servidor seguirá los enlaces simbólicos (lógicos), es decir, los alias.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Require &lt;/b&gt;all denied, Require not ip 192.168.1.50. Denega la petició a una carpeta, un arxiu o una adreça d’Internet.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Require&lt;/strong&gt; all granted, Require ip 192.168.1.50. Permet la petició a una carpeta, un arxiu o una adreça d’Internet.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Require&lt;/b&gt; all denied, Require not ip 192.168.1.50. Deniega la petición a una carpeta, un archivo o una dirección de Internet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Require&lt;/strong&gt; all granted, Require ip 192.168.1.50. Permite la petición a una carpeta, un archivo o una dirección de Internet.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt;Directiva&lt;/span&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt; &amp;lt;Files&amp;gt;&lt;/span&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt;La directiva Files permet configurar permisos en els diferents arxius del nostre espai web. Val a dir que el paràmetre Files ha d'estar inclòs dintre del paràmetre Directory.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt;Aquests permisos serien els següents:&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Directiva &amp;lt;Files&amp;gt;&lt;/h4&gt;
+&lt;p&gt;La directiva Files permite configurar permisos en los diferentes archivos de nuestro espacio web. Cabe señalar que el parámetro Files debe estar incluido dentro del parámetro Directory.&lt;/p&gt;
+&lt;p&gt;Estos permisos son los siguientes:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;require all denied, require not ip  192.168.1.50. Denega la petició a un arxiu o una adreça d’Internet.&lt;/li&gt;
-&lt;li&gt;require all granted, require ip 192.168.1.50. Permet la petició a un arxiu o una adreça de Internet.&lt;/li&gt;
-&lt;li&gt;A tall d'exemple, podríem trobar el següent:
+&lt;li&gt;require all denied, require not ip 192.168.1.50. Deniega la petición a un archivo o una dirección de Internet.&lt;/li&gt;
+&lt;li&gt;require all granted, require ip 192.168.1.50. Permite la petición a un archivo o una dirección de Internet.&lt;/li&gt;
+&lt;li&gt;A modo de ejemplo, podríamos encontrar lo siguiente:
 &lt;ol&gt;
-&lt;li&gt;Volem prohibir l'accés a arxius amb format JPG dintre de la carpeta &lt;code&gt;/var/www/serveisenxarxa/public_html&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Queremos prohibir el acceso a archivos con formato JPG dentro de la carpeta &lt;code&gt;/var/www/serveisenxarxa/public_html&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -1832,12 +1830,8 @@ text through the text editing buttons associated with the field."></unicode>
 &amp;lt;/directory&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;h4&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt;Directiva &amp;lt;VirtualHost&amp;gt;&lt;/span&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt;La directiva virtualhost permet configurar més d’un lloc web en un mateix servidor, és a dir, una mateixa adreça d’Internet per a diferents noms de domini. Val a dir que, si volem utilitzar aquest paràmetre, cal haver configurat el servidor de noms de domini (DNS) perquè adreci els noms de domini cap al nostre servidor web Apache.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;"></unicode>
+&lt;h4&gt;Directiva &amp;lt;VirtualHost&amp;gt;&lt;/h4&gt;
+&lt;p&gt;La directiva VirtualHost permite configurar más de un sitio web en un mismo servidor, es decir, una misma dirección de Internet para diferentes nombres de dominio. Cabe señalar que, si queremos utilizar este parámetro, es necesario haber configurado el servidor de nombres de dominio (DNS) para que dirija los nombres de dominio hacia nuestro servidor web Apache.&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1921,7 +1915,7 @@ text through the text editing buttons associated with the field."></unicode>
             <instance class="exe.engine.genericidevice.GenericIdevice" reference="41">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="06.02: Instal·lació Apache2"></unicode>
+              <unicode value="Instalación de Apache2"></unicode>
               <string role="key" value="_author"></string>
               <unicode value="University of Auckland"></unicode>
               <string role="key" value="_purpose"></string>
@@ -1955,26 +1949,26 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;h3&gt;Objectiu&lt;/h3&gt;
+                 <unicode content="true" value="&lt;h3&gt;Objetivo&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Aprendre a instal·lar Apache2&lt;/li&gt;
-&lt;li&gt;Conèixer els seus arxius més importants&lt;/li&gt;
-&lt;li&gt;Configurar el servidor web per defecte.&lt;/li&gt;
-&lt;li&gt;Verificar els arxius de registre.&lt;/li&gt;
+&lt;li&gt;Aprender a instalar Apache2&lt;/li&gt;
+&lt;li&gt;Conocer sus archivos más importantes&lt;/li&gt;
+&lt;li&gt;Configurar el servidor web por defecto.&lt;/li&gt;
+&lt;li&gt;Verificar los archivos de registro.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Activitat&lt;/h3&gt;
+&lt;h3&gt;Actividad&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Instal·la el servidor web Apache2. &lt;/li&gt;
-&lt;li&gt;Comprova que pots accedir tant des de la xarxa interna com la externa.&lt;/li&gt;
-&lt;li&gt;On es guarda la configuració del servidor virtual per defecte? I la configuració general d'Apache2?&lt;/li&gt;
-&lt;li&gt;Quina és la ruta del directori des del que s'han de servir els arxius del servidor virtual per defecte?&lt;/li&gt;
-&lt;li&gt;On es troba l'arxiu &lt;code&gt;httpd.conf&lt;/code&gt;?&lt;/li&gt;
-&lt;li&gt;Quina diferència hi ha entre el directori &lt;code&gt;conf-available&lt;/code&gt; i &lt;code&gt;conf-enabled&lt;/code&gt;?&lt;/li&gt;
-&lt;li&gt;En quin arxiu es troba la configuració del lloc web virtual per defecte? &lt;/li&gt;
-&lt;li&gt;Configura el DNS de forma que l'adreça: &lt;a href=&quot;http://www.aula##.lan&quot;&gt;www.aula##.lan&lt;/a&gt; permeta l'accés al servidor web, tant des de la xarxa interna com des de l'externa.&lt;/li&gt;
+&lt;li&gt;Instala el servidor web Apache2.&lt;/li&gt;
+&lt;li&gt;Comprueba que puedes acceder tanto desde la red interna como externa.&lt;/li&gt;
+&lt;li&gt;¿Dónde se guarda la configuración del servidor virtual por defecto? ¿Y la configuración general de Apache2?&lt;/li&gt;
+&lt;li&gt;¿Cuál es la ruta del directorio desde donde deben servirse los archivos del servidor virtual por defecto?&lt;/li&gt;
+&lt;li&gt;¿Dónde se encuentra el archivo &lt;code&gt;httpd.conf&lt;/code&gt;?&lt;/li&gt;
+&lt;li&gt;¿Qué diferencia hay entre el directorio &lt;code&gt;conf-available&lt;/code&gt; y &lt;code&gt;conf-enabled&lt;/code&gt;?&lt;/li&gt;
+&lt;li&gt;¿En qué archivo se encuentra la configuración del sitio web virtual por defecto?&lt;/li&gt;
+&lt;li&gt;Configura el DNS de forma que la dirección: &lt;a href=&quot;http://www.aula##.lan&quot;&gt;www.aula##.lan&lt;/a&gt; permita el acceso al servidor web, tanto desde la red interna como externa.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Recursos&lt;/h3&gt;
-&lt;p&gt;En la &lt;a href=&quot;https://help.ubuntu.com/16.04/serverguide/httpd.html&quot; target=&quot;_blank&quot; title=&quot;Ubuntu Server Guide 16.04&quot; rel=&quot;noopener noreferrer&quot;&gt;Ubuntu Server Guide&lt;/a&gt;&lt;span&gt; disposes de la informació necessària per a fer la instal·lació, la configuració i respondre les preguntes.&lt;/span&gt;&lt;/p&gt;"></unicode>
+&lt;p&gt;En la &lt;a href=&quot;https://help.ubuntu.com/16.04/serverguide/httpd.html&quot; target=&quot;_blank&quot; title=&quot;Ubuntu Server Guide 16.04&quot; rel=&quot;noopener noreferrer&quot;&gt;Guía del Servidor de Ubuntu&lt;/a&gt; dispones de la información necesaria para realizar la instalación, configuración y responder las preguntas.&lt;/p&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2088,15 +2082,15 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;Quan parlem de la creació de llocs virtuals ens estem referint a l’acció de fer treballar més d’un lloc web, per exemple, les pàgines web &lt;code&gt;www.web1.cat&lt;/code&gt; i &lt;code&gt;www.web2.cat&lt;/code&gt; en un únic ordinador.&lt;/p&gt;
-&lt;p&gt;Tal com mostra la figura següent tot i que tots dos dominis estiguen treballant en la mateixa màquina física, mai no ens n’adonarem quan visitem aquests llocs web.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;resources/smx_m07u3-36_1.png&quot; alt=&quot;Servidors virtuals&quot; title=&quot;Servidors virtuals&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;430&quot; height=&quot;623&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Els llocs web virtuals es poden &lt;strong&gt;basar tant en adreces d'Internet (IP)&lt;/strong&gt;, on cada lloc web té una adreça d'Internet (IP) diferent, com &lt;strong&gt;en noms diferents&lt;/strong&gt;, és a dir, diversos llocs web amb diferents noms de domini estaran treballant amb una única adreça d'Internet (IP). Val a dir que, tot i que estiguem treballant en la mateixa màquina física, com a usuaris observarem que l'usuari, quan visita aquests llocs web, no se n'adona.&lt;/p&gt;
-&lt;p&gt;Per explicar la tècnica de la creació de llocs web virtuals, treballarem amb dos exemples:&lt;code&gt; www.aplicacionsweb.org&lt;/code&gt; i &lt;code&gt;www.serveisenxarxa.org&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Els dos llocs webs virtuals seran servits pel mateix servidor web. El directori per defecte on es troben les pàgines web és &lt;code&gt;/var/www&lt;/code&gt;, on crearem les diferents estructures de directori. Per tant, dins dels directoris &lt;code&gt;/var/www/aplicacionsweb&lt;/code&gt; i &lt;code&gt;/var/www/seveisenxarxa&lt;/code&gt; trobarem els arxius dels llocs web corresponents a les pàgines web anteriors.&lt;/p&gt;
-&lt;p&gt;Per a la configuració i posada en marxa dels llocs web virtuals hem de construir, en primer lloc, l'estructura de directoris on desarem els llocs. Utilitzarem dintre del directori reservat a cada lloc web la carpeta de &lt;code&gt;public_html&lt;/code&gt; per allotjar els arxius del lloc web.&lt;/p&gt;
-&lt;p&gt;Un cop definits els directoris on desarem els llocs web virtuals, haurem d’adreçar-nos al directori &lt;code&gt;/etc/apache2&lt;/code&gt;, on trobarem els arxius de configuració d’Apache. En aquest cas, l'arxiu principal de configuració és &lt;code&gt;apache2.conf&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Considerant que per treballar amb els llocs virtuals haurem de fer alguns canvis en el contingut de l’arxiu, haurem de considerar, abans d'establir cap canvi, quina configuració de llocs web virtuals volem crear, és a dir, llocs virtuals basats en adreces d’Internet (IP) o bé basats en noms.&lt;span style=&quot;font-size: 1em;&quot;&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+             <unicode content="true" value="&lt;p&gt;Cuando hablamos de la creación de sitios virtuales nos referimos a la acción de hacer funcionar más de un sitio web, por ejemplo, las páginas web &lt;code&gt;www.web1.cat&lt;/code&gt; y &lt;code&gt;www.web2.cat&lt;/code&gt; en un único ordenador.&lt;/p&gt;
+&lt;p&gt;Tal como muestra la siguiente figura, aunque ambos dominios estén funcionando en la misma máquina física, nunca nos daremos cuenta cuando visitamos estos sitios web.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;resources/smx_m07u3-36_1.png&quot; alt=&quot;Servidores virtuales&quot; title=&quot;Servidores virtuales&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;430&quot; height=&quot;623&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Los sitios web virtuales pueden &lt;strong&gt;basarse tanto en direcciones de Internet (IP)&lt;/strong&gt;, donde cada sitio web tiene una dirección de Internet (IP) diferente, como &lt;strong&gt;en nombres diferentes&lt;/strong&gt;, es decir, varios sitios web con diferentes nombres de dominio estarán funcionando con una única dirección de Internet (IP). Cabe destacar que, aunque estemos trabajando en la misma máquina física, como usuarios no percibiremos esta diferencia al visitar estos sitios web.&lt;/p&gt;
+&lt;p&gt;Para explicar la técnica de la creación de sitios web virtuales, trabajaremos con dos ejemplos:&lt;code&gt; www.aplicacionesweb.org&lt;/code&gt; y &lt;code&gt;www.serveisenxarxa.org&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Ambos sitios web virtuales serán servidos por el mismo servidor web. El directorio por defecto donde se encuentran las páginas web es &lt;code&gt;/var/www&lt;/code&gt;, donde crearemos las diferentes estructuras de directorio. Por lo tanto, dentro de los directorios &lt;code&gt;/var/www/aplicacionesweb&lt;/code&gt; y &lt;code&gt;/var/www/seveisenxarxa&lt;/code&gt; encontraremos los archivos de los sitios web correspondientes a las páginas web anteriores.&lt;/p&gt;
+&lt;p&gt;Para la configuración y puesta en marcha de los sitios web virtuales, primero debemos construir la estructura de directorios donde almacenaremos los sitios. Dentro del directorio reservado a cada sitio web, utilizaremos la carpeta &lt;code&gt;public_html&lt;/code&gt; para alojar los archivos del sitio web.&lt;/p&gt;
+&lt;p&gt;Una vez definidos los directorios donde almacenaremos los sitios web virtuales, debemos dirigirnos al directorio &lt;code&gt;/etc/apache2&lt;/code&gt;, donde encontraremos los archivos de configuración de Apache. En este caso, el archivo principal de configuración es &lt;code&gt;apache2.conf&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Considerando que para trabajar con los sitios virtuales debemos realizar algunos cambios en el contenido del archivo, es importante definir previamente qué tipo de configuración de sitios web virtuales queremos crear, es decir, sitios virtuales basados en direcciones de Internet (IP) o bien basados en nombres.&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2116,7 +2110,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1078"></int>
+                    <int value="1092"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -2130,7 +2124,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="22_86.22"></unicode>
+                  <unicode value="22_86.24"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="47">
                    <dictionary>
@@ -2141,7 +2135,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="smx_m07u3-36_1.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpf8ktqf\\smx_m07u3-36_1.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpusojww\\smx_m07u3-36_1.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="582798a8bc2ddbd637bb83e9c5ce61eb"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2170,7 +2164,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="23"></int>
+             <int value="25"></int>
              <string role="key" value="parentNode"></string>
              <reference key="46"></reference>
             </dictionary>
@@ -2240,68 +2234,62 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;h3&gt;Servidors virtuals en Apache&lt;/h3&gt;
-&lt;p&gt;Apache2 es lliura amb una configuració predeterminada &lt;em&gt;virtual-host-friendly&lt;/em&gt;. És a dir, està configurat amb un únic &lt;em&gt;host&lt;/em&gt; virtual predeterminat (utilitzant la directiva &lt;code&gt;VirtualHost&lt;/code&gt;) que es pot modificar o utilitzar com si tingués un sol lloc o que s'utilitzés com a plantilla per a servidors virtuals addicionals si teniu diversos llocs. Si es deixa sol, l'amfitrió virtual predeterminat servirà com a lloc predeterminat o els usuaris del lloc veuran si l'URL que introduïu no coincideix amb la directiva &lt;code&gt;ServerName&lt;/code&gt; de cap dels vostres llocs personalitzats. Per modificar el servidor virtual predeterminat, editeu el fitxer &lt;code&gt;/etc/apache2/sites-available/000-default.conf.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt;Si voleu configurar un nou host virtual o lloc, copieu aquests fitxers en el mateix directori amb el nom que seleccioneu. Per exemple:&lt;/span&gt;&lt;/p&gt;
+             <unicode content="true" value="&lt;h3&gt;Servidores virtuales en Apache&lt;/h3&gt;
+&lt;p&gt;Apache2 se entrega con una configuración predeterminada &lt;em&gt;virtual-host-friendly&lt;/em&gt;. Es decir, está configurado con un único &lt;em&gt;host&lt;/em&gt; virtual predeterminado (utilizando la directiva &lt;code&gt;VirtualHost&lt;/code&gt;) que se puede modificar o utilizar como si tuviera un solo sitio o como plantilla para servidores virtuales adicionales si tienes varios sitios. Si se deja tal cual, el anfitrión virtual predeterminado servirá como sitio por defecto o los usuarios verán este sitio si la URL que introducen no coincide con la directiva &lt;code&gt;ServerName&lt;/code&gt; de ninguno de sus sitios personalizados. Para modificar el servidor virtual predeterminado, edita el archivo &lt;code&gt;/etc/apache2/sites-available/000-default.conf.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Si deseas configurar un nuevo host virtual o sitio, copia estos archivos en el mismo directorio con el nombre que elijas. Por ejemplo:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
 &lt;div&gt;
-&lt;pre&gt;&lt;code&gt;sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/elmeullocweb.conf
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/misitio.conf&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;La configuració per defecte és la següent:&lt;/p&gt;
+&lt;p&gt;La configuración por defecto es la siguiente:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike line-numbers&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
-	# The ServerName directive sets the request scheme, hostname and port that
-	# the server uses to identify itself. This is used when creating
-	# redirection URLs. In the context of virtual hosts, the ServerName
-	# specifies what hostname must appear in the request's Host: header to
-	# match this virtual host. For the default virtual host (this file) this
-	# value is not decisive as it is used as a last resort host regardless.
-	# However, you must set it for any further virtual host explicitly.
+	# La directiva ServerName establece el esquema de solicitud, el nombre de host y el puerto
+	# que el servidor usa para identificarse. Se usa al crear URLs de redirección.
+	# Para hosts virtuales, ServerName especifica qué nombre de host debe aparecer en la
+	# cabecera Host: de la solicitud para coincidir con este host virtual.
+	# Para el host virtual predeterminado, este valor no es decisivo ya que se usa como
+	# último recurso.
 	#ServerName www.example.com
 
 	ServerAdmin webmaster@localhost
 	DocumentRoot /var/www/html
 
-	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+	# Niveles de log disponibles: trace8, ..., trace1, debug, info, notice, warn,
 	# error, crit, alert, emerg.
-	# It is also possible to configure the loglevel for particular
-	# modules, e.g.
+	# También es posible configurar el nivel de log para módulos específicos.
 	#LogLevel info ssl:warn
 
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 
-	# For most configuration files from conf-available/, which are
-	# enabled or disabled at a global level, it is possible to
-	# include a line for only one particular virtual host. For example the
-	# following line enables the CGI configuration for this host only
-	# after it has been globally disabled with &quot;a2disconf&quot;.
+	# Para la mayoría de los archivos de configuración en conf-available/
+	# que se activan o desactivan globalmente, es posible incluir
+	# una línea para un host virtual en particular. Por ejemplo:
 	#Include conf-available/serve-cgi-bin.conf
 &amp;lt;/VirtualHost&amp;gt;
 
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Una vegada realitzats els canvis activarem en lloc web amb el comandament &lt;code&gt;a2ensite&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Una vez realizados los cambios, activaremos el sitio web con el comando &lt;code&gt;a2ensite&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
 &lt;div&gt;
-&lt;pre&gt;&lt;code&gt;#a2ensite elmeullocweb&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;sudo a2ensite misitio&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Després carregarem de nou la configuració d'Apache2 amb el comandament:&lt;/p&gt;
+&lt;p&gt;Luego, recargaremos la configuración de Apache2 con el siguiente comando:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
 &lt;div&gt;
-&lt;pre&gt;&lt;code&gt;#service apache2 reload
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;sudo service apache2 reload&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Per a la depuració d'error en els arxius de configuració de llocs virtuals cal utilitzar:&lt;/p&gt;
+&lt;p&gt;Para depurar errores en los archivos de configuración de sitios virtuales, usa:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
 &lt;div&gt;
-&lt;pre&gt;&lt;code&gt;#apache2ctl -t&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;sudo apache2ctl -t&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -2392,17 +2380,16 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;h2&gt;Llocs virtuals basats en l’adreça d’Internet (IP)&lt;/h2&gt;
-&lt;p&gt;En aquest cas, podrem allotjar múltiples dominis en una única màquina que disposarà de diferents adreces d’Internet (IP) i, en cadascuna d’elles, s’hi executarà un lloc virtual.&lt;/p&gt;
-&lt;p&gt;Haurem de canviar la directiva &lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;&lt;/code&gt; de forma que s'especifique a quina adreça IP ha de respondre. Per exemple &lt;code&gt;&amp;lt;VirtualHost 192.168.2.112:80&amp;gt;&lt;/code&gt; si ha de respondre a l'adreça IP 192.168.2.112.&lt;/p&gt;
+             <unicode content="true" value="&lt;h2&gt;Sitios virtuales basados en la dirección de Internet (IP)&lt;/h2&gt;
+&lt;p&gt;En este caso, podemos alojar múltiples dominios en una única máquina que dispondrá de diferentes direcciones de Internet (IP) y, en cada una de ellas, se ejecutará un sitio virtual.&lt;/p&gt;
+&lt;p&gt;Debemos cambiar la directiva &lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;&lt;/code&gt; para especificar a qué dirección IP debe responder. Por ejemplo, &lt;code&gt;&amp;lt;VirtualHost 192.168.2.112:80&amp;gt;&lt;/code&gt; si debe responder a la dirección IP 192.168.2.112.&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost 192.168.2.112:80&amp;gt;
 &lt;span style=&quot;color: #993300;&quot;&gt;DocumentRoot &lt;/span&gt;&quot;/var/www/serveisenxarxa/public_html&quot;&lt;strong&gt;
 &lt;/strong&gt;&amp;lt;/VirtualHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;"></unicode>
+&lt;/div&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2491,8 +2478,8 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;h2&gt;Llocs virtuals basats en el nom de domini&lt;/h2&gt;
-&lt;p&gt;El problema dels llocs web virtuals basats en adreces d’Internet (IP) és que, considerant que s'allotgen molts dominis, necessitarem una adreça d’Internet (IP) per a cadascun dels dominis. Per tant, pot ser preferible treballar amb llocs virtuals basats en noms. En aquest cas, després de copiar l'arxiu de configuració per defecte, haurem d'afegir la directriu &lt;code&gt;ServerName&lt;/code&gt; donat que, si bé els llocs virtuals es troben en la mateixa IP, s'ha de canviar el nom per a cadascun dels llocs. En el cas de treballar amb servidor DNS, aquest haurà d'estar configurat per resoldre aquests llocs en les zones corresponents. I la directiva DocumentRoot per a indicar des de quin directori es serviran les pàgines. Aquesta seria la configuració per a lloc www.serveisenxarxa.org:&lt;/p&gt;
+             <unicode content="true" value="&lt;h2&gt;Sitios virtuales basados en el nombre de dominio&lt;/h2&gt;
+&lt;p&gt;El problema de los sitios web virtuales basados en direcciones de Internet (IP) es que, considerando que se alojan muchos dominios, necesitaremos una dirección de Internet (IP) para cada uno de los dominios. Por lo tanto, puede ser preferible trabajar con sitios virtuales basados en nombres. En este caso, después de copiar el archivo de configuración por defecto, debemos agregar la directiva &lt;code&gt;ServerName&lt;/code&gt; ya que, aunque los sitios virtuales se encuentren en la misma IP, se debe cambiar el nombre para cada uno de los sitios. En el caso de trabajar con un servidor DNS, este deberá estar configurado para resolver estos sitios en las zonas correspondientes. Además, se debe definir la directiva &lt;code&gt;DocumentRoot&lt;/code&gt; para indicar desde qué directorio se servirán las páginas. Esta sería la configuración para el sitio www.serveisenxarxa.org:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-clike&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
@@ -2501,8 +2488,7 @@ DocumentRoot &lt;/span&gt;&quot;/var/www/serveisenxarxa/public_html&quot;&lt;str
 &lt;/strong&gt;&amp;lt;/VirtualHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Finalment, per verificar que tots els canvis aplicats han tingut èxit, tornarem a arrencar el servidor web.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;"></unicode>
+&lt;p&gt;Finalmente, para verificar que todos los cambios aplicados han tenido éxito, reiniciaremos el servidor web.&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2586,7 +2572,7 @@ DocumentRoot &lt;/span&gt;&quot;/var/www/serveisenxarxa/public_html&quot;&lt;str
             <instance class="exe.engine.genericidevice.GenericIdevice" reference="54">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="06.03: Configuració bàsica d'un node vitual"></unicode>
+              <unicode value="Configuración básica de un nodo virtual"></unicode>
               <string role="key" value="_author"></string>
               <unicode value="University of Auckland"></unicode>
               <string role="key" value="_purpose"></string>
@@ -2620,17 +2606,17 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;h3&gt;Objectius&lt;/h3&gt;
-&lt;p&gt;Els objectius de l'activitat són:&lt;/p&gt;
+                 <unicode content="true" value="&lt;h3&gt;Objetivos&lt;/h3&gt;
+&lt;p&gt;Los objetivos de la actividad son:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Conèixer els paràmetres bàsics de configuració d'Apache2.&lt;/li&gt;
-&lt;li&gt;Distingir entre els diferents nivells de configuració (Global, per defecte, node virtual) que té Apache2.&lt;/li&gt;
-&lt;li&gt;Conèixer els diferents tipus de registres del servidor web Apache2.&lt;/li&gt;
-&lt;li&gt;Entendre el concepte de node virtual (virtual host).&lt;/li&gt;
-&lt;li&gt;Crear un node virtual&lt;/li&gt;
+&lt;li&gt;Conocer los parámetros básicos de configuración de Apache2.&lt;/li&gt;
+&lt;li&gt;Distinguir entre los diferentes niveles de configuración (Global, por defecto, nodo virtual) que tiene Apache2.&lt;/li&gt;
+&lt;li&gt;Conocer los diferentes tipos de registros del servidor web Apache2.&lt;/li&gt;
+&lt;li&gt;Entender el concepto de nodo virtual (virtual host).&lt;/li&gt;
+&lt;li&gt;Crear un nodo virtual&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Supòsit&lt;/h3&gt;
-&lt;p&gt;Per a realitzar la següent activitat ho farem des del supòsit següent: el nostre equip servirà de servidor d'allotjament de diversos llocs web. Per la qual cosa estructurarem la carpeta que conté els llocs web&lt;code&gt; /var/www&lt;/code&gt; de forma que per a cada lloc web disposarem d'una carpeta que contindrà tant les pàgines &lt;em&gt;html&lt;/em&gt; com els registres del servidor (&lt;em&gt;logs&lt;/em&gt;). Esta carpeta &lt;strong&gt;tindrà el nom del domini a publicar&lt;/strong&gt;. La imatge següent representa l'estructura de carpetes allotjant dos llocs web.&lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Supuesto&lt;/h3&gt;
+&lt;p&gt;Para realizar la siguiente actividad lo haremos desde el siguiente supuesto: nuestro equipo servirá como servidor de alojamiento de varios sitios web. Por lo tanto, estructuraremos la carpeta que contiene los sitios web &lt;code&gt;/var/www&lt;/code&gt; de forma que para cada sitio web dispondremos de una carpeta que contendrá tanto las páginas &lt;em&gt;html&lt;/em&gt; como los registros del servidor (&lt;em&gt;logs&lt;/em&gt;). Esta carpeta &lt;strong&gt;tendrá el nombre del dominio a publicar&lt;/strong&gt;. La imagen siguiente representa la estructura de carpetas alojando dos sitios web.&lt;span class=&quot;license&quot;&gt;&lt;span class=&quot;sep&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-c line-numbers&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;/var/www
@@ -2644,26 +2630,26 @@ that may help or hinder the learner in the performance of the task."></unicode>
     └── public_html&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;Per a cada lloc web es crearà un usuari en el sistema perquè puga administrar el contingut del lloc web. L'usuari tindrà el mateix nom que el domini (&lt;code&gt;user_www&lt;/code&gt;) i sols tindrà accés via FTP a la carpeta del domini (&lt;code&gt;www.xarxa00.lan&lt;/code&gt;).&lt;/p&gt;
-&lt;h3&gt;Activitat (part 1): creació del lloc web virtual&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;Para cada sitio web se creará un usuario en el sistema para que pueda administrar el contenido del sitio web. El usuario tendrá el mismo nombre que el dominio (&lt;code&gt;user_www&lt;/code&gt;) y solo tendrá acceso vía FTP a la carpeta del dominio (&lt;code&gt;www.xarxa00.lan&lt;/code&gt;).&lt;/p&gt;
+&lt;h3&gt;Actividad (parte 1): creación del sitio web virtual&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;El nou lloc web virtual respondrà al nom de domini &lt;a href=&quot;http://www.xarxa##.lan. &quot;&gt;www.xarxa##.lan. &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Seguint l'esquema anterior crea les carpetes necessàries.&lt;/li&gt;
-&lt;li&gt;Crea un nou lloc virtual a partir del ja existent i ajusta després la configuració.&lt;/li&gt;
-&lt;li&gt;Edita també el servidor DNS si es necessari.&lt;/li&gt;
-&lt;li&gt;Penja un document HTML en el lloc web.&lt;/li&gt;
-&lt;li&gt;Comprova el funcionament.&lt;/li&gt;
-&lt;li&gt;Fent ús de la directiva ErrorDocument mostra un error personalitzat quan el codi d'estat siga 404 Not Found.&lt;/li&gt;
-&lt;li&gt;Documenta els canvis realitzats estructurant correctament el contingut.&lt;/li&gt;
+&lt;li&gt;El nuevo sitio web virtual responderá al nombre de dominio &lt;a href=&quot;http://www.xarxa##.lan&quot;&gt;www.xarxa##.lan&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Siguiendo el esquema anterior, crea las carpetas necesarias.&lt;/li&gt;
+&lt;li&gt;Crea un nuevo sitio virtual a partir del ya existente y ajusta después la configuración.&lt;/li&gt;
+&lt;li&gt;Edita también el servidor DNS si es necesario.&lt;/li&gt;
+&lt;li&gt;Sube un documento HTML al sitio web.&lt;/li&gt;
+&lt;li&gt;Verifica el funcionamiento.&lt;/li&gt;
+&lt;li&gt;Usando la directiva ErrorDocument, muestra un error personalizado cuando el código de estado sea 404 Not Found.&lt;/li&gt;
+&lt;li&gt;Documenta los cambios realizados estructurando correctamente el contenido.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Activitat (part 2): usuaris FTP&lt;/h3&gt;
+&lt;h3&gt;Actividad (parte 2): usuarios FTP&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Crea un usuari específic per al lloc web amb els nom &lt;code&gt;user_www&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Habilita-los accés mitjançant FTP a la carpeta del lloc web, perquè puguen gestionar el arxius del lloc web mitjançant FTP.&lt;/li&gt;
-&lt;li&gt;Documenta els canvis realitzant.&lt;/li&gt;
+&lt;li&gt;Crea un usuario específico para el sitio web con el nombre &lt;code&gt;user_www&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Habilita acceso mediante FTP a la carpeta del sitio web para que puedan gestionar los archivos del sitio web mediante FTP.&lt;/li&gt;
+&lt;li&gt;Documenta los cambios realizados.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Recursos&lt;/h3&gt;
-&lt;p&gt;&lt;span&gt;En la &lt;/span&gt;&lt;a href=&quot;https://help.ubuntu.com/16.04/serverguide/httpd.html.es&quot; target=&quot;_blank&quot; title=&quot;Ubuntu Server Guide 16.04&quot; rel=&quot;noopener noreferrer&quot;&gt;Ubuntu Server Guide&lt;/a&gt;&lt;span&gt; en l'apartat &lt;em&gt;Opciones básicas&lt;/em&gt; disposes de la informació necessària per a fer la instal·lació i la configuració.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;En la &lt;/span&gt;&lt;a href=&quot;https://help.ubuntu.com/16.04/serverguide/httpd.html.es&quot; target=&quot;_blank&quot; title=&quot;Ubuntu Server Guide 16.04&quot; rel=&quot;noopener noreferrer&quot;&gt;Ubuntu Server Guide&lt;/a&gt;&lt;span&gt; en el apartado &lt;em&gt;Opciones básicas&lt;/em&gt; dispones de la información necesaria para realizar la instalación y la configuración.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
@@ -2778,7 +2764,12 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value=""></unicode>
+             <unicode content="true" value="&lt;p&gt;En los siguientes enlaces dispones de la información necesaria para aprender a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Controlar el acceso a los recursos del servidor. (&lt;a href=&quot;https://httpd.apache.org/docs/2.4/es/howto/access.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;https://httpd.apache.org/docs/2.4/es/howto/access.html&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Aprender a configurar archivos &lt;code&gt;.htaccess&lt;/code&gt; (&lt;a href=&quot;https://httpd.apache.org/docs/2.4/es/howto/htaccess.htm&quot;&gt;https://httpd.apache.org/docs/2.4/es/howto/htaccess.htm&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Proteger el acceso a determinados recursos mediante sistemas de autenticación. (&lt;a href=&quot;https://httpd.apache.org/docs/2.4/es/howto/auth.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;https://httpd.apache.org/docs/2.4/es/howto/auth.html&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2794,102 +2785,6 @@ text through the text editing buttons associated with the field."></unicode>
                <list></list>
                <string role="key" value="idevice"></string>
                <reference key="58"></reference>
-              </dictionary>
-             </instance>
-             <string role="key" value="intlinks_to_anchors"></string>
-             <dictionary></dictionary>
-             <string role="key" value="nextImageId"></string>
-             <int value="0"></int>
-             <string role="key" value="parentNode"></string>
-             <reference key="59"></reference>
-            </dictionary>
-           </instance>
-           <string role="key" value="edit"></string>
-           <bool value="0"></bool>
-           <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
-           <int value="7"></int>
-           <string role="key" value="icon"></string>
-           <string value=""></string>
-           <string role="key" value="id"></string>
-           <unicode value="26"></unicode>
-           <string role="key" value="lastIdevice"></string>
-           <bool value="0"></bool>
-           <string role="key" value="originalicon"></string>
-           <string value=""></string>
-           <string role="key" value="parent"></string>
-           <none></none>
-           <string role="key" value="parentNode"></string>
-           <reference key="59"></reference>
-           <string role="key" value="systemResources"></string>
-           <list></list>
-           <string role="key" value="type"></string>
-           <none></none>
-           <string role="key" value="undo"></string>
-           <bool value="1"></bool>
-           <string role="key" value="userResources"></string>
-           <list></list>
-           <string role="key" value="version"></string>
-           <int value="0"></int>
-          </dictionary>
-         </instance>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="60">
-          <dictionary>
-           <string role="key" value="_title"></string>
-           <unicode value="Free Text"></unicode>
-           <string role="key" value="_author"></string>
-           <unicode value="University of Auckland"></unicode>
-           <string role="key" value="_purpose"></string>
-           <unicode value="The majority of a learning resource will be 
-establishing context, delivering instructions and providing general information.
-This provides the framework within which the learning activities are built and 
-delivered."></unicode>
-           <string role="key" value="_tip"></string>
-           <string value=""></string>
-           <string role="key" value="childs"></string>
-           <list></list>
-           <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="61">
-            <dictionary>
-             <string role="key" value="_id"></string>
-             <int value="86"></int>
-             <string role="key" value="_idevice"></string>
-             <reference key="60"></reference>
-             <string role="key" value="_instruc"></string>
-             <unicode value="Use this field to enter text. This 
-iDevice has no emphasis applied although limited formatting can be applied to 
-text through the text editing buttons associated with the field."></unicode>
-             <string role="key" value="_name"></string>
-             <unicode value="Free Text"></unicode>
-             <string role="key" value="anchor_names"></string>
-             <list></list>
-             <string role="key" value="anchors_linked_from_fields"></string>
-             <dictionary></dictionary>
-             <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;En els següents enllaços disposeu de la informació necessària per a aprendre a:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Controlar l'accés als recursos del servidor. (&lt;a href=&quot;https://httpd.apache.org/docs/2.4/es/howto/access.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;https://httpd.apache.org/docs/2.4/es/howto/access.html&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Aprendre a configurar arxius &lt;code&gt;.htaccess&lt;/code&gt; (&lt;a href=&quot;https://httpd.apache.org/docs/2.4/es/howto/htaccess.htm&quot;&gt;https://httpd.apache.org/docs/2.4/es/howto/htaccess.htm&lt;/a&gt;l)&lt;/li&gt;
-&lt;li&gt;Protegir l'accés a determinats recursos mitjançant sistemes d'autenticació. (&lt;a href=&quot;https://httpd.apache.org/docs/2.4/es/howto/auth.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;https://httpd.apache.org/docs/2.4/es/howto/auth.html&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
-             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
-             <int value="4"></int>
-             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
-             <int value="2"></int>
-             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
-             <int value="3"></int>
-             <string role="key" value="htmlTag"></string>
-             <string value="div"></string>
-             <string role="key" value="images"></string>
-             <instance class="exe.engine.galleryidevice.GalleryImages">
-              <dictionary>
-               <string role="key" value=".listitems"></string>
-               <list></list>
-               <string role="key" value="idevice"></string>
-               <reference key="61"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
@@ -2949,16 +2844,16 @@ text through the text editing buttons associated with the field."></unicode>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="64">
+         <instance class="exe.engine.node.Node" reference="62">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Práctica 4: Control de acceso, autorización y autenticación"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.genericidevice.GenericIdevice" reference="62">
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="60">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="06.04. Control d'accés, autorització i autenticació"></unicode>
+              <unicode value="Control de acceso, autorización y autenticación"></unicode>
               <string role="key" value="_author"></string>
               <unicode value="University of Auckland"></unicode>
               <string role="key" value="_purpose"></string>
@@ -2977,12 +2872,12 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <int value="11"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="63">
+               <instance class="exe.engine.field.TextAreaField" reference="61">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="42_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="62"></reference>
+                 <reference key="60"></reference>
                  <string role="key" value="_instruc"></string>
                  <unicode value="Describe the tasks the learners should complete."></unicode>
                  <string role="key" value="_name"></string>
@@ -2992,26 +2887,22 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;h2&gt;Objectius&lt;/h2&gt;
-&lt;h2&gt;Activitats&lt;/h2&gt;
-&lt;h3&gt;Activitat 1: control d'accés&lt;/h3&gt;
+                 <unicode content="true" value="&lt;h2&gt;Objetivos&lt;/h2&gt;
+&lt;h2&gt;Actividades&lt;/h2&gt;
+&lt;h3&gt;Actividad 1: control de acceso&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Crea un directori que responga a la següent URL &lt;code&gt;http://www.xarxa00.lan/admin&lt;/code&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Configura el node virtual perquè sols es puga accedir al directori &lt;code&gt;admin&lt;/code&gt; des de la xarxa interna.&lt;/li&gt;
-&lt;li&gt;Configura el node virtual perquè quan algú intente accedir des de la xarxa externa es mostre un error personalitzat. Fes ús la directiva &lt;code&gt;ErrorDocument&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fes les captures adequades per demostrar que funciona.&lt;/li&gt;
+&lt;li&gt;Crea un directorio que responda a la siguiente URL &lt;code&gt;http://www.xarxa00.lan/admin&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Configura el nodo virtual para que solo se pueda acceder al directorio &lt;code&gt;admin&lt;/code&gt; desde la red interna.&lt;/li&gt;
+&lt;li&gt;Configura el nodo virtual para que cuando alguien intente acceder desde la red externa se muestre un error personalizado. Utiliza la directiva &lt;code&gt;ErrorDocument&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Realiza las capturas adecuadas para demostrar que funciona.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Activitat 2: autenticació bàsica&lt;/h3&gt;
+&lt;h3&gt;Actividad 2: autenticación básica&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Configura el node virtual perquè el directori &lt;code&gt;admin&lt;/code&gt;&lt;span style=&quot;font-size: 1em;&quot;&gt; necessite usuari per accedir-hi.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Crea l'usuari &lt;code&gt;mark&lt;/code&gt; amb la contrasenya &lt;code&gt;1234&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Configura les directives perquè sols l'usuari &lt;code&gt;mark&lt;/code&gt; puga entrar al directori &lt;code&gt;admin&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Fes les captures adequades per demostrar que funciona.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;"></unicode>
+&lt;li&gt;Configura el nodo virtual para que el directorio &lt;code&gt;admin&lt;/code&gt; requiera usuario para acceder.&lt;/li&gt;
+&lt;li&gt;Crea el usuario &lt;code&gt;mark&lt;/code&gt; con la contraseña &lt;code&gt;1234&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Configura las directivas para que solo el usuario &lt;code&gt;mark&lt;/code&gt; pueda acceder al directorio &lt;code&gt;admin&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Realiza las capturas adecuadas para demostrar que funciona.&lt;/li&gt;
+&lt;/ol&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -3026,7 +2917,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="63"></reference>
+                   <reference key="61"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -3034,7 +2925,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="64"></reference>
+                 <reference key="62"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -3049,7 +2940,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="originalicon"></string>
               <unicode value="activity"></unicode>
               <string role="key" value="parentNode"></string>
-              <reference key="64"></reference>
+              <reference key="62"></reference>
               <string role="key" value="systemResources"></string>
               <list>
                <string value="common.js"></string>
@@ -3062,7 +2953,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <int value="0"></int>
              </dictionary>
             </instance>
-            <instance class="exe.engine.genericidevice.GenericIdevice" reference="65">
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="63">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Activity"></unicode>
@@ -3084,12 +2975,12 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <int value="11"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="66">
+               <instance class="exe.engine.field.TextAreaField" reference="64">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="43_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="65"></reference>
+                 <reference key="63"></reference>
                  <string role="key" value="_instruc"></string>
                  <unicode value="Describe the tasks the learners should complete."></unicode>
                  <string role="key" value="_name"></string>
@@ -3099,9 +2990,9 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;p&gt;05.08 - Activitat: Autenticació i autorització en Apache2&lt;br /&gt;Los archivos .htaccess permiten a los usuarios que no tienen permisos modificar la configuración y así poder ejercer algún control sobre el comportamiento de su parte del servidor Apache2.&lt;/p&gt;
+                 <unicode content="true" value="&lt;p&gt;Actividad: Autenticación y autorización en Apache2&lt;br /&gt;Los archivos .htaccess permiten a los usuarios que no tienen permisos modificar la configuración y así poder ejercer algún control sobre el comportamiento de su parte del servidor Apache2.&lt;/p&gt;
 &lt;p&gt;Las directivas que modifican el comportamiento se colocan en un archivo .htaccess situado en el directorio al que tiene que afectar, junto a todos sus subdirectorios. El archivo .htaccess se carga cada vez que se solicita un documento.&lt;/p&gt;
-&lt;p&gt;Font: https://httpd.apache.org/docs/trunk/es/howto/auth.html&lt;/p&gt;"></unicode>
+&lt;p&gt;Fuente: &lt;a href=&quot;https://httpd.apache.org/docs/trunk/es/howto/auth.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;https://httpd.apache.org/docs/trunk/es/howto/auth.html&lt;/a&gt;&lt;/p&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -3116,7 +3007,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="66"></reference>
+                   <reference key="64"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -3124,7 +3015,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="64"></reference>
+                 <reference key="62"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -3139,7 +3030,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="originalicon"></string>
               <unicode value="activity"></unicode>
               <string role="key" value="parentNode"></string>
-              <reference key="64"></reference>
+              <reference key="62"></reference>
               <string role="key" value="systemResources"></string>
               <list>
                <string value="common.js"></string>
@@ -3176,13 +3067,13 @@ that may help or hinder the learner in the performance of the task."></unicode>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="69">
+      <instance class="exe.engine.node.Node" reference="67">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="08| Ejecución de código. Scripts de servidor y de cliente"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="67">
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="65">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Free Text"></unicode>
@@ -3198,12 +3089,12 @@ delivered."></unicode>
            <string role="key" value="childs"></string>
            <list></list>
            <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="68">
+           <instance class="exe.engine.field.TextAreaField" reference="66">
             <dictionary>
              <string role="key" value="_id"></string>
              <int value="85"></int>
              <string role="key" value="_idevice"></string>
-             <reference key="67"></reference>
+             <reference key="65"></reference>
              <string role="key" value="_instruc"></string>
              <unicode value="Use this field to enter text. This 
 iDevice has no emphasis applied although limited formatting can be applied to 
@@ -3235,7 +3126,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1073"></int>
+                    <int value="1087"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -3249,18 +3140,18 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="30_85.15"></unicode>
+                  <unicode value="30_85.17"></unicode>
                   <string role="key" value="_imageResource"></string>
-                  <instance class="exe.engine.resource.Resource" reference="70">
+                  <instance class="exe.engine.resource.Resource" reference="68">
                    <dictionary>
                     <string role="key" value="_idevice"></string>
-                    <reference key="67"></reference>
+                    <reference key="65"></reference>
                     <string role="key" value="_package"></string>
                     <reference key="6"></reference>
                     <string role="key" value="_storageName"></string>
                     <string value="figure_2_client_side_scripting.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpf8ktqf\\figure_2_client_side_scripting.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpusojww\\figure_2_client_side_scripting.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="4361bf660fb5ec6911071494f7a9580d"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3272,7 +3163,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_parent"></string>
-                  <reference key="68"></reference>
+                  <reference key="66"></reference>
                   <string role="key" value="_thumbnailResource"></string>
                   <none></none>
                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -3283,15 +3174,15 @@ text through the text editing buttons associated with the field."></unicode>
                 </instance>
                </list>
                <string role="key" value="idevice"></string>
-               <reference key="68"></reference>
+               <reference key="66"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="16"></int>
+             <int value="18"></int>
              <string role="key" value="parentNode"></string>
-             <reference key="69"></reference>
+             <reference key="67"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -3311,7 +3202,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="parent"></string>
            <none></none>
            <string role="key" value="parentNode"></string>
-           <reference key="69"></reference>
+           <reference key="67"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="type"></string>
@@ -3320,7 +3211,7 @@ text through the text editing buttons associated with the field."></unicode>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
-            <reference key="70"></reference>
+            <reference key="68"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -3345,16 +3236,16 @@ text through the text editing buttons associated with the field."></unicode>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="73">
+         <instance class="exe.engine.node.Node" reference="71">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Práctica 5: Ejecución de código en el cliente y en el servidor"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.genericidevice.GenericIdevice" reference="71">
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="69">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="06.05: Execució de codi. Client i Servidor"></unicode>
+              <unicode value="Ejecución de código. Cliente y servidor"></unicode>
               <string role="key" value="_author"></string>
               <unicode value="University of Auckland"></unicode>
               <string role="key" value="_purpose"></string>
@@ -3373,12 +3264,12 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <int value="11"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="72">
+               <instance class="exe.engine.field.TextAreaField" reference="70">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="42_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="71"></reference>
+                 <reference key="69"></reference>
                  <string role="key" value="_instruc"></string>
                  <unicode value="Describe the tasks the learners should complete."></unicode>
                  <string role="key" value="_name"></string>
@@ -3388,35 +3279,35 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;h2&gt;Objectiu&lt;/h2&gt;
-&lt;h2&gt;Activitat&lt;/h2&gt;
-&lt;p&gt;Crea la següent pàgina web i guarda-la amb el nom: default.php&lt;/p&gt;
+                 <unicode content="true" value="&lt;h2&gt;Objetivo&lt;/h2&gt;
+&lt;h2&gt;Actividad&lt;/h2&gt;
+&lt;p&gt;Crea la siguiente página web y guárdala con el nombre: default.php&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-php line-numbers&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;h1&amp;gt;Data&amp;lt;/h1&amp;gt;
+&amp;lt;h1&amp;gt;Fecha y Hora&amp;lt;/h1&amp;gt;
 &amp;lt;?php
-  echo &quot;&amp;lt;h2&amp;gt;Servidor (php)&amp;lt;/h2&amp;gt;&quot;;
-  echo date(&quot;r&quot;) ;
+  echo &quot;&amp;lt;h2&amp;gt;Servidor (PHP)&amp;lt;/h2&amp;gt;&quot;;
+  echo date(&quot;r&quot;);
 ?&amp;gt;
 &amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
   var d = new Date();
-  document.write(&quot;&amp;lt;h2&amp;gt;Client (javascript)&amp;lt;/h2&amp;gt;&quot;+ d.toString());
+  document.write(&quot;&amp;lt;h2&amp;gt;Cliente (JavaScript)&amp;lt;/h2&amp;gt;&quot; + d.toString());
 &amp;lt;/script&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Accedeix a la pàgina mitjançant la URL: &lt;code&gt;http://www.00.aula.local/default.php&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Què ha passat? Per què?&lt;/p&gt;
-&lt;p&gt;Instal·la l'intèrpret PHP i el mòdul de PHP per a Apache2:&lt;/p&gt;
+&lt;p&gt;Accede a la página mediante la URL: &lt;code&gt;http://www.00.aula.local/default.php&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;¿Qué ha pasado? ¿Por qué?&lt;/p&gt;
+&lt;p&gt;Instala el intérprete PHP y el módulo de PHP para Apache2:&lt;/p&gt;
 &lt;div class=&quot;highlighted-code language-markup&quot;&gt;
 &lt;div&gt;
 &lt;pre&gt;&lt;code&gt;sudo apt install php libapache2-mod-php&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Torna a accedir a la pàgina &lt;code&gt;http://www.00.aula.local/default.php&lt;/code&gt;. Què ha canviat? Comprova la diferència amb l'execució anterior.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;"></unicode>
+&lt;p&gt;Vuelve a acceder a la página &lt;code&gt;http://www.00.aula.local/default.php&lt;/code&gt;. ¿Qué ha cambiado? Compara la diferencia con la ejecución anterior.&lt;/p&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -3431,7 +3322,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="72"></reference>
+                   <reference key="70"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -3439,7 +3330,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="73"></reference>
+                 <reference key="71"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -3454,7 +3345,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="originalicon"></string>
               <unicode value="activity"></unicode>
               <string role="key" value="parentNode"></string>
-              <reference key="73"></reference>
+              <reference key="71"></reference>
               <string role="key" value="systemResources"></string>
               <list>
                <string value="common.js"></string>
@@ -3481,7 +3372,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:UNIDAD%205.%20Servicio%20web%20%28HTTP%29:08%7C%20Ejecuci%C3%B3n%20de%20c%C3%B3digo.%20Scripts%20de%20servidor%20y%20de%20cliente:Pr%C3%A1ctica%205%3A%20Ejecuci%C3%B3n%20de%20c%C3%B3digo%20en%20el%20cliente%20y%20en%20el%20servidor"></string>
            <string role="key" value="parent"></string>
-           <reference key="69"></reference>
+           <reference key="67"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -3491,13 +3382,13 @@ that may help or hinder the learner in the performance of the task."></unicode>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="76">
+      <instance class="exe.engine.node.Node" reference="74">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="09| Establecimiento de conexiones seguras"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="74">
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="72">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Free Text"></unicode>
@@ -3513,12 +3404,12 @@ delivered."></unicode>
            <string role="key" value="childs"></string>
            <list></list>
            <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="75">
+           <instance class="exe.engine.field.TextAreaField" reference="73">
             <dictionary>
              <string role="key" value="_id"></string>
              <int value="86"></int>
              <string role="key" value="_idevice"></string>
-             <reference key="74"></reference>
+             <reference key="72"></reference>
              <string role="key" value="_instruc"></string>
              <unicode value="Use this field to enter text. This 
 iDevice has no emphasis applied although limited formatting can be applied to 
@@ -3530,12 +3421,12 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;Un lloc web segur és un lloc web que utilitza el protocol HTTPS en lloc del protocol HTTP. De fet, el protocol HTTPS és idèntic al protocol HTTP amb l’excepció que la transferència d’informació entre el client (navegador web) i el servidor (servidor web) viatja per la xarxa d’Internet xifrada a partir d’uns complexos algoritmes de xifrat de dades proporcionats pel paquet OpenSSL.&lt;/p&gt;
-&lt;p&gt;Aquestes eines ajuden el sistema a implementar tot un ventall de protocols relacionats amb la seguretat.&lt;/p&gt;
-&lt;p&gt;Els algoritmes de xifrat utilitzats reuneixen les característiques necessàries per garantir que la informació que surt del servidor cap al client estigui xifrada i que només pugui ser desxifrada pel client, i que la informació que surt del client cap al servidor estigui xifrada i només pugui ser desxifrada pel servidor.&lt;/p&gt;
-&lt;p&gt;Per exemple, en el cas que durant la transferència de la informació un pirata informàtic fes una còpia dels paquets de dades i intentés desxifrarlos, els algoritmes garantirien que ho hagués de fer mitjançant la força bruta (és a dir, provant totes les claus possibles) en un termini mínim d’uns quants anys.&lt;/p&gt;
-&lt;p&gt;Durant la transmissió, s'utilitzaran algoritmes de xifrat simètrics, però, amb la finalitat d’intercanviar les claus de xifrat, hi ha una sessió inicial de xifrat asimètric.&lt;/p&gt;
-&lt;p&gt;Recurs: &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-debian-8&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Configurar un certificat SSL en Apache [EN] &lt;/a&gt;&lt;/p&gt;"></unicode>
+             <unicode content="true" value="&lt;p&gt;Un sitio web seguro es un sitio web que utiliza el protocolo HTTPS en lugar del protocolo HTTP. De hecho, el protocolo HTTPS es idéntico al protocolo HTTP con la excepción de que la transferencia de información entre el cliente (navegador web) y el servidor (servidor web) viaja por la red de Internet cifrada a partir de complejos algoritmos de cifrado de datos proporcionados por el paquete OpenSSL.&lt;/p&gt;
+&lt;p&gt;Estas herramientas ayudan al sistema a implementar todo un abanico de protocolos relacionados con la seguridad.&lt;/p&gt;
+&lt;p&gt;Los algoritmos de cifrado utilizados reúnen las características necesarias para garantizar que la información que sale del servidor hacia el cliente esté cifrada y que solo pueda ser descifrada por el cliente, y que la información que sale del cliente hacia el servidor esté cifrada y solo pueda ser descifrada por el servidor.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, en el caso de que durante la transferencia de la información un pirata informático hiciera una copia de los paquetes de datos e intentara descifrarlos, los algoritmos garantizarían que tuviera que hacerlo mediante fuerza bruta (es decir, probando todas las claves posibles) en un plazo mínimo de varios años.&lt;/p&gt;
+&lt;p&gt;Durante la transmisión, se utilizarán algoritmos de cifrado simétricos, pero, con la finalidad de intercambiar las claves de cifrado, hay una sesión inicial de cifrado asimétrico.&lt;/p&gt;
+&lt;p&gt;Recurso: &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-debian-8&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Configurar un certificado SSL en Apache [EN]&lt;/a&gt;&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -3550,7 +3441,7 @@ text through the text editing buttons associated with the field."></unicode>
                <string role="key" value=".listitems"></string>
                <list></list>
                <string role="key" value="idevice"></string>
-               <reference key="75"></reference>
+               <reference key="73"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
@@ -3558,7 +3449,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="nextImageId"></string>
              <int value="0"></int>
              <string role="key" value="parentNode"></string>
-             <reference key="76"></reference>
+             <reference key="74"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -3578,7 +3469,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="parent"></string>
            <none></none>
            <string role="key" value="parentNode"></string>
-           <reference key="76"></reference>
+           <reference key="74"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="type"></string>
@@ -3610,13 +3501,13 @@ text through the text editing buttons associated with the field."></unicode>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="79">
+         <instance class="exe.engine.node.Node" reference="77">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Práctica 6: Asegurando las comunicaciones"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.genericidevice.GenericIdevice" reference="77">
+            <instance class="exe.engine.genericidevice.GenericIdevice" reference="75">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value="Activity"></unicode>
@@ -3638,12 +3529,12 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <int value="11"></int>
               <string role="key" value="fields"></string>
               <list>
-               <instance class="exe.engine.field.TextAreaField" reference="78">
+               <instance class="exe.engine.field.TextAreaField" reference="76">
                 <dictionary>
                  <string role="key" value="_id"></string>
                  <unicode value="44_2"></unicode>
                  <string role="key" value="_idevice"></string>
-                 <reference key="77"></reference>
+                 <reference key="75"></reference>
                  <string role="key" value="_instruc"></string>
                  <unicode value="Describe the tasks the learners should complete."></unicode>
                  <string role="key" value="_name"></string>
@@ -3653,10 +3544,10 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="anchors_linked_from_fields"></string>
                  <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;h2&gt;05.09 - Activitat: Activar la seguretat en Apache (SSL)&lt;/h2&gt;
+                 <unicode content="true" value="&lt;h2&gt;Actividad: Activar la seguridad en Apache (SSL)&lt;/h2&gt;
 &lt;div id=&quot;intro&quot; class=&quot;box generalbox boxaligncenter&quot;&gt;
 &lt;div class=&quot;no-overflow&quot;&gt;
-&lt;p&gt;Configura WP perquè funcione sempre amb SSL.&lt;/p&gt;
+&lt;p&gt;Configura WP para que funcione siempre con SSL.&lt;/p&gt;
 &lt;p&gt;https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;"></unicode>
@@ -3674,7 +3565,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                    <string role="key" value=".listitems"></string>
                    <list></list>
                    <string role="key" value="idevice"></string>
-                   <reference key="78"></reference>
+                   <reference key="76"></reference>
                   </dictionary>
                  </instance>
                  <string role="key" value="intlinks_to_anchors"></string>
@@ -3682,7 +3573,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <reference key="79"></reference>
+                 <reference key="77"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -3697,7 +3588,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="originalicon"></string>
               <unicode value="activity"></unicode>
               <string role="key" value="parentNode"></string>
-              <reference key="79"></reference>
+              <reference key="77"></reference>
               <string role="key" value="systemResources"></string>
               <list>
                <string value="common.js"></string>
@@ -3724,7 +3615,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:UNIDAD%205.%20Servicio%20web%20%28HTTP%29:09%7C%20Establecimiento%20de%20conexiones%20seguras:Pr%C3%A1ctica%206%3A%20Asegurando%20las%20comunicaciones"></string>
            <string role="key" value="parent"></string>
-           <reference key="76"></reference>
+           <reference key="74"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -3734,13 +3625,13 @@ that may help or hinder the learner in the performance of the task."></unicode>
         </list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="82">
+      <instance class="exe.engine.node.Node" reference="80">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="10| Mapa conceptual"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.freetextfpdidevice.FreeTextfpdIdevice" reference="80">
+         <instance class="exe.engine.freetextfpdidevice.FreeTextfpdIdevice" reference="78">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="FPD - Free Text"></unicode>
@@ -3754,12 +3645,12 @@ delivered."></unicode>
            <string role="key" value="_tip"></string>
            <string value=""></string>
            <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="81">
+           <instance class="exe.engine.field.TextAreaField" reference="79">
             <dictionary>
              <string role="key" value="_id"></string>
              <int value="154"></int>
              <string role="key" value="_idevice"></string>
-             <reference key="80"></reference>
+             <reference key="78"></reference>
              <string role="key" value="_instruc"></string>
              <unicode value="Use this field to enter text. This 
 iDevice has no emphasis applied although limited formatting can be applied to 
@@ -3772,9 +3663,9 @@ text through the text editing buttons associated with the field."></unicode>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
              <unicode content="true" value="&lt;div class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 799px;&quot;&gt;
-&lt;div class=&quot;figcaption header&quot;&gt;&lt;strong&gt;Mapa conceptual: el servei HTTP&lt;/strong&gt;&lt;/div&gt;
+&lt;div class=&quot;figcaption header&quot;&gt;&lt;strong&gt;Mapa conceptual: el servicio web (HTTP)&lt;/strong&gt;&lt;/div&gt;
 &lt;img src=&quot;resources/HTTP.png&quot; alt=&quot;Mapa conceptual: el servei HTTP&quot; width=&quot;799&quot; height=&quot;453&quot; /&gt;
-&lt;div class=&quot;figcaption&quot;&gt;&lt;span class=&quot;author&quot;&gt;Vicent Jordà&lt;/span&gt;. &lt;span class=&quot;title&quot;&gt;&lt;em&gt;Mapa conceptual: el servei HTTP&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;figcaption&quot;&gt;&lt;span class=&quot;author&quot;&gt;Vicent Jordà&lt;/span&gt;. &lt;span class=&quot;title&quot;&gt;&lt;em&gt;Mapa conceptual: el servicio web (HTTP)&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -3796,7 +3687,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1075"></int>
+                    <int value="1089"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -3810,18 +3701,18 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="9_154.40"></unicode>
+                  <unicode value="9_154.42"></unicode>
                   <string role="key" value="_imageResource"></string>
-                  <instance class="exe.engine.resource.Resource" reference="83">
+                  <instance class="exe.engine.resource.Resource" reference="81">
                    <dictionary>
                     <string role="key" value="_idevice"></string>
-                    <reference key="80"></reference>
+                    <reference key="78"></reference>
                     <string role="key" value="_package"></string>
                     <reference key="6"></reference>
                     <string role="key" value="_storageName"></string>
                     <string value="HTTP.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpf8ktqf\\HTTP.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpusojww\\HTTP.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="9938f0632863315e859edb83d6a099ff"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3833,7 +3724,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_parent"></string>
-                  <reference key="81"></reference>
+                  <reference key="79"></reference>
                   <string role="key" value="_thumbnailResource"></string>
                   <none></none>
                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -3844,15 +3735,15 @@ text through the text editing buttons associated with the field."></unicode>
                 </instance>
                </list>
                <string role="key" value="idevice"></string>
-               <reference key="81"></reference>
+               <reference key="79"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="41"></int>
+             <int value="43"></int>
              <string role="key" value="parentNode"></string>
-             <reference key="82"></reference>
+             <reference key="80"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -3870,14 +3761,14 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="82"></reference>
+           <reference key="80"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
-            <reference key="83"></reference>
+            <reference key="81"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -3904,16 +3795,16 @@ text through the text editing buttons associated with the field."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="86">
+      <instance class="exe.engine.node.Node" reference="84">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="11| Cuestionario de repaso"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.genericidevice.GenericIdevice" reference="84">
+         <instance class="exe.engine.genericidevice.GenericIdevice" reference="82">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="Recull d'activitats"></unicode>
+           <unicode value="Cuestionario de repaso"></unicode>
            <string role="key" value="_author"></string>
            <unicode value="University of Auckland"></unicode>
            <string role="key" value="_purpose"></string>
@@ -3932,12 +3823,12 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <int value="11"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="85">
+            <instance class="exe.engine.field.TextAreaField" reference="83">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="41_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="84"></reference>
+              <reference key="82"></reference>
               <string role="key" value="_instruc"></string>
               <unicode value="Describe the tasks the learners should complete."></unicode>
               <string role="key" value="_name"></string>
@@ -3947,32 +3838,32 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;p style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Respon a la llibreta:&lt;/p&gt;
+              <unicode content="true" value="&lt;p style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Responde:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Definició del protocol HTTP. Característiques i funcions. Diferències respecte a HTTPS&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Com funciona el protocol HTTP?. Explica cada pas.&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Quins tipus de peticions pot sol·licitar el client al servidor HTTP? En què consisteix cadascuna?&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Tipus MIME. Definició i objectius. Posa 3 exemples.&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Codis d'estat. Definició. Objectius. Grups.&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Diferència entre servidor web i client web.&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Què són les galetes (&lt;em&gt;cookies&lt;/em&gt;)?&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Què és un servidor web segur? Quins protocols utilitza?&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Defineix els següents conceptes:
+&lt;li&gt;Definición del protocolo HTTP. Características y funciones. Diferencias respecto a HTTPS.&lt;/li&gt;
+&lt;li&gt;¿Cómo funciona el protocolo HTTP? Explica cada paso.&lt;/li&gt;
+&lt;li&gt;¿Qué tipos de peticiones puede solicitar el cliente al servidor HTTP? ¿En qué consiste cada una?&lt;/li&gt;
+&lt;li&gt;Tipos MIME. Definición y objetivos. Da 3 ejemplos.&lt;/li&gt;
+&lt;li&gt;Códigos de estado. Definición. Objetivos. Grupos.&lt;/li&gt;
+&lt;li&gt;Diferencia entre servidor web y cliente web.&lt;/li&gt;
+&lt;li&gt;¿Qué son las cookies?&lt;/li&gt;
+&lt;li&gt;¿Qué es un servidor web seguro? ¿Qué protocolos utiliza?&lt;/li&gt;
+&lt;li&gt;Define los siguientes conceptos:
 &lt;ol&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Signatura digital&lt;/li&gt;
-&lt;li style=&quot;margin-bottom: 0cm; font-weight: normal; line-height: 115%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Certificat digital&lt;/li&gt;
-&lt;li style=&quot;margin-bottom: 0cm; font-weight: normal; line-height: 115%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Autoritat certificadora&lt;/li&gt;
-&lt;li style=&quot;margin-bottom: 0cm; font-weight: normal; line-height: 115%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Certificat de servidor segur&lt;/li&gt;
+&lt;li&gt;Firma digital&lt;/li&gt;
+&lt;li&gt;Certificado digital&lt;/li&gt;
+&lt;li&gt;Autoridad certificadora&lt;/li&gt;
+&lt;li&gt;Certificado de servidor seguro&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Explica els passos del funcionament del protocol HTTPS.&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Què és un servidor web virtual? Quins mètodes existeixen i en què consisteixen?&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Quines accions hem de realitzar per a tenir un allotjament basat en domini?&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Si en accedir a &lt;span style=&quot;text-decoration: underline;&quot;&gt;un directori &lt;/span&gt;de la nostra web, dóna un error d'accés, a què pot ser degut? com ho podem solucionar?&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Per què alguns tipus de documents els obri el navegador directament i uns altres hem de fer ús de programes externs?&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Per a què serveix l'autenticació en un lloc web?&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Quins són els principals servidors web que s'utilitzen? Quines diferències hi ha entre ells?&lt;/li&gt;
-&lt;li style=&quot;margin-top: 0.35cm; margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 0; widows: 0;&quot; align=&quot;justify&quot;&gt;Quines diferències existeixen entre pàgines web estàtiques i dinàmiques?&lt;/li&gt;
+&lt;li&gt;Explica los pasos del funcionamiento del protocolo HTTPS.&lt;/li&gt;
+&lt;li&gt;¿Qué es un servidor web virtual? ¿Qué métodos existen y en qué consisten?&lt;/li&gt;
+&lt;li&gt;¿Qué acciones debemos realizar para tener un alojamiento basado en dominio?&lt;/li&gt;
+&lt;li&gt;Si al acceder a un directorio de nuestra web, da un error de acceso, ¿a qué puede deberse? ¿Cómo podemos solucionarlo?&lt;/li&gt;
+&lt;li&gt;¿Por qué algunos tipos de documentos los abre el navegador directamente y otros necesitan programas externos?&lt;/li&gt;
+&lt;li&gt;¿Para qué sirve la autenticación en un sitio web?&lt;/li&gt;
+&lt;li&gt;¿Cuáles son los principales servidores web que se utilizan? ¿Qué diferencias hay entre ellos?&lt;/li&gt;
+&lt;li&gt;¿Qué diferencias existen entre páginas web estáticas y dinámicas?&lt;/li&gt;
 &lt;/ol&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
@@ -3988,7 +3879,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="85"></reference>
+                <reference key="83"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -3996,7 +3887,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="86"></reference>
+              <reference key="84"></reference>
              </dictionary>
             </instance>
            </list>
@@ -4011,7 +3902,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="originalicon"></string>
            <unicode value="activity"></unicode>
            <string role="key" value="parentNode"></string>
-           <reference key="86"></reference>
+           <reference key="84"></reference>
            <string role="key" value="systemResources"></string>
            <list>
             <string value="common.js"></string>
@@ -4045,13 +3936,13 @@ that may help or hinder the learner in the performance of the task."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="89">
+      <instance class="exe.engine.node.Node" reference="87">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="12| Bibliografia"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="87">
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="85">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Free Text"></unicode>
@@ -4067,12 +3958,12 @@ delivered."></unicode>
            <string role="key" value="childs"></string>
            <list></list>
            <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="88">
+           <instance class="exe.engine.field.TextAreaField" reference="86">
             <dictionary>
              <string role="key" value="_id"></string>
              <int value="85"></int>
              <string role="key" value="_idevice"></string>
-             <reference key="87"></reference>
+             <reference key="85"></reference>
              <string role="key" value="_instruc"></string>
              <unicode value="Use this field to enter text. This 
 iDevice has no emphasis applied although limited formatting can be applied to 
@@ -4084,9 +3975,9 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="anchors_linked_from_fields"></string>
              <dictionary></dictionary>
              <string role="key" value="content_w_resourcePaths"></string>
-             <unicode content="true" value="&lt;p&gt;Col·laboradors de l'IOC. &lt;em&gt;Gestió de servidors web&lt;/em&gt; [en línia].  Institut Obert de Catalunya, 2017 [data de consulta: 10 de maig del 2017]. Disponible en &amp;lt;&lt;a href=&quot;http://ioc.xtec.cat/materials/FP/Materials/2201_SMX/SMX_2201_M07/web/html/WebContent/u3/a1/continguts.html&quot; target=&quot;_blank&quot;&gt;http://ioc.xtec.cat/materials/FP/Materials/2201_SMX/SMX_2201_M07/web/html/WebContent/u3/a1/continguts.html&lt;/a&gt;&amp;gt;.&lt;/p&gt;
-&lt;p&gt;Colaboradores de Wikipedia. &lt;em&gt;Anexo:Códigos de estado HTTP&lt;/em&gt; [en línea]. Wikipedia, La enciclopedia libre, 2017 [fecha de consulta: 18 de mayo del 2017]. Disponible en &amp;lt;&lt;a href=&quot;https://es.wikipedia.org/w/index.php?title=Anexo:C%C3%B3digos_de_estado_HTTP&amp;amp;oldid=98689282&quot;&gt;https://es.wikipedia.org/w/index.php?title=Anexo:C%C3%B3digos_de_estado_HTTP&amp;amp;oldid=98689282&lt;/a&gt;&amp;gt;.&lt;/p&gt;
-&lt;p&gt;Col·laboradors de la Viquipèdia. &lt;em&gt;Multi-Purpose Internet Mail Extensions&lt;/em&gt; [en línia]. Viquipèdia, l'Enciclopèdia Lliure, 2017 [data de consulta: 11 de febrer del 2017]. Disponible en &amp;lt;&lt;a href=&quot;https://ca.wikipedia.org/w/index.php?title=Multi-Purpose_Internet_Mail_Extensions&amp;amp;oldid=18126401&quot;&gt;https://ca.wikipedia.org/w/index.php?title=Multi-Purpose_Internet_Mail_Extensions&amp;amp;oldid=18126401&lt;/a&gt;&amp;gt;.&lt;/p&gt;"></unicode>
+             <unicode content="true" value="&lt;p&gt;Colaboradores del IOC. &lt;em&gt;Gestió de servidors web&lt;/em&gt; [en línea].  Institut Obert de Catalunya, 2023 [fecha de consulta: 13 de febrero de 2025]. Disponible en &amp;lt;&lt;a href=&quot;https://ioc.xtec.cat/materials/FP/Recursos/fp_smx_m07_/web/fp_smx_m07_htmlindex/WebContent/u3/a1/continguts.html&quot;&gt;https://ioc.xtec.cat/materials/FP/Recursos/fp_smx_m07_/web/fp_smx_m07_htmlindex/WebContent/u3/a1/continguts.html&lt;/a&gt;&amp;gt;.&lt;/p&gt;
+&lt;p&gt;Colaboradores de Wikipedia. &lt;em&gt;Anexo:Códigos de estado HTTP&lt;/em&gt; [en línea]. Wikipedia, La enciclopedia libre, 2025 [fecha de consulta: 13 de febrero de 2025]. Disponible en &amp;lt;&lt;a href=&quot;https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP&quot;&gt;https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP&lt;/a&gt;&amp;gt;.&lt;/p&gt;
+&lt;p&gt;Colaboradores de Wikipedia. &lt;em&gt;Multi-Purpose Internet Mail Extensions&lt;/em&gt; [en línea]. Wikipedia, La enciclopedia libre, 2025 [fecha de consulta: 13 de febrero de 2025]. Disponible en &amp;lt;&lt;a href=&quot;https://es.wikipedia.org/wiki/Multipurpose_Internet_Mail_Extensions&quot;&gt;https://es.wikipedia.org/wiki/Multipurpose_Internet_Mail_Extensions&lt;/a&gt;&amp;gt;.&lt;/p&gt;"></unicode>
              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
              <int value="4"></int>
              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -4101,7 +3992,7 @@ text through the text editing buttons associated with the field."></unicode>
                <string role="key" value=".listitems"></string>
                <list></list>
                <string role="key" value="idevice"></string>
-               <reference key="88"></reference>
+               <reference key="86"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
@@ -4109,7 +4000,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="nextImageId"></string>
              <int value="0"></int>
              <string role="key" value="parentNode"></string>
-             <reference key="89"></reference>
+             <reference key="87"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -4129,7 +4020,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="parent"></string>
            <none></none>
            <string role="key" value="parentNode"></string>
-           <reference key="89"></reference>
+           <reference key="87"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="type"></string>
@@ -4175,9 +4066,9 @@ text through the text editing buttons associated with the field."></unicode>
    <unicode role="key" value="12"></unicode>
    <reference key="59"></reference>
    <unicode role="key" value="13"></unicode>
-   <reference key="69"></reference>
+   <reference key="67"></reference>
    <unicode role="key" value="14"></unicode>
-   <reference key="76"></reference>
+   <reference key="74"></reference>
    <unicode role="key" value="16"></unicode>
    <reference key="12"></reference>
    <unicode role="key" value="17"></unicode>
@@ -4191,21 +4082,21 @@ text through the text editing buttons associated with the field."></unicode>
    <unicode role="key" value="20"></unicode>
    <reference key="56"></reference>
    <unicode role="key" value="21"></unicode>
-   <reference key="64"></reference>
+   <reference key="62"></reference>
    <unicode role="key" value="22"></unicode>
-   <reference key="73"></reference>
+   <reference key="71"></reference>
    <unicode role="key" value="23"></unicode>
-   <reference key="79"></reference>
+   <reference key="77"></reference>
    <unicode role="key" value="4"></unicode>
    <reference key="23"></reference>
    <unicode role="key" value="5"></unicode>
    <reference key="29"></reference>
    <unicode role="key" value="6"></unicode>
-   <reference key="82"></reference>
+   <reference key="80"></reference>
    <unicode role="key" value="7"></unicode>
-   <reference key="86"></reference>
+   <reference key="84"></reference>
    <unicode role="key" value="9"></unicode>
-   <reference key="89"></reference>
+   <reference key="87"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -4216,7 +4107,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="76"></reference>
+  <reference key="3"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -5746,7 +5637,7 @@ text through the text editing buttons associated with the field."></unicode>
    </list>
    <string role="key" value="4361bf660fb5ec6911071494f7a9580d"></string>
    <list>
-    <reference key="70"></reference>
+    <reference key="68"></reference>
    </list>
    <string role="key" value="582798a8bc2ddbd637bb83e9c5ce61eb"></string>
    <list>
@@ -5754,7 +5645,7 @@ text through the text editing buttons associated with the field."></unicode>
    </list>
    <string role="key" value="9938f0632863315e859edb83d6a099ff"></string>
    <list>
-    <reference key="83"></reference>
+    <reference key="81"></reference>
    </list>
    <string role="key" value="a6629567a6c8f4f9add75de874b3ef2f"></string>
    <list>

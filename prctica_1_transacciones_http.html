@@ -79,56 +79,56 @@
 <div id="nodeDecoration"><h1 id="nodeTitle">Práctica 1: Transacciones HTTP</h1></div>
 <div class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id17">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">06.01: Comandaments HTTP 1.1</h2></div>
+<div class="iDevice_header"><h2 class="iDeviceTitle">Comandos HTTP 1.1</h2></div>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta17_42_2" class="block iDevice_content">
-<h3>Objectiu</h3>
-<p>Entendre com funciona l'intercanvi de missatges  HTTP.</p>
-<h3>Funcionament</h3>
-<p>Connectem amb el servidor http mitjançant telnet.</p>
+<h3>Objetivo</h3>
+<p>Entender cómo funciona el intercambio de mensajes HTTP.</p>
+<h3>Funcionamiento</h3>
+<p>Nos conectamos con el servidor HTTP mediante telnet.</p>
 <div class="highlighted-code language-clike">
 <div>
 <pre><code>$ telnet XXX.XX.XX.XXX 80</code></pre>
 </div>
 </div>
-<p>Fem la sol·licitud HTTP emprant l'encapçalat desitjat.</p>
+<p>Realizamos la solicitud HTTP empleando el encabezado deseado.</p>
 <div class="highlighted-code language-clike">
-<pre><code>GET / HTTP/1.1 
+<pre><code>GET / HTTP/1.1 
 host: www.example.com
 User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1) [opcional]
 [INTRO]
 [INTRO]<br /></code></pre>
 </div>
-<p>En l'exemple anterior sol·licitem mitjançant l'encapçalat GET el document arrel (/) amb HTTP/1.1 i al host: www.example.com</p>
-<h3>Activitat</h3>
-<p>Fes les proves amb <strong>Telnet</strong> del comandament <strong>HEAD</strong> en les següents URL:</p>
+<p>En el ejemplo anterior solicitamos mediante el encabezado GET el documento raíz (/) con HTTP/1.1 y el host: www.example.com</p>
+<h3>Actividad</h3>
+<p>Realiza las pruebas con <strong>Telnet</strong> del comando <strong>HEAD</strong> en las siguientes URL:</p>
 <ul>
-<li>http://www.pego.org (resolt)</li>
+<li>http://www.pego.org (resuelto)</li>
 <li>http://www.marca.com</li>
 <li>http://moodle.iesevalorpego.org</li>
 <li>http://forbes.es/demo</li>
 <li>http://revistadefilosofia.com/60-05.pdf</li>
 <li>http://www.fincarustica.cat/contacto/lang/es</li>
 </ul>
-<p>Elabora un document amb captures de pantalla que demostren el funcionament i descriu els problemes en que t'has trobat i les solucions adoptades. Anota també els codi de resposta i el tipus d'arxiu tornat.</p>
-<p><strong>Exemple</strong></p>
-<p>Per a la primera URL faríem:</p>
+<p>Elabora un documento con capturas de pantalla que demuestren el funcionamiento y describe los problemas que encontraste y las soluciones adoptadas. Anota también los códigos de respuesta y el tipo de archivo devuelto.</p>
+<p><strong>Ejemplo</strong></p>
+<p>Para la primera URL haríamos:</p>
 <div class="highlighted-code language-c">
 <div>
 <pre><code>$ telnet www.google.es 80</code></pre>
 </div>
 </div>
-<p>Una vegada realitzada la connexió fem la sol·licitud</p>
+<p>Una vez realizada la conexión, realizamos la solicitud</p>
 <div class="highlighted-code language-clike">
 <div>
-<pre><code>HEAD / HTTP/1.1<a title="Suprimiu" href="http://localhost:51235/5._Servei_HTTP/authoring?state=20#" onclick="confirmThenSubmitLink('A\ç\ò\ suprimir\à\ aquest\ iDevice\.\ Esteu\ segur\ que\ voleu\ fer\-ho\?', 'delete', '17', 1);"><img alt="Suprimiu" class="submit" src="http://localhost:51235/images/stock-cancel.png" width="16" height="16" /></a>
+<pre><code>HEAD / HTTP/1.1
 host:www.google.es
 [intro]
 [intro]</code></pre>
 </div>
 </div>
-<p>I obtindrem la següent resposta:</p>
+<p>Y obtendremos la siguiente respuesta:</p>
 <div class="highlighted-code language-clike">
 <div>
 <pre><code>HTTP/1.1 <strong>200</strong> OK
@@ -136,10 +136,9 @@ Date: Fri, 12 Jan 2018 09:28:23 GMT
 Expires: -1
 Cache-Control: private, max-age=0
 Content-Type: <strong>text/html</strong>; charset=ISO-8859-1
-[contingut omès]</code></pre>
+[contenido omitido]</code></pre>
 </div>
 </div>
-<p></p>
 </div>
 </div>
 </div>

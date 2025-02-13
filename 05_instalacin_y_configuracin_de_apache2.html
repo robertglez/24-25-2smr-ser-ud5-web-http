@@ -80,31 +80,30 @@
 <div class="iDevice_wrapper FreeTextIdevice" id="id21">
 <div class="iDevice emphasis0">
 <div id="ta21_85" class="block iDevice_content">
-<p>La informació la trobareu a <a href="https://help.ubuntu.com/16.04/serverguide/httpd.html.es" target="_blank" rel="noopener noreferrer">https://help.ubuntu.com/lts/serverguide/httpd.html</a></p>
-<h3>Directives importants</h3>
-<h4>Directiva &lt;Directory&gt;.</h4>
-<p>La directiva Directory permet configurar permisos en els diferents directoris del nostre espai web. Es tracta d'una directriu que es fa servir per definir característiques que només s'aplicaran al directori especificat i no a tot el servidor (per això s'ha de tancar).</p>
-<p>Aquests permisos serien els següents:</p>
-<p></p>
+<p>La información se encuentra en <a href="https://help.ubuntu.com/16.04/serverguide/httpd.html.es" target="_blank" rel="noopener noreferrer">https://help.ubuntu.com/lts/serverguide/httpd.html</a></p>
+<h3>Directivas importantes</h3>
+<h4>Directiva &lt;Directory&gt;</h4>
+<p>La directiva Directory permite configurar permisos en los diferentes directorios de nuestro espacio web. Se trata de una directiva que se usa para definir características que solo se aplicarán al directorio especificado y no a todo el servidor (por eso debe cerrarse).</p>
+<p>Estos permisos son los siguientes:</p>
 <ul>
 <li><strong>Options</strong><br />
 <ul>
-<li><strong>Indexes</strong>. Si dins de la carpeta no hi ha cap arxiu igual que el que hem definit al paràmetre DirectoryIndex al navegador es mostrarà un índex amb tots els arxius de la carpeta actual.</li>
-<li><strong>FollowSymLinks</strong>. El servidor seguirà els enllaços simbòlics (lògics), és a dir, els àlies.</li>
+<li><strong>Indexes</strong>. Si dentro de la carpeta no hay ningún archivo igual al que hemos definido en el parámetro DirectoryIndex, el navegador mostrará un índice con todos los archivos de la carpeta actual.</li>
+<li><strong>FollowSymLinks</strong>. El servidor seguirá los enlaces simbólicos (lógicos), es decir, los alias.</li>
 </ul>
 </li>
-<li><b>Require </b>all denied, Require not ip 192.168.1.50. Denega la petició a una carpeta, un arxiu o una adreça d’Internet.</li>
-<li><strong>Require</strong> all granted, Require ip 192.168.1.50. Permet la petició a una carpeta, un arxiu o una adreça d’Internet.</li>
+<li><b>Require</b> all denied, Require not ip 192.168.1.50. Deniega la petición a una carpeta, un archivo o una dirección de Internet.</li>
+<li><strong>Require</strong> all granted, Require ip 192.168.1.50. Permite la petición a una carpeta, un archivo o una dirección de Internet.</li>
 </ul>
-<h4><span style="font-size: 1em;">Directiva</span><span style="font-size: 1em;"> &lt;Files&gt;</span></h4>
-<p><span style="font-size: 1em;">La directiva Files permet configurar permisos en els diferents arxius del nostre espai web. Val a dir que el paràmetre Files ha d'estar inclòs dintre del paràmetre Directory.</span></p>
-<p><span style="font-size: 1em;">Aquests permisos serien els següents:</span></p>
+<h4>Directiva &lt;Files&gt;</h4>
+<p>La directiva Files permite configurar permisos en los diferentes archivos de nuestro espacio web. Cabe señalar que el parámetro Files debe estar incluido dentro del parámetro Directory.</p>
+<p>Estos permisos son los siguientes:</p>
 <ol>
-<li>require all denied, require not ip  192.168.1.50. Denega la petició a un arxiu o una adreça d’Internet.</li>
-<li>require all granted, require ip 192.168.1.50. Permet la petició a un arxiu o una adreça de Internet.</li>
-<li>A tall d'exemple, podríem trobar el següent:
+<li>require all denied, require not ip 192.168.1.50. Deniega la petición a un archivo o una dirección de Internet.</li>
+<li>require all granted, require ip 192.168.1.50. Permite la petición a un archivo o una dirección de Internet.</li>
+<li>A modo de ejemplo, podríamos encontrar lo siguiente:
 <ol>
-<li>Volem prohibir l'accés a arxius amb format JPG dintre de la carpeta <code>/var/www/serveisenxarxa/public_html</code>.</li>
+<li>Queremos prohibir el acceso a archivos con formato JPG dentro de la carpeta <code>/var/www/serveisenxarxa/public_html</code>.</li>
 </ol>
 </li>
 </ol>
@@ -118,12 +117,8 @@
 &lt;/directory&gt;</code></pre>
 </div>
 </div>
-<p></p>
-<h4><span style="font-size: 1em;">Directiva &lt;VirtualHost&gt;</span></h4>
-<p><span style="font-size: 1em;">La directiva virtualhost permet configurar més d’un lloc web en un mateix servidor, és a dir, una mateixa adreça d’Internet per a diferents noms de domini. Val a dir que, si volem utilitzar aquest paràmetre, cal haver configurat el servidor de noms de domini (DNS) perquè adreci els noms de domini cap al nostre servidor web Apache.</span></p>
-<p></p>
-<p></p>
-<p></p>
+<h4>Directiva &lt;VirtualHost&gt;</h4>
+<p>La directiva VirtualHost permite configurar más de un sitio web en un mismo servidor, es decir, una misma dirección de Internet para diferentes nombres de dominio. Cabe señalar que, si queremos utilizar este parámetro, es necesario haber configurado el servidor de nombres de dominio (DNS) para que dirija los nombres de dominio hacia nuestro servidor web Apache.</p>
 </div>
 </div>
 </div>

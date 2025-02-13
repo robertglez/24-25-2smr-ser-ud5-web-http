@@ -79,39 +79,39 @@
 <div id="nodeDecoration"><h1 id="nodeTitle">Práctica 5: Ejecución de código en el cliente y en el servidor</h1></div>
 <div class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id18">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">06.05: Execució de codi. Client i Servidor</h2></div>
+<div class="iDevice_header"><h2 class="iDeviceTitle">Ejecución de código. Cliente y servidor</h2></div>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta18_42_2" class="block iDevice_content">
-<h2>Objectiu</h2>
-<h2>Activitat</h2>
-<p>Crea la següent pàgina web i guarda-la amb el nom: default.php</p>
+<h2>Objetivo</h2>
+<h2>Actividad</h2>
+<p>Crea la siguiente página web y guárdala con el nombre: default.php</p>
 <div class="highlighted-code language-php line-numbers">
 <div>
 <pre><code>&lt;html&gt;
 &lt;body&gt;
-&lt;h1&gt;Data&lt;/h1&gt;
+&lt;h1&gt;Fecha y Hora&lt;/h1&gt;
 &lt;?php
-  echo "&lt;h2&gt;Servidor (php)&lt;/h2&gt;";
-  echo date("r") ;
+  echo "&lt;h2&gt;Servidor (PHP)&lt;/h2&gt;";
+  echo date("r");
 ?&gt;
 &lt;script type="text/javascript"&gt;
   var d = new Date();
-  document.write("&lt;h2&gt;Client (javascript)&lt;/h2&gt;"+ d.toString());
+  document.write("&lt;h2&gt;Cliente (JavaScript)&lt;/h2&gt;" + d.toString());
 &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 </div>
 </div>
-<p>Accedeix a la pàgina mitjançant la URL: <code>http://www.00.aula.local/default.php</code></p>
-<p>Què ha passat? Per què?</p>
-<p>Instal·la l'intèrpret PHP i el mòdul de PHP per a Apache2:</p>
+<p>Accede a la página mediante la URL: <code>http://www.00.aula.local/default.php</code></p>
+<p>¿Qué ha pasado? ¿Por qué?</p>
+<p>Instala el intérprete PHP y el módulo de PHP para Apache2:</p>
 <div class="highlighted-code language-markup">
 <div>
 <pre><code>sudo apt install php libapache2-mod-php</code></pre>
 </div>
 </div>
-<p>Torna a accedir a la pàgina <code>http://www.00.aula.local/default.php</code>. Què ha canviat? Comprova la diferència amb l'execució anterior.<br /><br /></p>
+<p>Vuelve a acceder a la página <code>http://www.00.aula.local/default.php</code>. ¿Qué ha cambiado? Compara la diferencia con la ejecución anterior.</p>
 </div>
 </div>
 </div>

@@ -78,20 +78,20 @@
 <div class="iDevice_wrapper FreeTextfpdIdevice" id="id6">
 <div class="iDevice emphasis0">
 <div id="ta6_154" class="block iDevice_content">
-<p>Amb la intenció de conèixer amb més profunditat el protocol HTTP podem avaluar en què consisteix una transacció HTTP.</p>
-<p>Cada vegada que un client fa una petició a un servidor, s’executen un seguit d'accions:</p>
+<p>Con la intención de conocer con más profundidad el protocolo HTTP, podemos evaluar en qué consiste una transacción HTTP.</p>
+<p>Cada vez que un cliente realiza una petición a un servidor, se ejecutan una serie de acciones:</p>
 <ol>
-<li>Un usuari accedeix a una adreça d’Internet (URL) seleccionant un enllaç d’un document HTML o introduint-la directament a la barra de navegació d’un navegador web des de la perspectiva del client web. El client web descodifica l’adreça d’Internet (URL) separant-ne les diferents parts. És així com s'identifiquen el <strong>protocol d'accés</strong>, el node expressat amb el nom de domini o la seua adreça IP, el possible port opcional (el valor per defecte és el 80) i l'objecte del servidor requerit.</li>
-<li>S’obre una connexió TCP/IP amb el servidor cridant el port TCP corresponent. Es fa la petició. En conseqüència, s’envien l’ordre necessària (GET, POST, HEAD, etc.), l’adreça de l’objecte requerit (el contingut de l’adreça d’Internet del servidor), la versió del protocol HTTP utilitzada (en la major part de les ocasions és HTTP/1.0) i un conjunt variable d’informació que inclou dades sobre les capacitats del navegador web, dades opcionals per al servidor, etc.</li>
-<li>El servidor localitza el recurs sol·licitat i torna la resposta al client.</li>
-<li>Aquesta resposta consisteix en un codi d’estat i el tipus de dada amb extensions multipropòsit de correu d’Internet (MIME, <em>Multipurpose Internet Mail Extension</em>) de la informació de tornada, seguit de la mateixa informació.</li>
-<li>El client formata i mostra el recurs rebut.</li>
-<li>Es tanca la connexió TCP.</li>
+<li>Un usuario accede a una dirección de Internet (URL) seleccionando un enlace de un documento HTML o introduciéndola directamente en la barra de navegación de un navegador web desde la perspectiva del cliente web. El cliente web descodifica la dirección de Internet (URL) separando sus diferentes partes. Así se identifican el <strong>protocolo de acceso</strong>, el nodo expresado con el nombre de dominio o su dirección IP, el posible puerto opcional (el valor por defecto es el 80) y el objeto del servidor requerido.</li>
+<li>Se abre una conexión TCP/IP con el servidor llamando al puerto TCP correspondiente. Se realiza la petición. En consecuencia, se envían la orden necesaria (GET, POST, HEAD, etc.), la dirección del objeto requerido (el contenido de la dirección de Internet del servidor), la versión del protocolo HTTP utilizada (en la mayoría de los casos es HTTP/1.0) y un conjunto variable de información que incluye datos sobre las capacidades del navegador web, datos opcionales para el servidor, etc.</li>
+<li>El servidor localiza el recurso solicitado y devuelve la respuesta al cliente.</li>
+<li>Esta respuesta consiste en un código de estado y el tipo de dato con extensiones multipropósito de correo de Internet (MIME, <em>Multipurpose Internet Mail Extension</em>) de la información de respuesta, seguido de la propia información.</li>
+<li>El cliente formatea y muestra el recurso recibido.</li>
+<li>Se cierra la conexión TCP.</li>
 </ol>
-<p>Aquest procés es repeteix en cada accés que es faça al servidor HTTP. Per exemple, si es recull un document HTML que conté quatre imatges, el procés de transició mostrat amb anterioritat es repeteix cinc vegades, és a dir, una pel document HTML i quatre per les imatges.</p>
+<p>Este proceso se repite en cada acceso que se realice al servidor HTTP. Por ejemplo, si se solicita un documento HTML que contiene cuatro imágenes, el proceso de transacción mostrado anteriormente se repite cinco veces, es decir, una para el documento HTML y cuatro para las imágenes.</p>
 <div class="exe-figure exe-image position-center" style="width: 829px;">
-<div class="figcaption header"><strong>Etapes en la transició HTTP</strong></div>
-<img src="HTTP_Steps.png" alt="Etapes en la transacció HTTP" title="Etapes en la transacció HTTP" width="829" height="304" /></div>
+<div class="figcaption header"><strong>Etapas en la transacción HTTP</strong></div>
+<img src="HTTP_Steps.png" alt="Etapas en la transacción HTTP" title="Etapas en la transacción HTTP" width="829" height="304" /></div>
 </div>
 </div>
 </div>
@@ -100,21 +100,21 @@
 <div class="iDevice_destacadofpd">
 <div id="ta7_151" class="block iDevice_content">
 <div class="exe-block-warning">
-<p><strong>Extensió MIME</strong></p>
-<p>El protocol HTML fou dissenyat per transportar per la xarxa arxius en format ASCII. Amb el progrés de les tecnologies i la inclusió de diferents tipus d’arxius en un format diferent a l’ASCII (imatges, vídeos, sons, etc.) en les aplicacions per Internet, va sorgir la necessitat de transformar aquests format a ASCII per la seva correcta recepció en el navegador web.</p>
-<p>El 1992, es van crear els tipus MIME, que eren especificacions per donar format a missatges en un format diferent a l’ASCII perquè poguessin ser enviats i interpretats per Internet. Més endavant es van aplicar també als documents web.</p>
-<p><strong>Nomenclatura de tipus</strong></p>
-<p>MIME assigna un nom a cada tipus de dades. Els noms segueixen el següent format:</p>
-<pre style="padding-left: 30px;">tipus / subtipus (tipus com a subtipus són cadenes de caràcters)</pre>
-<p>El <code>tipus</code> defineix la categoria general de les dades i el <code>subtipus</code> defineix un tipus més específic d'aquestes dades. El tipus tenir els següents valors:</p>
+<p><strong>Extensión MIME</strong></p>
+<p>El protocolo HTML fue diseñado para transportar por la red archivos en formato ASCII. Con el avance de las tecnologías y la inclusión de diferentes tipos de archivos en un formato distinto al ASCII (imágenes, vídeos, sonidos, etc.) en las aplicaciones para Internet, surgió la necesidad de transformar estos formatos a ASCII para su correcta recepción en el navegador web.</p>
+<p>En 1992, se crearon los tipos MIME, que eran especificaciones para dar formato a mensajes en un formato distinto al ASCII para que pudieran ser enviados e interpretados en Internet. Más adelante, se aplicaron también a los documentos web.</p>
+<p><strong>Nomenclatura de tipos</strong></p>
+<p>MIME asigna un nombre a cada tipo de datos. Los nombres siguen el siguiente formato:</p>
+<pre style="padding-left: 30px;">tipo / subtipo (tanto tipo como subtipo son cadenas de caracteres)</pre>
+<p>El <code>tipo</code> define la categoría general de los datos y el <code>subtipo</code> define un tipo más específico dentro de esta categoría. Los tipos pueden tener los siguientes valores:</p>
 <ul>
-<li><strong>text</strong>: Indica que el contingut és text pla. Exemples de subtipus: html, xml</li>
-<li><strong>multipart</strong>: Indica que té múltiples parts de dades independents. Exemples de subtipus: form-data, enviat a diari</li>
-<li><strong>message</strong>: Per encapsular un missatge existent. Per exemple quan volem respondre a un missatge de correu incorporant el missatge origen. Exemples de subtipus: partial, RFC822</li>
-<li><strong>image</strong>: Indica que és una imatge. Ex de subtipus: png, gif</li>
-<li><strong>audio</strong>: Indica que és un àudio. Exemples de subtipus: mpeg, avi</li>
-<li><strong>video</strong>: Indica que és un vídeo. Exemples de subtipus: mp4, 32kadpcm</li>
-<li><strong>application</strong>: Indica que es tracta de dades d'aplicació dels quals poden ser binaris. Exemples de subtipus: json, pdf</li>
+<li><strong>text</strong>: Indica que el contenido es texto plano. Ejemplos de subtipos: html, xml</li>
+<li><strong>multipart</strong>: Indica que contiene múltiples partes de datos independientes. Ejemplos de subtipos: form-data, mixed</li>
+<li><strong>message</strong>: Para encapsular un mensaje existente. Por ejemplo, cuando queremos responder a un mensaje de correo incorporando el mensaje original. Ejemplos de subtipos: partial, RFC822</li>
+<li><strong>image</strong>: Indica que es una imagen. Ejemplos de subtipos: png, gif</li>
+<li><strong>audio</strong>: Indica que es un archivo de audio. Ejemplos de subtipos: mpeg, wav</li>
+<li><strong>video</strong>: Indica que es un archivo de vídeo. Ejemplos de subtipos: mp4, 32kadpcm</li>
+<li><strong>application</strong>: Indica que se trata de datos de aplicación que pueden ser binarios. Ejemplos de subtipos: json, pdf</li>
 </ul>
 </div>
 </div>

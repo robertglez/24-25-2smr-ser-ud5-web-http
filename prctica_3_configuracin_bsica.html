@@ -79,21 +79,21 @@
 <div id="nodeDecoration"><h1 id="nodeTitle">Práctica 3: Configuración básica</h1></div>
 <div class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id14">
 <div class="iDevice emphasis1" >
-<div class="iDevice_header"><h2 class="iDeviceTitle">06.03: Configuració bàsica d'un node vitual</h2></div>
+<div class="iDevice_header"><h2 class="iDeviceTitle">Configuración básica de un nodo virtual</h2></div>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta14_43_2" class="block iDevice_content">
-<h3>Objectius</h3>
-<p>Els objectius de l'activitat són:</p>
+<h3>Objetivos</h3>
+<p>Los objetivos de la actividad son:</p>
 <ul>
-<li>Conèixer els paràmetres bàsics de configuració d'Apache2.</li>
-<li>Distingir entre els diferents nivells de configuració (Global, per defecte, node virtual) que té Apache2.</li>
-<li>Conèixer els diferents tipus de registres del servidor web Apache2.</li>
-<li>Entendre el concepte de node virtual (virtual host).</li>
-<li>Crear un node virtual</li>
+<li>Conocer los parámetros básicos de configuración de Apache2.</li>
+<li>Distinguir entre los diferentes niveles de configuración (Global, por defecto, nodo virtual) que tiene Apache2.</li>
+<li>Conocer los diferentes tipos de registros del servidor web Apache2.</li>
+<li>Entender el concepto de nodo virtual (virtual host).</li>
+<li>Crear un nodo virtual</li>
 </ul>
-<h3>Supòsit</h3>
-<p>Per a realitzar la següent activitat ho farem des del supòsit següent: el nostre equip servirà de servidor d'allotjament de diversos llocs web. Per la qual cosa estructurarem la carpeta que conté els llocs web<code> /var/www</code> de forma que per a cada lloc web disposarem d'una carpeta que contindrà tant les pàgines <em>html</em> com els registres del servidor (<em>logs</em>). Esta carpeta <strong>tindrà el nom del domini a publicar</strong>. La imatge següent representa l'estructura de carpetes allotjant dos llocs web.<span class="license"><span class="sep"></span></span></p>
+<h3>Supuesto</h3>
+<p>Para realizar la siguiente actividad lo haremos desde el siguiente supuesto: nuestro equipo servirá como servidor de alojamiento de varios sitios web. Por lo tanto, estructuraremos la carpeta que contiene los sitios web <code>/var/www</code> de forma que para cada sitio web dispondremos de una carpeta que contendrá tanto las páginas <em>html</em> como los registros del servidor (<em>logs</em>). Esta carpeta <strong>tendrá el nombre del dominio a publicar</strong>. La imagen siguiente representa la estructura de carpetas alojando dos sitios web.<span class="license"><span class="sep"></span></span></p>
 <div class="highlighted-code language-c line-numbers">
 <div>
 <pre><code>/var/www
@@ -107,26 +107,26 @@
     └── public_html</code></pre>
 </div>
 </div>
-<p><br />Per a cada lloc web es crearà un usuari en el sistema perquè puga administrar el contingut del lloc web. L'usuari tindrà el mateix nom que el domini (<code>user_www</code>) i sols tindrà accés via FTP a la carpeta del domini (<code>www.xarxa00.lan</code>).</p>
-<h3>Activitat (part 1): creació del lloc web virtual</h3>
+<p><br />Para cada sitio web se creará un usuario en el sistema para que pueda administrar el contenido del sitio web. El usuario tendrá el mismo nombre que el dominio (<code>user_www</code>) y solo tendrá acceso vía FTP a la carpeta del dominio (<code>www.xarxa00.lan</code>).</p>
+<h3>Actividad (parte 1): creación del sitio web virtual</h3>
 <ul>
-<li>El nou lloc web virtual respondrà al nom de domini <a href="http://www.xarxa##.lan. ">www.xarxa##.lan. </a></li>
-<li>Seguint l'esquema anterior crea les carpetes necessàries.</li>
-<li>Crea un nou lloc virtual a partir del ja existent i ajusta després la configuració.</li>
-<li>Edita també el servidor DNS si es necessari.</li>
-<li>Penja un document HTML en el lloc web.</li>
-<li>Comprova el funcionament.</li>
-<li>Fent ús de la directiva ErrorDocument mostra un error personalitzat quan el codi d'estat siga 404 Not Found.</li>
-<li>Documenta els canvis realitzats estructurant correctament el contingut.</li>
+<li>El nuevo sitio web virtual responderá al nombre de dominio <a href="http://www.xarxa##.lan">www.xarxa##.lan</a>.</li>
+<li>Siguiendo el esquema anterior, crea las carpetas necesarias.</li>
+<li>Crea un nuevo sitio virtual a partir del ya existente y ajusta después la configuración.</li>
+<li>Edita también el servidor DNS si es necesario.</li>
+<li>Sube un documento HTML al sitio web.</li>
+<li>Verifica el funcionamiento.</li>
+<li>Usando la directiva ErrorDocument, muestra un error personalizado cuando el código de estado sea 404 Not Found.</li>
+<li>Documenta los cambios realizados estructurando correctamente el contenido.</li>
 </ul>
-<h3>Activitat (part 2): usuaris FTP</h3>
+<h3>Actividad (parte 2): usuarios FTP</h3>
 <ul>
-<li>Crea un usuari específic per al lloc web amb els nom <code>user_www</code>.</li>
-<li>Habilita-los accés mitjançant FTP a la carpeta del lloc web, perquè puguen gestionar el arxius del lloc web mitjançant FTP.</li>
-<li>Documenta els canvis realitzant.</li>
+<li>Crea un usuario específico para el sitio web con el nombre <code>user_www</code>.</li>
+<li>Habilita acceso mediante FTP a la carpeta del sitio web para que puedan gestionar los archivos del sitio web mediante FTP.</li>
+<li>Documenta los cambios realizados.</li>
 </ul>
 <h3>Recursos</h3>
-<p><span>En la </span><a href="https://help.ubuntu.com/16.04/serverguide/httpd.html.es" target="_blank" title="Ubuntu Server Guide 16.04" rel="noopener noreferrer">Ubuntu Server Guide</a><span> en l'apartat <em>Opciones básicas</em> disposes de la informació necessària per a fer la instal·lació i la configuració.<br /></span></p>
+<p><span>En la </span><a href="https://help.ubuntu.com/16.04/serverguide/httpd.html.es" target="_blank" title="Ubuntu Server Guide 16.04" rel="noopener noreferrer">Ubuntu Server Guide</a><span> en el apartado <em>Opciones básicas</em> dispones de la información necesaria para realizar la instalación y la configuración.<br /></span></p>
 <p></p>
 </div>
 </div>
