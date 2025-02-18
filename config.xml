@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <theme>
     <name>RGC Class Presentation</name>
-    <version>2024</version>
+    <version>2025</version>
     <compatibility>2.9</compatibility>
     <author>Roberto González</author>
     <author-url></author-url>
@@ -23,10 +23,10 @@ Add 	<!--<script async src="chat-widget.js"></script>--> for ChatGPT-powered cha
     <extra-head><![CDATA[<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="prism.css">
 ]]></extra-head>
-    <extra-body><![CDATA[<script type="text/javascript" src="_class_presentation_js.js"></script>
+    <extra-body><![CDATA[<script type="text/javascript" src="class_presentation_js.js"></script>
 	<script type="text/javascript" src="prism.js"></script>
-	<script type="text/javascript" src="_class_presentation_rgc_js.js"></script>]]></extra-body>
-    <edition-extra-body><![CDATA[<script type="text/javascript" src="/style/class_presentation/_class_presentation_js.js"></script>
+	<script type="text/javascript" src="class_presentation_rgc_js.js"></script>]]></extra-body>
+    <edition-extra-body><![CDATA[<script type="text/javascript" src="/style/class_presentation/class_presentation_js.js"></script>
 	<script type="text/javascript" src="prism.js">
-	<script type="text/javascript" src="_class_presentation_rgc_js.js"></script>]]></edition-extra-body>
+	<script type="text/javascript" src="class_presentation_rgc_js.js"></script>]]></edition-extra-body>
 </theme>

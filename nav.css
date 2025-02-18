@@ -91,7 +91,7 @@ html, body {
         height: 0;
     }
     #packageLicense.cc {
-        background-image: url(_class_presentation_licenses.gif);
+        background-image: url(class_presentation_licenses.gif);
         background-repeat: no-repeat;
         background-position: 0 0;
     }
@@ -203,7 +203,7 @@ html, body {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(_class_presentation_navigation.png) no-repeat -50px -50px;
+    background: url(class_presentation_navigation.png) no-repeat -50px -50px;
     position: fixed;
     z-index: 999;
 }
@@ -286,7 +286,7 @@ html[xmlns] #content {
     display: block;
     width: 16px;
     height: 16px;
-    background: url(_class_presentation_navigation.png) no-repeat 0 0;
+    background: url(class_presentation_navigation.png) no-repeat 0 0;
     outline: none;
 }
 #info-toggler a {
