@@ -79,7 +79,7 @@
 <div class="iDevice_wrapper textIdevice" id="id42">
 <div class="iDevice emphasis0" >
 <div id="ta42_127_2" class="block iDevice_content">
-<div class="exe-text"><h1>🧪 Actividad Evaluable Extraordinaria: Servidor web seguro con HTTPS – Local (Raspberry Pi) y en la nube (AWS EC2)</h1>
+<div class="exe-text"><h1>🧪 Actividad Evaluable Extraordinaria: Instalación de un servidor Apache con dominio y certificado SSL</h1>
 <h2>🎯 Objetivo general</h2>
 <p>Aprender a instalar y configurar un servidor web Apache accesible por HTTPS, primero en un entorno local (Raspberry Pi con Debian 12 y certificado autofirmado) y posteriormente en un entorno en la nube (AWS EC2 con Ubuntu y certificado SSL gratuito de Let’s Encrypt vinculado a un dominio gratuito de Con-IP o DuckDNS).</p>
 <hr />
@@ -205,12 +205,13 @@ systemctl restart apache2
 </li>
 </ol>
 <hr />
-<h2>☁️ Parte 2: Servidor HTTPS en la nube con dominio de noip.com y certificado Let’s Encrypt</h2>
+<h2>☁️ Parte 2: Servidor HTTPS en la nube con dominio de Con-IP o DuckDNS y certificado Let’s Encrypt</h2>
 <h3>⚙️ Entorno de trabajo</h3>
 <ul>
 <li>
 <p>Instancia EC2 con Ubuntu Server 22.04 en AWS</p>
 </li>
+<li>Opcionalmente, IP elástica fija</li>
 <li>
 <p>Dirección IP pública</p>
 </li>
@@ -226,6 +227,7 @@ systemctl restart apache2
 <li>
 <p>Desplegar una instancia EC2 y conectarse por SSH</p>
 </li>
+<li>Opcionalmente, otorgarle una IP elástica fija a la instancia EC2</li>
 <li>
 <p>Instalar Apache</p>
 </li>
@@ -247,6 +249,7 @@ systemctl restart apache2
 <li>
 <p>Usar una AMI (imagen de máquina de Amazon) oficial de Ubuntu 22.04</p>
 </li>
+<li>Reservar y asociar una IP elástica fija a la instancia EC2</li>
 <li>
 <p>Crear un par de claves SSH</p>
 </li>
@@ -273,7 +276,7 @@ sudo apt install apache2
 <p>Crear una cuenta gratuita</p>
 </li>
 <li>
-<p>Registrar un subdominio, por ejemplo <code>miweb.con-ip.com o miweb.duckdns.com</code></p>
+<p>Registrar un subdominio, por ejemplo <code>miweb.con-ip.com o miweb.duckdns.org</code></p>
 </li>
 <li>
 <p>Añadir la IP pública de la instancia EC2 como registro A</p>
@@ -294,7 +297,7 @@ sudo apt install apache2
 <p><strong>Responder a las preguntas del asistente</strong></p>
 <ul>
 <li>
-<p>Introducir el dominio (ej. <code>miweb.con-ip.com o miweb.duckdns.com</code>)</p>
+<p>Introducir el dominio (ej. <code>miweb.con-ip.com o miweb.duckdns.org</code>)</p>
 </li>
 <li>
 <p>Aceptar la redirección automática de HTTP a HTTPS</p>
@@ -305,7 +308,7 @@ sudo apt install apache2
 <p><strong>Verificar el acceso</strong></p>
 <ul>
 <li>
-<p>Accede a <code>https://miweb.con-ip.com o miweb.duckdns.com </code></p>
+<p>Accede a <code>https://miweb.con-ip.com o miweb.duckdns.org <br /></code></p>
 </li>
 <li>
 <p>Comprueba que aparece el candado y el certificado es válido</p>

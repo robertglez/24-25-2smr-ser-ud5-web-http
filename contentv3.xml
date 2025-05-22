@@ -533,7 +533,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <instance class="exe.engine.field.TextField">
                       <dictionary>
                        <string role="key" value="_id"></string>
-                       <int value="1107"></int>
+                       <int value="1114"></int>
                        <string role="key" value="_idevice"></string>
                        <none></none>
                        <string role="key" value="_instruc"></string>
@@ -547,7 +547,7 @@ text through the text editing buttons associated with the field."></unicode>
                       </dictionary>
                      </instance>
                      <string role="key" value="_id"></string>
-                     <unicode value="31_85.25"></unicode>
+                     <unicode value="31_85.27"></unicode>
                      <string role="key" value="_imageResource"></string>
                      <instance class="exe.engine.resource.Resource" reference="13">
                       <dictionary>
@@ -558,7 +558,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <string role="key" value="_storageName"></string>
                        <string value="berners-lee.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\berners-lee.jpg"></string>
+                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpn2ceq0\\berners-lee.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="348ad220035da3cd6f82c06ddc6f1248"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -585,7 +585,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <instance class="exe.engine.field.TextField">
                       <dictionary>
                        <string role="key" value="_id"></string>
-                       <int value="1109"></int>
+                       <int value="1116"></int>
                        <string role="key" value="_idevice"></string>
                        <none></none>
                        <string role="key" value="_instruc"></string>
@@ -599,7 +599,7 @@ text through the text editing buttons associated with the field."></unicode>
                       </dictionary>
                      </instance>
                      <string role="key" value="_id"></string>
-                     <unicode value="31_85.26"></unicode>
+                     <unicode value="31_85.28"></unicode>
                      <string role="key" value="_imageResource"></string>
                      <instance class="exe.engine.resource.Resource" reference="14">
                       <dictionary>
@@ -610,7 +610,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <string role="key" value="_storageName"></string>
                        <string value="first-server.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\first-server.jpg"></string>
+                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpn2ceq0\\first-server.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="a6629567a6c8f4f9add75de874b3ef2f"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -639,7 +639,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="intlinks_to_anchors"></string>
                 <dictionary></dictionary>
                 <string role="key" value="nextImageId"></string>
-                <int value="27"></int>
+                <int value="29"></int>
                 <string role="key" value="parentNode"></string>
                 <reference key="12"></reference>
                </dictionary>
@@ -980,7 +980,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1111"></int>
+                    <int value="1118"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -994,7 +994,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="6_154.12"></unicode>
+                  <unicode value="6_154.13"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="24">
                    <dictionary>
@@ -1005,7 +1005,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="HTTP_Steps.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\HTTP_Steps.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpn2ceq0\\HTTP_Steps.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="b357dd4b18e4e436885bfcc39bd64795"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1034,7 +1034,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="13"></int>
+             <int value="14"></int>
              <string role="key" value="parentNode"></string>
              <reference key="23"></reference>
             </dictionary>
@@ -1279,7 +1279,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1112"></int>
+                    <int value="1119"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -1293,7 +1293,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="8_154.45"></unicode>
+                  <unicode value="8_154.46"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="30">
                    <dictionary>
@@ -1304,7 +1304,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
                     <string role="key" value="_storageName"></string>
                     <string value="smx_m07u3-13_1.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\smx_m07u3-13_1.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpn2ceq0\\smx_m07u3-13_1.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="e104b233cad6c0efd26b1ffef6ef4e13"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1333,7 +1333,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="46"></int>
+             <int value="47"></int>
              <string role="key" value="parentNode"></string>
              <reference key="29"></reference>
             </dictionary>
@@ -2110,7 +2110,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1113"></int>
+                    <int value="1120"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -2124,7 +2124,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="22_86.27"></unicode>
+                  <unicode value="22_86.28"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="47">
                    <dictionary>
@@ -2135,7 +2135,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="smx_m07u3-36_1.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\smx_m07u3-36_1.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpn2ceq0\\smx_m07u3-36_1.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="582798a8bc2ddbd637bb83e9c5ce61eb"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2164,7 +2164,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="28"></int>
+             <int value="29"></int>
              <string role="key" value="parentNode"></string>
              <reference key="46"></reference>
             </dictionary>
@@ -3126,7 +3126,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1108"></int>
+                    <int value="1115"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -3140,7 +3140,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="30_85.20"></unicode>
+                  <unicode value="30_85.21"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="68">
                    <dictionary>
@@ -3151,7 +3151,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="figure_2_client_side_scripting.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\figure_2_client_side_scripting.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpn2ceq0\\figure_2_client_side_scripting.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="4361bf660fb5ec6911071494f7a9580d"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3180,7 +3180,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="21"></int>
+             <int value="22"></int>
              <string role="key" value="parentNode"></string>
              <reference key="67"></reference>
             </dictionary>
@@ -3704,8 +3704,10 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h1&gt;🧪 Actividad Evaluable Extraordinaria: Servidor web seguro con HTTPS – Local (Raspberry Pi) y en la nube (AWS EC2)&lt;/h1&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h1&gt;🧪 Actividad Evaluable Extraordinaria: Instalación de un servidor Apache con dominio y certificado SSL&lt;/h1&gt;
 &lt;h2&gt;🎯 Objetivo general&lt;/h2&gt;
 &lt;p&gt;Aprender a instalar y configurar un servidor web Apache accesible por HTTPS, primero en un entorno local (Raspberry Pi con Debian 12 y certificado autofirmado) y posteriormente en un entorno en la nube (AWS EC2 con Ubuntu y certificado SSL gratuito de Let’s Encrypt vinculado a un dominio gratuito de Con-IP o DuckDNS).&lt;/p&gt;
 &lt;hr /&gt;
@@ -3831,12 +3833,13 @@ systemctl restart apache2
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr /&gt;
-&lt;h2&gt;☁️ Parte 2: Servidor HTTPS en la nube con dominio de noip.com y certificado Let’s Encrypt&lt;/h2&gt;
+&lt;h2&gt;☁️ Parte 2: Servidor HTTPS en la nube con dominio de Con-IP o DuckDNS y certificado Let’s Encrypt&lt;/h2&gt;
 &lt;h3&gt;⚙️ Entorno de trabajo&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Instancia EC2 con Ubuntu Server 22.04 en AWS&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;Opcionalmente, IP elástica fija&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Dirección IP pública&lt;/p&gt;
 &lt;/li&gt;
@@ -3852,6 +3855,7 @@ systemctl restart apache2
 &lt;li&gt;
 &lt;p&gt;Desplegar una instancia EC2 y conectarse por SSH&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;Opcionalmente, otorgarle una IP elástica fija a la instancia EC2&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Instalar Apache&lt;/p&gt;
 &lt;/li&gt;
@@ -3873,6 +3877,7 @@ systemctl restart apache2
 &lt;li&gt;
 &lt;p&gt;Usar una AMI (imagen de máquina de Amazon) oficial de Ubuntu 22.04&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;Reservar y asociar una IP elástica fija a la instancia EC2&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Crear un par de claves SSH&lt;/p&gt;
 &lt;/li&gt;
@@ -3899,7 +3904,7 @@ sudo apt install apache2
 &lt;p&gt;Crear una cuenta gratuita&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Registrar un subdominio, por ejemplo &lt;code&gt;miweb.con-ip.com o miweb.duckdns.com&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Registrar un subdominio, por ejemplo &lt;code&gt;miweb.con-ip.com o miweb.duckdns.org&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Añadir la IP pública de la instancia EC2 como registro A&lt;/p&gt;
@@ -3920,7 +3925,7 @@ sudo apt install apache2
 &lt;p&gt;&lt;strong&gt;Responder a las preguntas del asistente&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Introducir el dominio (ej. &lt;code&gt;miweb.con-ip.com o miweb.duckdns.com&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;Introducir el dominio (ej. &lt;code&gt;miweb.con-ip.com o miweb.duckdns.org&lt;/code&gt;)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Aceptar la redirección automática de HTTP a HTTPS&lt;/p&gt;
@@ -3931,7 +3936,7 @@ sudo apt install apache2
 &lt;p&gt;&lt;strong&gt;Verificar el acceso&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Accede a &lt;code&gt;https://miweb.con-ip.com o miweb.duckdns.com &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Accede a &lt;code&gt;https://miweb.con-ip.com o miweb.duckdns.org &lt;br /&gt;&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Comprueba que aparece el candado y el certificado es válido&lt;/p&gt;
@@ -3983,7 +3988,7 @@ sudo apt install apache2
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="80"></reference>
              </dictionary>
             </instance>
            </list>
@@ -4094,7 +4099,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1110"></int>
+                    <int value="1117"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -4108,7 +4113,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="9_154.45"></unicode>
+                  <unicode value="9_154.46"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="84">
                    <dictionary>
@@ -4119,7 +4124,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="HTTP.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\HTTP.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpn2ceq0\\HTTP.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="9938f0632863315e859edb83d6a099ff"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -4148,7 +4153,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="46"></int>
+             <int value="47"></int>
              <string role="key" value="parentNode"></string>
              <reference key="83"></reference>
             </dictionary>
