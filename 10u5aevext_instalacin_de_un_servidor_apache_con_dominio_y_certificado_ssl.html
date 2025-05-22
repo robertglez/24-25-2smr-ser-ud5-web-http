@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>10|U5.AEVExt. Instalación de un servidor Apache con dominio y certificado SSL | UNIDAD 5. Servicio web (HTTP) </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="es" />
+<meta name="author" content="Roberto González Cardenete" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="prism.css">
+</head>
+<body class="exe-web-site exe-search-bar exe-atools" id="exe-node-25"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<div id="header" ><div id="headerContent">UNIDAD 5. Servicio web (HTTP)</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">UNIDAD 5. Servicio web (HTTP)</a></li>
+   <li><a href="01_introduccin.html" class="no-ch">01| Introducción</a></li>
+   <li><a href="02_el_protocolo_http.html" class="daddy">02| El protocolo HTTP</a>
+   <ul class="other-section">
+      <li><a href="21_un_poco_de_historia.html" class="no-ch">2.1. Un poco de historia</a></li>
+      <li><a href="22_caractersticas_de_http.html" class="no-ch">2.2. Características de HTTP</a></li>
+   </ul>
+   </li>
+   <li><a href="03_etapas_de_una_transaccin_http.html" class="no-ch">03| Etapas de una transacción HTTP</a></li>
+   <li><a href="04_el_estndar_http10.html" class="daddy">04| El estándar HTTP/1.0</a>
+   <ul class="other-section">
+      <li><a href="prctica_1_transacciones_http.html" class="no-ch">Práctica 1: Transacciones HTTP</a></li>
+   </ul>
+   </li>
+   <li><a href="05_instalacin_y_configuracin_de_apache2.html" class="daddy">05| Instalación y configuración de Apache2</a>
+   <ul class="other-section">
+      <li><a href="prctica_2_instalacin_de_apache2.html" class="no-ch">Práctica 2: Instalación de Apache2</a></li>
+   </ul>
+   </li>
+   <li><a href="06_servidores_virtuales.html" class="daddy">06| Servidores virtuales</a>
+   <ul class="other-section">
+      <li><a href="prctica_3_configuracin_bsica.html" class="no-ch">Práctica 3: Configuración básica</a></li>
+   </ul>
+   </li>
+   <li><a href="07_acceso_annimo_y_autenticado_formas_de_autenticacin.html" class="daddy">07| Acceso anónimo y autenticado. Formas de autenticación</a>
+   <ul class="other-section">
+      <li><a href="prctica_4_control_de_acceso_autorizacin_y_autenticacin.html" class="no-ch">Práctica 4: Control de acceso, autorización y autenticación</a></li>
+   </ul>
+   </li>
+   <li><a href="08_ejecucin_de_cdigo_scripts_de_servidor_y_de_cliente.html" class="daddy">08| Ejecución de código. Scripts de servidor y de cliente</a>
+   <ul class="other-section">
+      <li><a href="prctica_5_ejecucin_de_cdigo_en_el_cliente_y_en_el_servidor.html" class="no-ch">Práctica 5: Ejecución de código en el cliente y en el servidor</a></li>
+   </ul>
+   </li>
+   <li><a href="09_establecimiento_de_conexiones_seguras.html" class="daddy">09| Establecimiento de conexiones seguras</a>
+   <ul class="other-section">
+      <li><a href="prctica_6_asegurando_las_comunicaciones.html" class="no-ch">Práctica 6: Asegurando las comunicaciones</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="10u5aevext_instalacin_de_un_servidor_apache_con_dominio_y_certificado_ssl.html" class="active no-ch">10|U5.AEVExt. Instalación de un servidor Apache con dominio y certificado SSL</a></li>
+   <li><a href="11_mapa_conceptual.html" class="no-ch">11| Mapa conceptual</a></li>
+   <li><a href="12_cuestionario_de_repaso.html" class="no-ch">12| Cuestionario de repaso</a></li>
+   <li><a href="13_bibliografia.html" class="no-ch">13| Bibliografia</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="prctica_6_asegurando_las_comunicaciones.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>19</strong> de <strong>22</strong></span> <span class="sep">| </span><a href="11_mapa_conceptual.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">10|U5.AEVExt. Instalación de un servidor Apache con dominio y certificado SSL</h1></div>
+<div class="iDevice_wrapper textIdevice" id="id42">
+<div class="iDevice emphasis0" >
+<div id="ta42_127_2" class="block iDevice_content">
+<div class="exe-text"><h1>🧪 Actividad Evaluable Extraordinaria: Servidor web seguro con HTTPS – Local (Raspberry Pi) y en la nube (AWS EC2)</h1>
+<h2>🎯 Objetivo general</h2>
+<p>Aprender a instalar y configurar un servidor web Apache accesible por HTTPS, primero en un entorno local (Raspberry Pi con Debian 12 y certificado autofirmado) y posteriormente en un entorno en la nube (AWS EC2 con Ubuntu y certificado SSL gratuito de Let’s Encrypt vinculado a un dominio gratuito de Con-IP o DuckDNS).</p>
+<hr />
+<h2>🧩 Parte 1: Servidor HTTPS local en Raspberry Pi con certificado autofirmado</h2>
+<h3>⚙️ Entorno de trabajo</h3>
+<ul>
+<li>
+<p>Raspberry Pi con Debian 12 (Bookworm)</p>
+</li>
+<li>
+<p>Conectada por Ethernet a la red interna del aula</p>
+</li>
+<li>
+<p>Sin acceso a puertos públicos desde Internet</p>
+</li>
+<li>
+<p>Sin dominio público</p>
+</li>
+</ul>
+<h3>✅ Objetivos específicos</h3>
+<ul>
+<li>
+<p>Instalar Apache en Debian 12</p>
+</li>
+<li>
+<p>Generar un certificado autofirmado</p>
+</li>
+<li>
+<p>Configurar el sitio para HTTPS con Apache</p>
+</li>
+<li>
+<p>Verificar acceso cifrado en red local</p>
+</li>
+<li>
+<p>Documentar el proceso</p>
+</li>
+</ul>
+<h3>🔧 Pasos a seguir</h3>
+<ol>
+<li>
+<p><strong>Instalación del servidor Apache</strong></p>
+<pre><code class="language-bash">apt update
+apt install apache2
+</code></pre>
+</li>
+<li>
+<p><strong>Comprobación del servicio</strong></p>
+<pre><code class="language-bash">systemctl status apache2
+</code></pre>
+</li>
+<li>
+<p><strong>Acceso al servidor desde otro dispositivo de la red</strong></p>
+<ul>
+<li>
+<p>Localiza el dominio de la Raspberry Pi (creado en actividades anteriores) o  la IP interna de la Raspberry Pi con <code>ip a</code></p>
+</li>
+<li>
+<p>Accede desde el navegador de otro equipo a <code>http://&lt;DOMINIO_O_IP_DE_LA_RPi&gt;</code> y realiza una captura de la página de bienvenida de Apache.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Habilitar HTTPS y generar certificado autofirmado</strong></p>
+<pre><code class="language-bash">openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+  -keyout /etc/ssl/private/apache-selfsigned.key \
+  -out /etc/ssl/certs/apache-selfsigned.crt
+</code></pre>
+</li>
+<li>
+<p><strong>Crear una configuración SSL mínima en Apache</strong></p>
+<ul>
+<li>
+<p>Copia la configuración por defecto:</p>
+<pre><code class="language-bash">cp /etc/apache2/sites-available/default-ssl.conf /etc/apache2/sites-available/raspberrypi-ssl.conf
+</code></pre>
+</li>
+<li>
+<p>Edita el nuevo archivo:</p>
+<pre><code class="language-bash">nano /etc/apache2/sites-available/raspberrypi-ssl.conf
+</code></pre>
+<p>Asegúrate de que contenga:</p>
+<pre><code class="language-apache">&lt;VirtualHost *:443&gt;
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html
+
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/certs/apache-selfsigned.crt
+    SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+
+    &lt;Directory /var/www/html&gt;
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    &lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Habilitar módulo y sitio SSL, y reiniciar Apache</strong></p>
+<pre><code class="language-bash">a2enmod ssl
+a2ensite raspberrypi-ssl.conf
+systemctl restart apache2
+</code></pre>
+</li>
+<li>
+<p><strong>Verificar el acceso cifrado</strong></p>
+<ul>
+<li>
+<p>Accede a <code>https://&lt;DOMINIO_O_IP_DE_LA_RPi&gt;</code> desde otro equipo de la red</p>
+</li>
+<li>
+<p>El navegador mostrará un aviso por certificado no confiable</p>
+</li>
+<li>
+<p>Acepta el riesgo y accede para ver la página segura</p>
+</li>
+<li>
+<p>Captura la pantalla con el candado (aunque sea con advertencia)</p>
+</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>☁️ Parte 2: Servidor HTTPS en la nube con dominio de noip.com y certificado Let’s Encrypt</h2>
+<h3>⚙️ Entorno de trabajo</h3>
+<ul>
+<li>
+<p>Instancia EC2 con Ubuntu Server 22.04 en AWS</p>
+</li>
+<li>
+<p>Dirección IP pública</p>
+</li>
+<li>
+<p>Dominio gratuito de Con-IP o DuckDNS</p>
+</li>
+<li>
+<p>Grupo de seguridad con puertos 22, 80 y 443 abiertos</p>
+</li>
+</ul>
+<h3>✅ Objetivos específicos</h3>
+<ul>
+<li>
+<p>Desplegar una instancia EC2 y conectarse por SSH</p>
+</li>
+<li>
+<p>Instalar Apache</p>
+</li>
+<li>
+<p>Vincular dominio al servidor</p>
+</li>
+<li>
+<p>Configurar HTTPS con Certbot y Let’s Encrypt</p>
+</li>
+<li>
+<p>Validar la conexión segura</p>
+</li>
+</ul>
+<h3>🔧 Pasos a seguir</h3>
+<ol>
+<li>
+<p><strong>Crear una instancia EC2 (Ubuntu Server)</strong></p>
+<ul>
+<li>
+<p>Usar una AMI (imagen de máquina de Amazon) oficial de Ubuntu 22.04</p>
+</li>
+<li>
+<p>Crear un par de claves SSH</p>
+</li>
+<li>
+<p>Configurar grupo de seguridad con puertos 22 (SSH), 80 (HTTP) y 443 (HTTPS)</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Conectarse por SSH desde local</strong></p>
+<pre><code class="language-bash">sudo ssh -i clave.pem ubuntu@&lt;IP pública&gt;
+</code></pre>
+</li>
+<li>
+<p><strong>Instalar Apache</strong></p>
+<pre><code class="language-bash">sudo apt update
+sudo apt install apache2
+</code></pre>
+</li>
+<li>
+<p><strong>Registrar un dominio en Con-IP o DuckDNS</strong></p>
+<ul>
+<li>
+<p>Crear una cuenta gratuita</p>
+</li>
+<li>
+<p>Registrar un subdominio, por ejemplo <code>miweb.con-ip.com o miweb.duckdns.com</code></p>
+</li>
+<li>
+<p>Añadir la IP pública de la instancia EC2 como registro A</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Instalar Certbot</strong></p>
+<pre><code class="language-bash">sudo apt install certbot python3-certbot-apache
+</code></pre>
+</li>
+<li>
+<p><strong>Ejecutar Certbot para configurar HTTPS</strong></p>
+<pre><code class="language-bash">sudo certbot --apache
+</code></pre>
+</li>
+<li>
+<p><strong>Responder a las preguntas del asistente</strong></p>
+<ul>
+<li>
+<p>Introducir el dominio (ej. <code>miweb.con-ip.com o miweb.duckdns.com</code>)</p>
+</li>
+<li>
+<p>Aceptar la redirección automática de HTTP a HTTPS</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Verificar el acceso</strong></p>
+<ul>
+<li>
+<p>Accede a <code>https://miweb.con-ip.com o miweb.duckdns.com </code></p>
+</li>
+<li>
+<p>Comprueba que aparece el candado y el certificado es válido</p>
+</li>
+<li>
+<p>Realiza captura de pantalla del navegador</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Comprobar la renovación automática</strong></p>
+<pre><code class="language-bash">sudo systemctl status certbot.timer
+</code></pre>
+</li>
+</ol>
+<hr />
+<h2>📌 Entrega esperada</h2>
+<ul>
+<li>
+<p>Documento con capturas y pequeña explicación paso a paso de ambas partes</p>
+</li>
+<li>
+<p>Acceso funcional a ambos servidores (uno local con HTTPS autofirmado, otro en la nube con HTTPS certificado)</p>
+</li>
+<li>
+<p>Observaciones o dificultades encontradas</p>
+</li>
+</ul>
+<p></p></div>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="prctica_6_asegurando_las_comunicaciones.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>19</strong> de <strong>22</strong></span> <span class="sep">| </span><a href="11_mapa_conceptual.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="class_presentation_js.js"></script>
+	<script type="text/javascript" src="prism.js"></script>
+	<script type="text/javascript" src="class_presentation_rgc_js.js"></script></body></html>

@@ -91,9 +91,9 @@
   <string role="key" value="_name"></string>
   <unicode value="U5._Servicio_web_HTTP"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="42"></int>
+  <int value="43"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="25"></int>
+  <int value="27"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
@@ -533,7 +533,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <instance class="exe.engine.field.TextField">
                       <dictionary>
                        <string role="key" value="_id"></string>
-                       <int value="1100"></int>
+                       <int value="1107"></int>
                        <string role="key" value="_idevice"></string>
                        <none></none>
                        <string role="key" value="_instruc"></string>
@@ -547,7 +547,7 @@ text through the text editing buttons associated with the field."></unicode>
                       </dictionary>
                      </instance>
                      <string role="key" value="_id"></string>
-                     <unicode value="31_85.23"></unicode>
+                     <unicode value="31_85.25"></unicode>
                      <string role="key" value="_imageResource"></string>
                      <instance class="exe.engine.resource.Resource" reference="13">
                       <dictionary>
@@ -558,7 +558,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <string role="key" value="_storageName"></string>
                        <string value="berners-lee.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpiryvon\\berners-lee.jpg"></string>
+                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\berners-lee.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="348ad220035da3cd6f82c06ddc6f1248"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -585,7 +585,7 @@ text through the text editing buttons associated with the field."></unicode>
                      <instance class="exe.engine.field.TextField">
                       <dictionary>
                        <string role="key" value="_id"></string>
-                       <int value="1102"></int>
+                       <int value="1109"></int>
                        <string role="key" value="_idevice"></string>
                        <none></none>
                        <string role="key" value="_instruc"></string>
@@ -599,7 +599,7 @@ text through the text editing buttons associated with the field."></unicode>
                       </dictionary>
                      </instance>
                      <string role="key" value="_id"></string>
-                     <unicode value="31_85.24"></unicode>
+                     <unicode value="31_85.26"></unicode>
                      <string role="key" value="_imageResource"></string>
                      <instance class="exe.engine.resource.Resource" reference="14">
                       <dictionary>
@@ -610,7 +610,7 @@ text through the text editing buttons associated with the field."></unicode>
                        <string role="key" value="_storageName"></string>
                        <string value="first-server.jpg"></string>
                        <string role="key" value="_userName"></string>
-                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpiryvon\\first-server.jpg"></string>
+                       <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\first-server.jpg"></string>
                        <string role="key" value="checksum"></string>
                        <string value="a6629567a6c8f4f9add75de874b3ef2f"></string>
                        <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -639,7 +639,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="intlinks_to_anchors"></string>
                 <dictionary></dictionary>
                 <string role="key" value="nextImageId"></string>
-                <int value="25"></int>
+                <int value="27"></int>
                 <string role="key" value="parentNode"></string>
                 <reference key="12"></reference>
                </dictionary>
@@ -980,7 +980,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1104"></int>
+                    <int value="1111"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -994,7 +994,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="6_154.11"></unicode>
+                  <unicode value="6_154.12"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="24">
                    <dictionary>
@@ -1005,7 +1005,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="HTTP_Steps.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpiryvon\\HTTP_Steps.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\HTTP_Steps.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="b357dd4b18e4e436885bfcc39bd64795"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1034,7 +1034,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="12"></int>
+             <int value="13"></int>
              <string role="key" value="parentNode"></string>
              <reference key="23"></reference>
             </dictionary>
@@ -1279,7 +1279,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1105"></int>
+                    <int value="1112"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -1293,7 +1293,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="8_154.44"></unicode>
+                  <unicode value="8_154.45"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="30">
                    <dictionary>
@@ -1304,7 +1304,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
                     <string role="key" value="_storageName"></string>
                     <string value="smx_m07u3-13_1.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpiryvon\\smx_m07u3-13_1.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\smx_m07u3-13_1.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="e104b233cad6c0efd26b1ffef6ef4e13"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1333,7 +1333,7 @@ Content-Type : text/HTML Content-Length : 1245 Last-Modified : 11 May 2006 08:29
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="45"></int>
+             <int value="46"></int>
              <string role="key" value="parentNode"></string>
              <reference key="29"></reference>
             </dictionary>
@@ -2110,7 +2110,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1106"></int>
+                    <int value="1113"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -2124,7 +2124,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="22_86.26"></unicode>
+                  <unicode value="22_86.27"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="47">
                    <dictionary>
@@ -2135,7 +2135,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="smx_m07u3-36_1.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpiryvon\\smx_m07u3-36_1.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\smx_m07u3-36_1.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="582798a8bc2ddbd637bb83e9c5ce61eb"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2164,7 +2164,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="27"></int>
+             <int value="28"></int>
              <string role="key" value="parentNode"></string>
              <reference key="46"></reference>
             </dictionary>
@@ -3126,7 +3126,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1101"></int>
+                    <int value="1108"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -3140,7 +3140,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="30_85.19"></unicode>
+                  <unicode value="30_85.20"></unicode>
                   <string role="key" value="_imageResource"></string>
                   <instance class="exe.engine.resource.Resource" reference="68">
                    <dictionary>
@@ -3151,7 +3151,7 @@ text through the text editing buttons associated with the field."></unicode>
                     <string role="key" value="_storageName"></string>
                     <string value="figure_2_client_side_scripting.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpiryvon\\figure_2_client_side_scripting.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\figure_2_client_side_scripting.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="4361bf660fb5ec6911071494f7a9580d"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3180,7 +3180,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="20"></int>
+             <int value="21"></int>
              <string role="key" value="parentNode"></string>
              <reference key="67"></reference>
             </dictionary>
@@ -3628,10 +3628,417 @@ that may help or hinder the learner in the performance of the task."></unicode>
       <instance class="exe.engine.node.Node" reference="80">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="10| Mapa conceptual"></unicode>
+        <unicode value="10|U5.AEVExt. Instalación de un servidor Apache con dominio y certificado SSL"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.freetextfpdidevice.FreeTextfpdIdevice" reference="78">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="78">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
+           <string role="key" value="_author"></string>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
+           <string role="key" value="_purpose"></string>
+           <string value=""></string>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_typeName"></string>
+           <unicode value="Text"></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="79">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="127_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="78"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;h1&gt;🧪 Actividad Evaluable Extraordinaria: Servidor web seguro con HTTPS – Local (Raspberry Pi) y en la nube (AWS EC2)&lt;/h1&gt;
+&lt;h2&gt;🎯 Objetivo general&lt;/h2&gt;
+&lt;p&gt;Aprender a instalar y configurar un servidor web Apache accesible por HTTPS, primero en un entorno local (Raspberry Pi con Debian 12 y certificado autofirmado) y posteriormente en un entorno en la nube (AWS EC2 con Ubuntu y certificado SSL gratuito de Let’s Encrypt vinculado a un dominio gratuito de Con-IP o DuckDNS).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;🧩 Parte 1: Servidor HTTPS local en Raspberry Pi con certificado autofirmado&lt;/h2&gt;
+&lt;h3&gt;⚙️ Entorno de trabajo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Raspberry Pi con Debian 12 (Bookworm)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Conectada por Ethernet a la red interna del aula&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sin acceso a puertos públicos desde Internet&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sin dominio público&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✅ Objetivos específicos&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Instalar Apache en Debian 12&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generar un certificado autofirmado&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Configurar el sitio para HTTPS con Apache&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Verificar acceso cifrado en red local&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Documentar el proceso&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔧 Pasos a seguir&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Instalación del servidor Apache&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;apt update
+apt install apache2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Comprobación del servicio&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;systemctl status apache2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Acceso al servidor desde otro dispositivo de la red&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Localiza el dominio de la Raspberry Pi (creado en actividades anteriores) o  la IP interna de la Raspberry Pi con &lt;code&gt;ip a&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Accede desde el navegador de otro equipo a &lt;code&gt;http://&amp;lt;DOMINIO_O_IP_DE_LA_RPi&amp;gt;&lt;/code&gt; y realiza una captura de la página de bienvenida de Apache.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Habilitar HTTPS y generar certificado autofirmado&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+  -keyout /etc/ssl/private/apache-selfsigned.key \
+  -out /etc/ssl/certs/apache-selfsigned.crt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Crear una configuración SSL mínima en Apache&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Copia la configuración por defecto:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;cp /etc/apache2/sites-available/default-ssl.conf /etc/apache2/sites-available/raspberrypi-ssl.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edita el nuevo archivo:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;nano /etc/apache2/sites-available/raspberrypi-ssl.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Asegúrate de que contenga:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apache&quot;&gt;&amp;lt;VirtualHost *:443&amp;gt;
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html
+
+    SSLEngine on
+    SSLCertificateFile /etc/ssl/certs/apache-selfsigned.crt
+    SSLCertificateKeyFile /etc/ssl/private/apache-selfsigned.key
+
+    &amp;lt;Directory /var/www/html&amp;gt;
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    &amp;lt;/Directory&amp;gt;
+&amp;lt;/VirtualHost&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Habilitar módulo y sitio SSL, y reiniciar Apache&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;a2enmod ssl
+a2ensite raspberrypi-ssl.conf
+systemctl restart apache2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verificar el acceso cifrado&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Accede a &lt;code&gt;https://&amp;lt;DOMINIO_O_IP_DE_LA_RPi&amp;gt;&lt;/code&gt; desde otro equipo de la red&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El navegador mostrará un aviso por certificado no confiable&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Acepta el riesgo y accede para ver la página segura&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Captura la pantalla con el candado (aunque sea con advertencia)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h2&gt;☁️ Parte 2: Servidor HTTPS en la nube con dominio de noip.com y certificado Let’s Encrypt&lt;/h2&gt;
+&lt;h3&gt;⚙️ Entorno de trabajo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Instancia EC2 con Ubuntu Server 22.04 en AWS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dirección IP pública&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dominio gratuito de Con-IP o DuckDNS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Grupo de seguridad con puertos 22, 80 y 443 abiertos&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;✅ Objetivos específicos&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Desplegar una instancia EC2 y conectarse por SSH&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instalar Apache&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vincular dominio al servidor&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Configurar HTTPS con Certbot y Let’s Encrypt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Validar la conexión segura&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;🔧 Pasos a seguir&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Crear una instancia EC2 (Ubuntu Server)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Usar una AMI (imagen de máquina de Amazon) oficial de Ubuntu 22.04&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Crear un par de claves SSH&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Configurar grupo de seguridad con puertos 22 (SSH), 80 (HTTP) y 443 (HTTPS)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Conectarse por SSH desde local&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;sudo ssh -i clave.pem ubuntu@&amp;lt;IP pública&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Instalar Apache&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;sudo apt update
+sudo apt install apache2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Registrar un dominio en Con-IP o DuckDNS&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Crear una cuenta gratuita&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Registrar un subdominio, por ejemplo &lt;code&gt;miweb.con-ip.com o miweb.duckdns.com&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Añadir la IP pública de la instancia EC2 como registro A&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Instalar Certbot&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;sudo apt install certbot python3-certbot-apache
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ejecutar Certbot para configurar HTTPS&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;sudo certbot --apache
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Responder a las preguntas del asistente&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Introducir el dominio (ej. &lt;code&gt;miweb.con-ip.com o miweb.duckdns.com&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Aceptar la redirección automática de HTTP a HTTPS&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verificar el acceso&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Accede a &lt;code&gt;https://miweb.con-ip.com o miweb.duckdns.com &lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Comprueba que aparece el candado y el certificado es válido&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Realiza captura de pantalla del navegador&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Comprobar la renovación automática&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;sudo systemctl status certbot.timer
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h2&gt;📌 Entrega esperada&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Documento con capturas y pequeña explicación paso a paso de ambas partes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Acceso funcional a ambos servidores (uno local con HTTPS autofirmado, otro en la nube con HTTPS certificado)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Observaciones o dificultades encontradas&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="79"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <none></none>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="42"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="80"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="25"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="6"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%205.%20Servicio%20web%20%28HTTP%29:10%7CU5.AEVExt.%20Instalaci%C3%B3n%20de%20un%20servidor%20Apache%20con%20dominio%20y%20certificado%20SSL"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="83">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="11| Mapa conceptual"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextfpdidevice.FreeTextfpdIdevice" reference="81">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="FPD - Free Text"></unicode>
@@ -3645,12 +4052,12 @@ delivered."></unicode>
            <string role="key" value="_tip"></string>
            <string value=""></string>
            <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="79">
+           <instance class="exe.engine.field.TextAreaField" reference="82">
             <dictionary>
              <string role="key" value="_id"></string>
              <int value="154"></int>
              <string role="key" value="_idevice"></string>
-             <reference key="78"></reference>
+             <reference key="81"></reference>
              <string role="key" value="_instruc"></string>
              <unicode value="Use this field to enter text. This 
 iDevice has no emphasis applied although limited formatting can be applied to 
@@ -3687,7 +4094,7 @@ text through the text editing buttons associated with the field."></unicode>
                   <instance class="exe.engine.field.TextField">
                    <dictionary>
                     <string role="key" value="_id"></string>
-                    <int value="1103"></int>
+                    <int value="1110"></int>
                     <string role="key" value="_idevice"></string>
                     <none></none>
                     <string role="key" value="_instruc"></string>
@@ -3701,18 +4108,18 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_id"></string>
-                  <unicode value="9_154.44"></unicode>
+                  <unicode value="9_154.45"></unicode>
                   <string role="key" value="_imageResource"></string>
-                  <instance class="exe.engine.resource.Resource" reference="81">
+                  <instance class="exe.engine.resource.Resource" reference="84">
                    <dictionary>
                     <string role="key" value="_idevice"></string>
-                    <reference key="78"></reference>
+                    <reference key="81"></reference>
                     <string role="key" value="_package"></string>
                     <reference key="6"></reference>
                     <string role="key" value="_storageName"></string>
                     <string value="HTTP.png"></string>
                     <string role="key" value="_userName"></string>
-                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpiryvon\\HTTP.png"></string>
+                    <string value="c:\\users\\ahilo\\appdata\\local\\temp\\tmpp34brf\\HTTP.png"></string>
                     <string role="key" value="checksum"></string>
                     <string value="9938f0632863315e859edb83d6a099ff"></string>
                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3724,7 +4131,7 @@ text through the text editing buttons associated with the field."></unicode>
                    </dictionary>
                   </instance>
                   <string role="key" value="_parent"></string>
-                  <reference key="79"></reference>
+                  <reference key="82"></reference>
                   <string role="key" value="_thumbnailResource"></string>
                   <none></none>
                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -3735,15 +4142,15 @@ text through the text editing buttons associated with the field."></unicode>
                 </instance>
                </list>
                <string role="key" value="idevice"></string>
-               <reference key="79"></reference>
+               <reference key="82"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
              <dictionary></dictionary>
              <string role="key" value="nextImageId"></string>
-             <int value="45"></int>
+             <int value="46"></int>
              <string role="key" value="parentNode"></string>
-             <reference key="80"></reference>
+             <reference key="83"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -3761,14 +4168,14 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="80"></reference>
+           <reference key="83"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
-            <reference key="81"></reference>
+            <reference key="84"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -3786,7 +4193,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:UNIDAD%205.%20Servicio%20web%20%28HTTP%29:10%7C%20Mapa%20conceptual"></string>
+        <string value="exe-node:UNIDAD%205.%20Servicio%20web%20%28HTTP%29:11%7C%20Mapa%20conceptual"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3795,13 +4202,13 @@ text through the text editing buttons associated with the field."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="84">
+      <instance class="exe.engine.node.Node" reference="87">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="11| Cuestionario de repaso"></unicode>
+        <unicode value="12| Cuestionario de repaso"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.genericidevice.GenericIdevice" reference="82">
+         <instance class="exe.engine.genericidevice.GenericIdevice" reference="85">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Cuestionario de repaso"></unicode>
@@ -3823,12 +4230,12 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <int value="11"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="83">
+            <instance class="exe.engine.field.TextAreaField" reference="86">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="41_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="82"></reference>
+              <reference key="85"></reference>
               <string role="key" value="_instruc"></string>
               <unicode value="Describe the tasks the learners should complete."></unicode>
               <string role="key" value="_name"></string>
@@ -3879,7 +4286,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
                 <string role="key" value=".listitems"></string>
                 <list></list>
                 <string role="key" value="idevice"></string>
-                <reference key="83"></reference>
+                <reference key="86"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -3887,7 +4294,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="84"></reference>
+              <reference key="87"></reference>
              </dictionary>
             </instance>
            </list>
@@ -3902,7 +4309,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
            <string role="key" value="originalicon"></string>
            <unicode value="activity"></unicode>
            <string role="key" value="parentNode"></string>
-           <reference key="84"></reference>
+           <reference key="87"></reference>
            <string role="key" value="systemResources"></string>
            <list>
             <string value="common.js"></string>
@@ -3927,7 +4334,7 @@ that may help or hinder the learner in the performance of the task."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:UNIDAD%205.%20Servicio%20web%20%28HTTP%29:11%7C%20Cuestionario%20de%20repaso"></string>
+        <string value="exe-node:UNIDAD%205.%20Servicio%20web%20%28HTTP%29:12%7C%20Cuestionario%20de%20repaso"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3936,13 +4343,13 @@ that may help or hinder the learner in the performance of the task."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="87">
+      <instance class="exe.engine.node.Node" reference="90">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="12| Bibliografia"></unicode>
+        <unicode value="13| Bibliografia"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="85">
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="88">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Free Text"></unicode>
@@ -3958,12 +4365,12 @@ delivered."></unicode>
            <string role="key" value="childs"></string>
            <list></list>
            <string role="key" value="content"></string>
-           <instance class="exe.engine.field.TextAreaField" reference="86">
+           <instance class="exe.engine.field.TextAreaField" reference="89">
             <dictionary>
              <string role="key" value="_id"></string>
              <int value="85"></int>
              <string role="key" value="_idevice"></string>
-             <reference key="85"></reference>
+             <reference key="88"></reference>
              <string role="key" value="_instruc"></string>
              <unicode value="Use this field to enter text. This 
 iDevice has no emphasis applied although limited formatting can be applied to 
@@ -3992,7 +4399,7 @@ text through the text editing buttons associated with the field."></unicode>
                <string role="key" value=".listitems"></string>
                <list></list>
                <string role="key" value="idevice"></string>
-               <reference key="86"></reference>
+               <reference key="89"></reference>
               </dictionary>
              </instance>
              <string role="key" value="intlinks_to_anchors"></string>
@@ -4000,7 +4407,7 @@ text through the text editing buttons associated with the field."></unicode>
              <string role="key" value="nextImageId"></string>
              <int value="0"></int>
              <string role="key" value="parentNode"></string>
-             <reference key="87"></reference>
+             <reference key="90"></reference>
             </dictionary>
            </instance>
            <string role="key" value="edit"></string>
@@ -4020,7 +4427,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="parent"></string>
            <none></none>
            <string role="key" value="parentNode"></string>
-           <reference key="87"></reference>
+           <reference key="90"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="type"></string>
@@ -4045,7 +4452,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:UNIDAD%205.%20Servicio%20web%20%28HTTP%29:12%7C%20Bibliografia"></string>
+        <string value="exe-node:UNIDAD%205.%20Servicio%20web%20%28HTTP%29:13%7C%20Bibliografia"></string>
         <string role="key" value="parent"></string>
         <reference key="3"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4087,16 +4494,18 @@ text through the text editing buttons associated with the field."></unicode>
    <reference key="71"></reference>
    <unicode role="key" value="23"></unicode>
    <reference key="77"></reference>
+   <unicode role="key" value="25"></unicode>
+   <reference key="80"></reference>
    <unicode role="key" value="4"></unicode>
    <reference key="23"></reference>
    <unicode role="key" value="5"></unicode>
    <reference key="29"></reference>
    <unicode role="key" value="6"></unicode>
-   <reference key="80"></reference>
+   <reference key="83"></reference>
    <unicode role="key" value="7"></unicode>
-   <reference key="84"></reference>
-   <unicode role="key" value="9"></unicode>
    <reference key="87"></reference>
+   <unicode role="key" value="9"></unicode>
+   <reference key="90"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -4107,7 +4516,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="3"></reference>
+  <reference key="80"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -5645,7 +6054,7 @@ text through the text editing buttons associated with the field."></unicode>
    </list>
    <string role="key" value="9938f0632863315e859edb83d6a099ff"></string>
    <list>
-    <reference key="81"></reference>
+    <reference key="84"></reference>
    </list>
    <string role="key" value="a6629567a6c8f4f9add75de874b3ef2f"></string>
    <list>
